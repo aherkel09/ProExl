@@ -25,7 +25,7 @@ class Pyxl():
 
     def trackRevisions(self):
         #tracks database revision number in text file.
-        self.file = open('RevisionNum.txt', 'a')
+        self.file = open('Templates/RevisionNum.txt', 'a')
         self.file.write('Database Revised ' + str(self.date) + '\n')
         self.file.close()
         
