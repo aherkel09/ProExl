@@ -6,7 +6,7 @@ class Pyxl():
         self.today = datetime.now()
         self.date = self.today.strftime('%Y-%m-%d')
         self.template = template
-        #column indices and default data. '' will be overwritten by insert_duct.py
+        #column indices and default data. '' will be overwritten by insertDuct.py
         self.activeColumns = {
             'Code':[1, ''], 'DivisionCode':[2, ''], 'SubDivisionCode':[3, ''],
             'ItemCode':[4, ''], 'DivisionDescription':[5, ''],
