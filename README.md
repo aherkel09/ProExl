@@ -3,8 +3,8 @@ Using Python to write HVAC ductwork items to Excel for insertion into a ProEst E
 
 ## Overview:
 - ProExlGUI.py creates a user interface which prompts users to choose a duct type and enter a size range.
-- insert\_duct.py generates duct objects from user requests.
-- formatxl.py formats data from duct objects and inserts them into an excel sheet.
+- insertDuct.py generates duct objects from user requests.
+- formatExl.py formats data from duct objects and inserts them into an excel sheet.
 
 ## Modules/Libraries Used:
 - openpyxl: A Python library to read/write Excel 2010 xlsx/xlsm files.
