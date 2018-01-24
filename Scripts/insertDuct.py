@@ -4,7 +4,7 @@ class DuctSizes():
     def __init__(self, smDimension, lgDimension):
         self.smDimension = int(smDimension)
         self.lgDimension = int(lgDimension)
-        self.exl = Pyxl('sampleData.xlsx')
+        self.exl = Pyxl('Templates/sampleData.xlsx')
         self.exl.createNewSpreadsheet()
         self.wrapList = ['Bare', '2" Insulation', '1" Lined']
 
