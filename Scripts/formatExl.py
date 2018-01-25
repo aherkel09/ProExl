@@ -14,15 +14,15 @@ class Pyxl():
             'Code':[1, ''], 'DivisionCode':[2, ''], 'SubDivisionCode':[3, ''],
             'ItemCode':[4, ''], 'DivisionDescription':[5, ''],
             'SubDivisionDescription':[6, ''], 'ItemDescription':[7, ''],
-            'ItemUnit':[8, 'LF'], 'MaterialVendor':[14, 'RADCO'], 'Size':[19, '0'],
-            'MaterialCost':[20, '1.00'], 'MaterialConversion':[21, '1.656'], 'MaterialRounding':[22,'None'],
-            'MaterialUnit':[23, 'LB'], 'MaterialWastepercentage':[24, '0'], 'LaborCost':[27, '75'],
-            'LaborConversion':[28, '1.0'], 'LaborRounding':[29, 'None'], 'LaborUnit':[30, 'HR'],
-            'LaborWastepercentage':[31, '0'], 'SubContractorConversion':[35, '1'],
-            'SubContractorRounding':[36, 'None'],'SubContractorWastepercentage':[37, '0'],
-            'EquipmentConversion':[42, '1'], 'EquipmentRounding':[43, 'None'],
-            'EquipmentWastepercentage':[45, '0'], 'OtherConversion':[49, '1'],
-            'OtherRounding':[50, 'None'], 'OtherWastepercentage':[52, '0']
+            'ItemUnit':[8, 'LF'], 'MaterialVendor':[14, 'RADCO'], 'Size':[19, 0],
+            'MaterialCost':[20, 1.00], 'MaterialConversion':[21, 1.656], 'MaterialRounding':[22,'None'],
+            'MaterialUnit':[23, 'LB'], 'MaterialWastepercentage':[24, 0], 'LaborCost':[27, 75],
+            'LaborConversion':[28, 1.0], 'LaborRounding':[29, 'None'], 'LaborUnit':[30, 'HR'],
+            'LaborWastepercentage':[31, 0], 'SubContractorConversion':[35, 1],
+            'SubContractorRounding':[36, 'None'],'SubContractorWastepercentage':[38, 0],
+            'EquipmentConversion':[42, 1], 'EquipmentRounding':[43, 'None'],
+            'EquipmentWastepercentage':[45, 0], 'OtherConversion':[49, 1],
+            'OtherRounding':[50, 'None'], 'OtherWastepercentage':[52, 0]
             }
 
     def trackRevisions(self):
