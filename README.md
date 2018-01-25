@@ -7,6 +7,7 @@ Using Python to write HVAC ductwork items to Excel for insertion into a ProEst E
 - formatExl.py formats data from duct objects and inserts them into an excel sheet.
 
 ## Modules/Libraries Used:
+- [python3][py_link]: Python is an interpreted high-level programming language for general-purpose programming.
 - [openpyxl][opxl_link]: A Python library to read/write Excel 2010 xlsx/xlsm files.
 - [tkinter][tk_link]: Python's de-facto standard GUI (Graphical User Interface) package. It is a thin object-oriented layer on top of   Tcl/Tk.
 - [datetime][dt_link]: The datetime module supplies classes for manipulating dates and times in both simple and complex ways.
@@ -24,6 +25,7 @@ Using Python to write HVAC ductwork items to Excel for insertion into a ProEst E
 
 ###If you experience any issues with the software, please contact me via my email on my Github profile.
 
+[py_link]: https://docs.python.org/3/tutorial/
 [opxl_link]: https://openpyxl.readthedocs.io/en/stable/
 [tk_link]: https://wiki.python.org/moin/TkInter
 [dt_link]: https://docs.python.org/3/library/datetime.html
