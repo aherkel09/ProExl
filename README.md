@@ -23,7 +23,7 @@ python setup.py bdist_msi`
 3. Create a shortcut to ProExl.exe or pin it to the start menu for easy access.
 4. Run the program, follow the prompts and enjoy!
 
-###If you experience any issues with the software, please contact me via my email on my Github profile.
+### If you experience any issues with the software, please contact me via my email on my Github profile.
 
 [py_link]: https://docs.python.org/3/tutorial/
 [opxl_link]: https://openpyxl.readthedocs.io/en/stable/
