@@ -17,8 +17,8 @@ Using Python to write HVAC ductwork items to Excel for insertion into a ProEst E
 1. Download the files in the Scripts folder and the Templates folder. Be sure that the directory structure in the destination folder matches the directory structure on Github.
 2. Open a command prompt, navigate to the Scripts folder and use cx\_Freeze to create an executable file for the project. On Windows, run the following commands:
 ```python
-set TCL_LIBRARY=C:\Users\<username>\AppData\Local\Programs\Python36-32\tcl\tcl8.6
-set TK_LIBRARY=C:\Users\<username>\AppData\Local\Programs\Python36-32\tcl\tk8.6
+set TCL_LIBRARY=C:\Users\username\AppData\Local\Programs\Python36-32\tcl\tcl8.6
+set TK_LIBRARY=C:\Users\username\AppData\Local\Programs\Python36-32\tcl\tk8.6
 python setup.py bdist_msi
 ```
 (If you are using Mac OS or Linux, consult the [cx\_Freeze Documentation][cx_link]
