@@ -99,4 +99,4 @@ class Pyxl():
 
     def saveSpreadsheet(self):
         #saves new excel sheet.
-        self.newWorkbook.save('databaseRevisions' + str(self.date) + '.xlsx')
+        self.newWorkbook.save(self.saveSheetAs)
