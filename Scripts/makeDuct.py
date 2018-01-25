@@ -77,8 +77,9 @@ class DuctSizes():
     def writeToSpreadsheet(self, ductType):
         #overwrites activeColumns in formatExl.py and adds new data to excel sheet.
         self.exl.activeColumns['Code'][1] = self.code
-        self.exl.activeColumns['DivisionCode'][1] = self.divisionCode
-        self.exl.activeColumns['SubDivisionCode'][1] = self.subdivisionCode
+        self.exl.activeColumns['DivisionCode'][1] = int(self.divisionCode)
+        self.exl.activeColumns['SubDivisionCode'][1] = int(self.subdivisionCode)
+        self.exl.activeColumns['ItemCode'][1] = int(self.itemCode)
         self.exl.activeColumns['DivisionDescription'][1] = self.divisionDescription
         self.exl.activeColumns['SubDivisionDescription'][1] = self.subdivisionDescription
         self.exl.activeColumns['ItemDescription'][1] = self.itemDescription
