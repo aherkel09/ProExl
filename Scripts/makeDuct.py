@@ -4,11 +4,12 @@ class DuctSizes():
     def __init__(self, smDimension, lgDimension):
         self.smDimension = int(smDimension)
         self.lgDimension = int(lgDimension)
+        self.initItemCode = 0
         self.exl = Pyxl('Templates/sampleData.xlsx')
-        self.exl.createNewSpreadsheet()
         self.wrapList = ['Bare', '2" Insulation', '1" Lined']
 
     def makeType(self, ductType):
+        self.exl.createNewSpreadsheet()
         #choose duct type and generate all items in size range.
         if ductType == 'Spiral':
             self.makeSpiral(self.smDimension, self.lgDimension)
@@ -25,7 +26,7 @@ class DuctSizes():
         while self.smDimension <= self.lgDimension:
             self.addDepth(self.smDimension)
             self.smDimension += 2
-
+            
     def addDepth(self, width, ductType='Rectangular'):
         #create depth dimension for rectangular ductwork e.g. 50"x30".
         self.depth = 6
@@ -60,18 +61,18 @@ class DuctSizes():
 
     def generateCodes(self, width, ductType, dbPatch=True):
         if ductType == 'Rectangular':
-            self.itemCode = (str(self.smDimension) + str(self.depth) +
-                             str(self.wrapIndex))
+            self.itemCode = (10*self.wrapIndex) + (20*(self.depth-6))
         elif ductType == 'Spiral':
             self.itemCode = (str(self.smDimension) + str(self.wrapIndex))
-        #formatting subdivisionCode for use with existing database. Not normally necessary.
-        if dbPatch == True:
-            self.subdivisionCode = (str(int(480+((self.smDimension-48)/2))))
+
+        if dbPatch == True:  #formatting codes for use with existing database. Not normally necessary.
+            self.subdivisionCode = (int(480+((self.smDimension-48)/2)))
         else:
-            self.subdivisionCode = str(self.smDimension*10)
-        self.divisionCode = '12'
-        self.code = (self.divisionCode + '.' + self.subdivisionCode +
-                     '.' + self.itemCode)
+            self.subdivisionCode = self.smDimension*10
+            
+        self.divisionCode = 12
+        self.code = (str(self.divisionCode) + '.' + str(self.subdivisionCode) +
+                     '.' + str(self.itemCode))
         self.writeToSpreadsheet(ductType)
 
     def writeToSpreadsheet(self, ductType):
