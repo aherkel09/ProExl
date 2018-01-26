@@ -8,7 +8,6 @@ class Pyxl():
         self.template = template
         self.saveSheetAs = 'Templates/databaseRevisions' + str(self.date) + '.xlsx'
         self.row = 3
-        
         #column indices and default data. '' entries will be overwritten by makeDuct.py
         self.activeColumns = {
             'Code':[1, ''], 'DivisionCode':[2, ''], 'SubDivisionCode':[3, ''],
@@ -28,7 +27,7 @@ class Pyxl():
     def trackRevisions(self):
         #tracks database revision number in text file.
         self.file = open('Templates/RevisionNum.txt', 'a')
-        self.file.write('Database Revised ' + str(self.date) + '\n')
+        self.file.write('Database Revised ' + str(self.today) + '\n')
         self.file.close()
         
     def loadTemplateSpreadsheet(self, template):
@@ -38,7 +37,6 @@ class Pyxl():
         self.templateWorksheet = self.templateWorkbook.get_sheet_by_name(self.sheetName)
 
     def createNewSpreadsheet(self):
-        self.trackRevisions()
         self.loadTemplateSpreadsheet(self.template)
         self.newWorkbook = Workbook()
         self.newWorksheet = self.newWorkbook.active
@@ -66,37 +64,8 @@ class Pyxl():
             self.data = self.listValues[1]
             self.newWorksheet.cell(row=self.row, column=self.columnIndex,
                                    value=self.data)
-        self.saveSpreadsheet()
 
     def saveSpreadsheet(self):
         #saves new excel sheet.
         self.newWorkbook.save(self.saveSheetAs)
-        self.newWorkbook = Workbook()
-        self.newWorksheet = self.newWorkbook.active
-        self.newWorksheet.title = 'ProEst Template'
-        self.getHeaders(self.templateWorksheet)
-        
-    def getHeaders(self, sheet):
-        self.headers = []
-        for x in range(1, 100):
-            self.headerCellValue = self.templateWorksheet.cell(row=1, column=x).value
-            self.headers.append(self.headerCellValue)
-        self.writeHeaders(self.headers)
-
-    def writeHeaders(self, headers):
-        #adds data to new excel sheet.
-        self.newWorksheet.append(headers)
-        self.writeData()
-
-    def writeData(self):
-        for col in self.activeColumns:
-            self.listValues = self.activeColumns[col]
-            self.columnIndex = self.listValues[0]
-            self.data = self.listValues[1]
-            self.newWorksheet.cell(row=self.row, column=self.columnIndex,
-                                   value=self.data)
-        self.saveSpreadsheet()
-
-    def saveSpreadsheet(self):
-        #saves new excel sheet.
-        self.newWorkbook.save(self.saveSheetAs)
+        self.trackRevisions()
