@@ -22,8 +22,10 @@ set TK_LIBRARY=C:\Users\username\AppData\Local\Programs\Python36-32\tcl\tk8.6
 python setup.py bdist_msi
 ```
 (If you are using Mac OS or Linux, consult the [cx\_Freeze Documentation][cx_link])
-3. Create a shortcut to ProExl.exe or pin it to the start menu for easy access.
-4. Run the program, follow the prompts and enjoy!
+
+3. Copy the tcl8.6.dll and tk8.6.dll files from your tcl folder and paste them in the win32.exe folder.
+4. Create a shortcut to ProExl.exe or pin it to the start menu for easy access.
+5. Run the program, follow the prompts and enjoy!
 
 ### If you experience any issues with the software, please contact me via my email on my Github profile.
 
