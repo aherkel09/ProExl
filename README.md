@@ -17,7 +17,7 @@ Using Python to write HVAC ductwork items to Excel for insertion into a ProEst E
 - [cx\_Freeze][cx_link]: A set of scripts and modules for freezing Python scripts into executables.
 
 ## Instructions:
-Note: You must have [Python 3][py3_link] installed in order to build ProExl yourself. If you would like access to the fully assembled software, please contact me via the email on my Github profile.
+Note: You must have [Python 3][py_link] installed in order to build ProExl yourself. If you would like access to the fully assembled software, please contact me via the email on my Github profile.
 1. Download the files in the Scripts folder and the Templates folder. Be sure that the directory structure in the destination folder matches the directory structure on Github.
 2. Copy the tcl8.6t.dll and tk8.6t.dll files from your DLLs folder (`C:\Users\<username>\AppData\Local\Programs\Python\Python3<x>\DLLs`) and paste them in the Scripts folder.
 3. Open a command prompt, navigate to the Scripts folder and use setup.py to create an executable file for the project. On Windows, run the following commands:
@@ -33,7 +33,6 @@ python setup.py bdist_msi
 
 ### If you experience any issues with the software, please contact me via the email on my Github profile.
 
-[py3_link]: https://www.python.org/downloads/
 [py_link]: https://docs.python.org/3/tutorial/
 [opxl_link]: https://openpyxl.readthedocs.io/en/stable/
 [tk_link]: https://wiki.python.org/moin/TkInter
