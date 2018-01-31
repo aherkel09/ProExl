@@ -10,7 +10,7 @@ Using Python to write HVAC ductwork items to Excel for insertion into a ProEst E
 - Templates/sampleData.xlsx is the excel template from which column headers are read. It is formatted for a ProEst Estimating database.
 
 ## Modules/Libraries Used:
-- [python3][py_link]: Python is an interpreted high-level programming language for general-purpose programming.
+- [Python 3][py_link]: Python is an interpreted high-level programming language for general-purpose programming.
 - [openpyxl][opxl_link]: A Python library to read/write Excel 2010 xlsx/xlsm files.
 - [tkinter][tk_link]: Python's de-facto standard GUI (Graphical User Interface) package. It is a thin object-oriented layer on top of   Tcl/Tk.
 - [datetime][dt_link]: The datetime module supplies classes for manipulating dates and times in both simple and complex ways.
