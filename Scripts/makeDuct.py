@@ -61,8 +61,10 @@ class DuctSizes():
     def generateCodes(self, width):
         if self.ductType == 'Rectangular':
             self.itemCode = (10*self.wrapIndex) + (20*(self.depth-6))
+            self.subdivisionCode = self.smDimension*10 #limit rect. sizes to 100 to avoid overlap with spiral.
         elif self.ductType == 'Spiral':
-            self.itemCode = (str(self.smDimension) + str(self.wrapIndex))  
+            self.itemCode = (str(self.smDimension) + str(self.wrapIndex))
+            self.subdivisionCode = (self.smDimension*10)+1000 #starts spiral codes at 1060.
         self.divisionCode = 12
         self.code = (str(self.divisionCode) + '.' + str(self.subdivisionCode) +
                      '.' + str(self.itemCode))
