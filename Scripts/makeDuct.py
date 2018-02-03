@@ -1,25 +1,27 @@
 from formatExl import Pyxl
 
 class DuctSizes():
-    def __init__(self, smDimension, lgDimension):
+    def __init__(self, ductType, smDimension, lgDimension, fittingType):
+        self.ductType = ductType
         self.smDimension = int(smDimension)
         self.lgDimension = int(lgDimension)
+        self.fittingType = fittingType
         self.initItemCode = 0
         self.exl = Pyxl('Templates/sampleData.xlsx')
         self.wrapList = ['Bare', '2" Insulation', '1" Lined']
 
-    def makeType(self, ductType):
+    def makeType(self):
         self.exl.createNewSpreadsheet()
         #choose duct type and generate all items in size range.
-        if ductType == 'Spiral':
+        if self.ductType == 'Spiral':
             self.makeSpiral(self.smDimension, self.lgDimension)
-        elif ductType == 'Rectangular':
+        elif self.ductType == 'Rectangular':
             self.wrapList.append('Mastic')
             self.makeRectangular(self.smDimension, self.lgDimension)
 
-    def makeSpiral(self, smDiameter, lgDiameter, ductType='Spiral'):
+    def makeSpiral(self, smDiameter, lgDiameter):
         while self.smDimension <= self.lgDimension:
-            self.defineDimensions(ductType)
+            self.defineDimensions()
             self.smDimension += 2
 
     def makeRectangular(self, smWidth, lgWidth):
@@ -27,55 +29,46 @@ class DuctSizes():
             self.addDepth(self.smDimension)
             self.smDimension += 2
             
-    def addDepth(self, width, ductType='Rectangular'):
+    def addDepth(self, width):
         #create depth dimension for rectangular ductwork e.g. 50"x30".
         self.depth = 6
         while self.depth <= width:
-            self.defineDimensions(ductType)
+            self.defineDimensions()
             self.depth += 2
 
-    def defineDimensions(self, ductType):
-        if ductType == 'Rectangular':
+    def defineDimensions(self):
+        if self.ductType == 'Rectangular':
             self.dimensions = str(self.smDimension) + '"x' + str(self.depth) + '"'
-        elif ductType == 'Spiral':
+        elif self.ductType == 'Spiral':
             self.dimensions = str(self.smDimension) + '"'
-        self.iterWrap(ductType)
+        self.addWrap()
 
-    def iterWrap(self, ductType):
+    def addWrap(self):
         #index to track which wrap type is applied. used when creating itemCode.
         self.wrapIndex = 1
         for wrap in self.wrapList:
-            self.addWrap(wrap, ductType)
+            self.wrapped = self.dimensions + ' - ' + wrap
+            self.describeDuct()
             self.wrapIndex += 1
-
-    def addWrap(self, wrap, ductType):
-        self.wrapped = self.dimensions + ' - ' + wrap
-        self.describeDuct(ductType)
     
-    def describeDuct(self, ductType):
+    def describeDuct(self):
         self.itemDescription = self.wrapped
         self.subdivisionDescription = (str(self.smDimension) +
-                                           '" ' + ductType + ' Duct')
+                                           '" ' + self.ductType + self.fittingType)
         self.divisionDescription = 'HVAC'
-        self.generateCodes(self.smDimension, ductType)
+        self.generateCodes(self.smDimension)
 
-    def generateCodes(self, width, ductType, dbPatch=True):
-        if ductType == 'Rectangular':
+    def generateCodes(self, width):
+        if self.ductType == 'Rectangular':
             self.itemCode = (10*self.wrapIndex) + (20*(self.depth-6))
-        elif ductType == 'Spiral':
-            self.itemCode = (str(self.smDimension) + str(self.wrapIndex))
-
-        if dbPatch == True:  #formatting codes for use with existing database. Not normally necessary.
-            self.subdivisionCode = (int(480+((self.smDimension-48)/2)))
-        else:
-            self.subdivisionCode = self.smDimension*10
-            
+        elif self.ductType == 'Spiral':
+            self.itemCode = (str(self.smDimension) + str(self.wrapIndex))  
         self.divisionCode = 12
         self.code = (str(self.divisionCode) + '.' + str(self.subdivisionCode) +
                      '.' + str(self.itemCode))
-        self.writeToSpreadsheet(ductType)
+        self.writeToSpreadsheet()
 
-    def writeToSpreadsheet(self, ductType):
+    def writeToSpreadsheet(self):
         #overwrites activeColumns in formatExl.py and adds new data to excel sheet.
         self.exl.activeColumns['Code'][1] = self.code
         self.exl.activeColumns['DivisionCode'][1] = int(self.divisionCode)
