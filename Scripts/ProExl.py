@@ -20,27 +20,33 @@ class ProExl():
         #frame with initial widgets.
         self.welcomeFrame = tk.Frame(self.root, bg=self.bg)
         
-        self.welcomeLabel = tk.Label(self.welcomeFrame, text='Please Choose a Duct Type.',
-                                font=self.font, fg=self.fg, bg=self.bg)
+        self.welcomeLabel = tk.Label(self.welcomeFrame,
+                                     text='Select A Duct Construction Type\nAnd Enter A Fitting.',
+                                     font=self.font, fg=self.fg, bg=self.bg)
         
         #buttons for choosing duct type.
         self.type = StringVar()
+        self.fitting = StringVar()
         self.rectButton = tk.Radiobutton(self.welcomeFrame, text='Rectangular', variable=self.type, value='Rectangular',
                                          fg=self.fg, bg=self.bbg, activebackground=self.abg, indicatoron=0, width=24, pady=8,
                                          font=self.font, command=self.chooseType)
         self.spiralButton = tk.Radiobutton(self.welcomeFrame, text='Spiral', variable=self.type, value='Spiral',
                                            fg=self.fg, bg=self.bbg, activebackground=self.abg, indicatoron=0, width=24, pady=8,
                                            font=self.font, command=self.chooseType)
+        self.fittingEntry = tk.Entry(self.welcomeFrame, textvariable=self.fitting, width=30)
+        self.fitting.set('Duct')
         self.welcomeFrame.pack()
         self.welcomeLabel.pack()
         self.rectButton.pack()
         self.spiralButton.pack()
+        self.fittingEntry.pack()
     
     def chooseType(self):
         #disables buttons and displays request for duct sizes.
         self.rectButton.config(state='disabled')
         self.spiralButton.config(state='disabled')
         self.type = self.type.get()
+        self.fitting = self.fitting.get()
         self.dimensionType(self.type)
     
     def dimensionType(self, type):
@@ -49,19 +55,18 @@ class ProExl():
             self.dimName = 'Width'
         elif type == 'Spiral':
             self.dimName = 'Diameter'
-        
         self.inputSizeWidgets(self.type)
-    
+        
     def inputSizeWidgets(self, type):
         #frame for new widgets.
         self.sizeFrame = tk.Frame(self.root, bg=self.bg)
         self.sizeFrame.pack()
          
         self.smLabel = tk.Label(self.sizeFrame, text='Enter Smallest ' +
-                                      self.dimName + ' for ' + self.type + ' Duct:',
+                                      self.dimName + ' for ' + self.type + ' self.fitting' + ':',
                                       font=self.font, fg=self.fg, bg=self.bg)
         self.lgLabel = tk.Label(self.sizeFrame, text='Enter Largest ' +
-                                self.dimName + ' for ' + self.type + ' Duct:',
+                                self.dimName + ' for ' + self.type + ' self.fitting' + ':',
                                 font = self.font, fg=self.fg, bg=self.bg)
         
         self.smString = StringVar()
