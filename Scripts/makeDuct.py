@@ -6,9 +6,23 @@ class DuctSizes():
         self.smDimension = int(smDimension)
         self.lgDimension = int(lgDimension)
         self.fittingType = fittingType
-        self.initItemCode = 0
         self.exl = Pyxl('Templates/sampleData.xlsx')
         self.wrapList = ['Bare', '2" Insulation', '1" Lined']
+        
+        #dictionary of fitting types used in generating unique item codes.
+        #note: ProExl does not yet support reducers. all other listed fittings are supported.
+        self.fittingIndex = {
+            'Duct': 0,
+            'Start Collars': 1,
+            'Couplings': 2,
+            '90 Elbows': 3,
+            '45 Elbows': 4,
+            'Horizontal Elbows': 5,
+            'Vertical Elbows': 6,
+            'Reducers': 7,
+            'Tees': 8,
+            'Saddle Taps': 9,
+            'Dampers': 10}
 
     def makeType(self):
         self.exl.createNewSpreadsheet()
@@ -47,24 +61,25 @@ class DuctSizes():
         #index to track which wrap type is applied. used when creating itemCode.
         self.wrapIndex = 1
         for wrap in self.wrapList:
-            self.wrapped = self.dimensions + ' - ' + wrap
+            self.wrapped = self.dimensions + ' ' + self.fittingType + ' - ' + wrap
             self.describeDuct()
             self.wrapIndex += 1
     
     def describeDuct(self):
         self.itemDescription = self.wrapped
         self.subdivisionDescription = (str(self.smDimension) +
-                                           '" ' + self.ductType + self.fittingType)
+                                           '" ' + self.ductType + ' ' + self.fittingType)
         self.divisionDescription = 'HVAC'
         self.generateCodes(self.smDimension)
 
     def generateCodes(self, width):
+        #assigns unique itemCode & subdivisionCode to each fititng & size.
         if self.ductType == 'Rectangular':
             self.itemCode = (10*self.wrapIndex) + (20*(self.depth-6))
-            self.subdivisionCode = self.smDimension*10 #limit rect. sizes to 100 to avoid overlap with spiral.
+            self.subdivisionCode = (self.smDimension*10) + (self.fittingIndex[self.fittingType]*1000)
         elif self.ductType == 'Spiral':
             self.itemCode = (str(self.smDimension) + str(self.wrapIndex))
-            self.subdivisionCode = (self.smDimension*10)+1000 #starts spiral codes at 1060.
+            self.subdivisionCode = 12000 + (self.smDimension*10) + (self.fittingIndex[self.fittingType]*1000)
         self.divisionCode = 12
         self.code = (str(self.divisionCode) + '.' + str(self.subdivisionCode) +
                      '.' + str(self.itemCode))
