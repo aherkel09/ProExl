@@ -19,12 +19,9 @@ class ProExl():
     def welcome(self):
         #frame with initial widgets.
         self.welcomeFrame = tk.Frame(self.root, bg=self.bg)
-        
         self.welcomeLabel = tk.Label(self.welcomeFrame,
                                      text='Enter A Fitting\nAnd Select A Duct Construction Type',
                                      font=self.font, fg=self.fg, bg=self.bg)
-        
-        #buttons for choosing duct type.
         self.type = StringVar()
         self.fitting = StringVar()
         self.rectButton = tk.Radiobutton(self.welcomeFrame, text='Rectangular', variable=self.type, value='Rectangular',
@@ -42,7 +39,6 @@ class ProExl():
         self.rectButton.pack()
         self.spiralButton.pack()
         
-    
     def chooseType(self):
         try:
             self.stateLabel.pack_forget()
@@ -88,7 +84,6 @@ class ProExl():
         self.genDuctButton = tk.Button(self.sizeFrame, text='Generate Duct Sizes',
                                  fg=self.fg, bg=self.bbg, activebackground=self.abg, font=self.font,
                                  command=self.generateDuct)
-        
         self.smLabel.pack()
         self.smEntry.pack()
         self.lgLabel.pack()
