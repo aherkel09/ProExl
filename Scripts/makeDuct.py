@@ -19,10 +19,10 @@ class DuctSizes():
             '45 Elbows': 4,
             'Horizontal Elbows': 5,
             'Vertical Elbows': 6,
-            'Reducers': 7,
-            'Tees': 8,
-            'Saddle Taps': 9,
-            'Dampers': 10}
+            'Tees': 7,
+            'Saddle Taps': 8,
+            'End Caps': 9,
+            'Volume Dampers': 10}
 
     def makeType(self):
         self.exl.createNewSpreadsheet()
