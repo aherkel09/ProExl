@@ -30,12 +30,12 @@ class ProExl():
         self.spiralButton = tk.Radiobutton(self.welcomeFrame, text='Spiral', variable=self.type, value='Spiral',
                                            fg=self.fg, bg=self.bbg, activebackground=self.abg, indicatoron=0, width=24, pady=8,
                                            font=self.font, command=self.chooseType)
-        self.fittingEntry = tk.Entry(self.welcomeFrame, textvariable=self.fitting, width=30,
+        self.fittingMenu = tk.OptionMenu(self.welcomeFrame, textvariable=self.fitting, width=30,
                                      fg=self.bbg, bg=self.fg, font=self.font, bd=4, justify='center')
         self.welcomeFrame.pack()
         self.welcomeLabel.pack()
         self.fitting.set('Duct')
-        self.fittingEntry.pack()
+        self.fittingMenu.pack()
         self.rectButton.pack()
         self.spiralButton.pack()
         
