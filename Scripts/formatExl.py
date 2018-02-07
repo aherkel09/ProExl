@@ -21,7 +21,7 @@ class Pyxl():
             'SubContractorRounding':[36, 'None'],'SubContractorWastepercentage':[38, 0],
             'EquipmentConversion':[42, 1], 'EquipmentRounding':[43, 'None'],
             'EquipmentWastepercentage':[45, 0], 'OtherConversion':[49, 1],
-            'OtherRounding':[50, 'None'], 'OtherWastepercentage':[52, 0]
+            'OtherRounding':[50, 'None'], 'OtherWastepercentage':[52, 0], 'SortType1':[55, 'Phase']
             }
 
     def trackRevisions(self):
