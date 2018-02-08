@@ -6,7 +6,7 @@ class ProExl():
     def __init__(self):
         #initial screen setup with user prompts.
         self.root = tk.Tk()
-        self.root.title('ProExl 0.0.1 by Avery Herkel')
+        self.root.title('ProExl 0.0.2 by Avery Herkel')
         self.root.geometry('800x600')
         self.font = ('Calibri', 12, 'bold') #sets default font.
         self.fg='#448D76'
