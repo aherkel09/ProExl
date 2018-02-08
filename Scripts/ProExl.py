@@ -20,24 +20,30 @@ class ProExl():
         #frame with initial widgets.
         self.welcomeFrame = tk.Frame(self.root, bg=self.bg)
         self.welcomeLabel = tk.Label(self.welcomeFrame,
-                                     text='Enter A Fitting\nAnd Select A Duct Construction Type',
+                                     text='Select Fitting And Duct Construction',
                                      font=self.font, fg=self.fg, bg=self.bg)
         self.type = StringVar()
         self.fitting = StringVar()
+        self.fittingTypes = ['Duct', 'Start Collars', 'Couplings', '90 Elbows', '45 Elbows',
+                             'Horizontal Elbows', 'Vertical Elbows', 'Tees', 'Saddle Taps',
+                             'End Caps', 'Volume Dampers', 'Reducers']
         self.rectButton = tk.Radiobutton(self.welcomeFrame, text='Rectangular', variable=self.type, value='Rectangular',
                                          fg=self.fg, bg=self.bbg, activebackground=self.abg, indicatoron=0, width=24, pady=8,
                                          font=self.font, command=self.chooseType)
         self.spiralButton = tk.Radiobutton(self.welcomeFrame, text='Spiral', variable=self.type, value='Spiral',
                                            fg=self.fg, bg=self.bbg, activebackground=self.abg, indicatoron=0, width=24, pady=8,
                                            font=self.font, command=self.chooseType)
-        self.fittingMenu = tk.OptionMenu(self.welcomeFrame, textvariable=self.fitting, width=30,
-                                     fg=self.bbg, bg=self.fg, font=self.font, bd=4, justify='center')
+        self.fittingMenu = tk.OptionMenu(self.welcomeFrame, self.fitting, *self.fittingTypes, command=self.setFitting)
         self.welcomeFrame.pack()
         self.welcomeLabel.pack()
-        self.fitting.set('Duct')
+        self.fitting.set('Duct') #default value for fittings
+        self.setFitting('Duct')
         self.fittingMenu.pack()
         self.rectButton.pack()
         self.spiralButton.pack()
+
+    def setFitting(self, fitting):
+        self.fitting = fitting
         
     def chooseType(self):
         try:
@@ -48,7 +54,6 @@ class ProExl():
         self.rectButton.config(state='disabled')
         self.spiralButton.config(state='disabled')
         self.type = self.type.get()
-        self.fitting = self.fitting.get()
         self.dimensionType(self.type)
     
     def dimensionType(self, type):
