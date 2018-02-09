@@ -6,7 +6,7 @@ class ProExl():
     def __init__(self):
         #initial screen setup with user prompts.
         self.root = tk.Tk()
-        self.root.title('ProExl 0.0.1 by Avery Herkel')
+        self.root.title('ProExl 0.0.2 by Avery Herkel')
         self.root.geometry('800x600')
         self.font = ('Calibri', 12, 'bold') #sets default font.
         self.fg='#448D76'
@@ -19,24 +19,37 @@ class ProExl():
     def welcome(self):
         #frame with initial widgets.
         self.welcomeFrame = tk.Frame(self.root, bg=self.bg)
-        
-        self.welcomeLabel = tk.Label(self.welcomeFrame, text='Please Choose a Duct Type.',
-                                font=self.font, fg=self.fg, bg=self.bg)
-        
-        #buttons for choosing duct type.
+        self.welcomeLabel = tk.Label(self.welcomeFrame,
+                                     text='Select Fitting And Duct Construction',
+                                     font=self.font, fg=self.fg, bg=self.bg)
         self.type = StringVar()
+        self.fitting = StringVar()
+        self.fittingTypes = ['Duct', 'Start Collars', 'Couplings', '90 Elbows', '45 Elbows',
+                             'Horizontal Elbows', 'Vertical Elbows', 'Tees', 'Saddle Taps',
+                             'End Caps', 'Volume Dampers', 'Reducers']
         self.rectButton = tk.Radiobutton(self.welcomeFrame, text='Rectangular', variable=self.type, value='Rectangular',
                                          fg=self.fg, bg=self.bbg, activebackground=self.abg, indicatoron=0, width=24, pady=8,
                                          font=self.font, command=self.chooseType)
         self.spiralButton = tk.Radiobutton(self.welcomeFrame, text='Spiral', variable=self.type, value='Spiral',
                                            fg=self.fg, bg=self.bbg, activebackground=self.abg, indicatoron=0, width=24, pady=8,
                                            font=self.font, command=self.chooseType)
+        self.fittingMenu = tk.OptionMenu(self.welcomeFrame, self.fitting, *self.fittingTypes, command=self.setFitting)
         self.welcomeFrame.pack()
         self.welcomeLabel.pack()
+        self.fitting.set('Duct') #default value for fittings
+        self.setFitting('Duct')
+        self.fittingMenu.pack()
         self.rectButton.pack()
         self.spiralButton.pack()
-    
+
+    def setFitting(self, fitting):
+        self.fitting = fitting
+        
     def chooseType(self):
+        try:
+            self.stateLabel.pack_forget()
+        except:
+            None
         #disables buttons and displays request for duct sizes.
         self.rectButton.config(state='disabled')
         self.spiralButton.config(state='disabled')
@@ -49,35 +62,33 @@ class ProExl():
             self.dimName = 'Width'
         elif type == 'Spiral':
             self.dimName = 'Diameter'
-        
         self.inputSizeWidgets(self.type)
-    
+        
     def inputSizeWidgets(self, type):
         #frame for new widgets.
         self.sizeFrame = tk.Frame(self.root, bg=self.bg)
         self.sizeFrame.pack()
          
         self.smLabel = tk.Label(self.sizeFrame, text='Enter Smallest ' +
-                                      self.dimName + ' for ' + self.type + ' Duct:',
+                                      self.dimName + ' for ' + self.type + ' ' + self.fitting + ':',
                                       font=self.font, fg=self.fg, bg=self.bg)
         self.lgLabel = tk.Label(self.sizeFrame, text='Enter Largest ' +
-                                self.dimName + ' for ' + self.type + ' Duct:',
+                                self.dimName + ' for ' + self.type + ' ' + self.fitting + ':',
                                 font = self.font, fg=self.fg, bg=self.bg)
         
         self.smString = StringVar()
         self.smString.set('24')
         self.smEntry = tk.Entry(self.sizeFrame, width=30, textvariable=self.smString,
-                                justify='center', font=self.font)
+                                justify='center', font=self.font, fg=self.bbg, bg=self.fg)
         self.lgString = StringVar()
         self.lgString.set('48')
         self.lgEntry = tk.Entry(self.sizeFrame, width=30, textvariable=self.lgString,
-                                    justify='center', font=self.font)
+                                    justify='center', font=self.font, fg=self.bbg, bg=self.fg)
         
         #button for generating duct sizes.
         self.genDuctButton = tk.Button(self.sizeFrame, text='Generate Duct Sizes',
                                  fg=self.fg, bg=self.bbg, activebackground=self.abg, font=self.font,
                                  command=self.generateDuct)
-        
         self.smLabel.pack()
         self.smEntry.pack()
         self.lgLabel.pack()
@@ -88,8 +99,8 @@ class ProExl():
         #defines size and type, creates duct objects.
         self.smDimension = self.smString.get()
         self.lgDimension = self.lgString.get()
-        self.sizes = DuctSizes(self.smDimension, self.lgDimension)
-        self.sizes.makeType(self.type)
+        self.sizes = DuctSizes(self.type, self.smDimension, self.lgDimension, self.fitting)
+        self.sizes.makeType()
         self.sizes.saveDuct()
         self.indicateSuccess()
     

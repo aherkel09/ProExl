@@ -1,25 +1,47 @@
 from formatExl import Pyxl
 
 class DuctSizes():
-    def __init__(self, smDimension, lgDimension):
+    def __init__(self, ductType, smDimension, lgDimension, fittingType):
+        self.ductType = ductType
         self.smDimension = int(smDimension)
         self.lgDimension = int(lgDimension)
-        self.initItemCode = 0
+        self.fittingType = fittingType
         self.exl = Pyxl('Templates/sampleData.xlsx')
         self.wrapList = ['Bare', '2" Insulation', '1" Lined']
+        self.wrapIndex = 1 #index to assign unique itemCodes to ductwork.
+        self.reducerIndex = 0 #index to assign unique itemCode to reducers.
 
-    def makeType(self, ductType):
+        #dictionary of fitting types used in generating unique item codes.
+        self.fittingIndex = {
+            'Duct': 0,
+            'Start Collars': 1,
+            'Couplings': 2,
+            '90 Elbows': 3,
+            '45 Elbows': 4,
+            'Horizontal Elbows': 5,
+            'Vertical Elbows': 6,
+            'Tees': 7,
+            'Saddle Taps': 8,
+            'End Caps': 9,
+            'Volume Dampers': 10,
+            'Reducers': 11
+            }
+
+    def makeType(self):
         self.exl.createNewSpreadsheet()
         #choose duct type and generate all items in size range.
-        if ductType == 'Spiral':
+        if self.ductType == 'Spiral':
             self.makeSpiral(self.smDimension, self.lgDimension)
-        elif ductType == 'Rectangular':
+        elif self.ductType == 'Rectangular':
             self.wrapList.append('Mastic')
             self.makeRectangular(self.smDimension, self.lgDimension)
 
-    def makeSpiral(self, smDiameter, lgDiameter, ductType='Spiral'):
+    def makeSpiral(self, smDiameter, lgDiameter):
         while self.smDimension <= self.lgDimension:
-            self.defineDimensions(ductType)
+            if self.fittingType == 'Reducers':
+                self.defineReducerDimensions()
+            else:
+                self.defineDimensions()
             self.smDimension += 2
 
     def makeRectangular(self, smWidth, lgWidth):
@@ -27,55 +49,81 @@ class DuctSizes():
             self.addDepth(self.smDimension)
             self.smDimension += 2
             
-    def addDepth(self, width, ductType='Rectangular'):
+    def addDepth(self, width):
         #create depth dimension for rectangular ductwork e.g. 50"x30".
         self.depth = 6
         while self.depth <= width:
-            self.defineDimensions(ductType)
+            if self.fittingType == 'Reducers':
+                self.defineReducerDimensions()
+            else:
+                self.defineDimensions()
             self.depth += 2
+    
+    def defineReducerDimensions(self):
+        self.reduceTo = 6
+        while self.reduceTo < self.smDimension:
+            self.reducerType()
+            self.reduceTo += 2
 
-    def defineDimensions(self, ductType):
-        if ductType == 'Rectangular':
-            self.dimensions = str(self.smDimension) + '"x' + str(self.depth) + '"'
-        elif ductType == 'Spiral':
-            self.dimensions = str(self.smDimension) + '"'
-        self.iterWrap(ductType)
+    def reducerType(self):
+        if self.ductType == 'Spiral':
+            self.dimensions = (str(self.smDimension) + '" x ' + str(self.reduceTo) +
+                                   '" ' + self.ductType + ' ' + self.fittingType)
+            self.reducerIndex += 1
+            self.describeItem(self.dimensions)
+        elif self.ductType == 'Rectangular':
+            self.addReducerDepth()
 
-    def iterWrap(self, ductType):
-        #index to track which wrap type is applied. used when creating itemCode.
+    def addReducerDepth(self):
+        self.reducerDepth = 6
+        while self.reducerDepth <= self.depth:
+            self.dimensions = (str(self.smDimension) + '"x' + str(self.depth) + '" x ' +
+                                str(self.reduceTo) + '"x' + str(self.reducerDepth) + '" ' +
+                                self.fittingType)
+            self.reducerIndex += 1
+            self.describeItem(self.dimensions)
+            self.reducerDepth += 2
+
+    def defineDimensions(self):
+        if self.ductType == 'Rectangular':
+            self.dimensions = (str(self.smDimension) + '"x' + str(self.depth) + '" ' +
+                               self.fittingType)
+        elif self.ductType == 'Spiral':
+            self.dimensions = (str(self.smDimension) + '" ' + self.fittingType)
+
+        if self.fittingType == 'Duct':
+            self.addWrap()
+        else:
+            self.describeItem(self.dimensions)
+
+    def addWrap(self):
         self.wrapIndex = 1
         for wrap in self.wrapList:
-            self.addWrap(wrap, ductType)
+            self.ductDimensions = self.dimensions + ' ' + ' - ' + wrap
+            self.describeItem(self.ductDimensions)
             self.wrapIndex += 1
-
-    def addWrap(self, wrap, ductType):
-        self.wrapped = self.dimensions + ' - ' + wrap
-        self.describeDuct(ductType)
     
-    def describeDuct(self, ductType):
-        self.itemDescription = self.wrapped
+    def describeItem(self, dimensions):
+        self.itemDescription = dimensions
         self.subdivisionDescription = (str(self.smDimension) +
-                                           '" ' + ductType + ' Duct')
+                                       '" ' + self.ductType + ' ' + self.fittingType)
         self.divisionDescription = 'HVAC'
-        self.generateCodes(self.smDimension, ductType)
+        self.generateCodes(self.smDimension)
 
-    def generateCodes(self, width, ductType, dbPatch=True):
-        if ductType == 'Rectangular':
-            self.itemCode = (10*self.wrapIndex) + (20*(self.depth-6))
-        elif ductType == 'Spiral':
-            self.itemCode = (str(self.smDimension) + str(self.wrapIndex))
-
-        if dbPatch == True:  #formatting codes for use with existing database. Not normally necessary.
-            self.subdivisionCode = (int(480+((self.smDimension-48)/2)))
-        else:
-            self.subdivisionCode = self.smDimension*10
-            
+    def generateCodes(self, width):
+        #assigns unique itemCode & subdivisionCode to each fititng & size.
+        if self.ductType == 'Rectangular':
+            self.itemCode = (10*self.wrapIndex) + (20*(self.depth-6)) + self.reducerIndex
+            self.subdivisionCode = (self.smDimension*10) + (self.fittingIndex[self.fittingType]*1000)
+        elif self.ductType == 'Spiral':
+            self.itemCode = 10*self.wrapIndex + self.reducerIndex
+            self.subdivisionCode = 13000 + (self.smDimension*10) + (self.fittingIndex[self.fittingType]*1000)
         self.divisionCode = 12
         self.code = (str(self.divisionCode) + '.' + str(self.subdivisionCode) +
                      '.' + str(self.itemCode))
-        self.writeToSpreadsheet(ductType)
+        self.writeToSpreadsheet()
 
-    def writeToSpreadsheet(self, ductType):
+    def writeToSpreadsheet(self):
         #overwrites activeColumns in formatExl.py and adds new data to excel sheet.
         self.exl.activeColumns['Code'][1] = self.code
         self.exl.activeColumns['DivisionCode'][1] = int(self.divisionCode)
