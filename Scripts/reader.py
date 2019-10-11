@@ -4,6 +4,7 @@ class Reader():
     def __init__(self):
         self.in_file = "Data/db_items.csv"
         self.data = self.list_data()
+        self.headers = self.get_headers()
 
     def get_headers(self):
         with open(self.in_file, 'r') as csv_in:
@@ -26,4 +27,5 @@ class Reader():
 
 if __name__ == '__main__':
     reader = Reader()
+    print(reader.headers)
     print(reader.data[0])
