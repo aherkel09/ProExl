@@ -42,8 +42,8 @@ class DuplicateGUI():
     def select_button(self, command):
         button = self.make_button('Select', command)
 
-    def show_value(self):
-        print(self.int_var.get())
+    def show_complete(self):
+        self.root.pack_forget()
 
 if __name__ == '__main__':
     gui = DuplicateGUI()

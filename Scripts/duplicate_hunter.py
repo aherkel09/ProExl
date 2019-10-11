@@ -13,7 +13,8 @@ class DuplicateHunter(Reader):
     def acquire_targets(self):
         self.find_duplicates()
         self.match_values()
-        return self.flagged
+        targets = self.flagged
+        return targets
 
     def find_duplicates(self):
         for d in self.data:
@@ -37,36 +38,9 @@ class DuplicateHunter(Reader):
                         self.item_descriptions[key],
                         value
                         ]
-    
-    def select_duplicates(self):
-        for f in self.flagged:
-            self.make_choice(f, self.flagged[f])
-        
-        for r in self.resolved:
-            self.flagged.pop(r) # remove resolved from list of flagged
-
-    def make_choice(self, item, options):
-        print('\n\nSelect an option for ' + item)
-        print('\nOption 1:\nSkip this item')
-        
-        choice = 2
-        for o in options:
-            print('\nOption ' + str(choice) + ':')
-            print(o)
-            choice += 1
-
-        selection = input('\nYour choice (option #): ')
-        try:
-            selection = int(selection)
-            if selection == 1:
-                return
-            else:
-                self.resolve_item(selection, item)
-        except:
-            print('Error: please enter only valid number choices')
-            self.make_choice(item, options) # try again to get valid selection
 
     def resolve_item(self, selection, item):
+        print(self.flagged[item])
         user_choice = self.flagged[item][selection - 2] # get selected option
         self.item_descriptions[item] = user_choice
         self.resolved += [item]
@@ -75,15 +49,15 @@ class DuplicateHunter(Reader):
         return len(self.item_descriptions) and not len(self.flagged)
 
     def drop_all_duplicates(self):
+        for r in self.resolved:
+            self.flagged.pop(r, None)
+
         for s in self.safe_to_remove:
             self.item_descriptions.pop(s, None)
-
-        return self.item_descriptions
 
 
 if __name__ == '__main__':
     hunter = DuplicateHunter()
-    hunter.find_duplicates()
-    hunter.match_values()
+    hunter.acquire_targets()
 
-    print(next(iter(hunter.flagged.values())))
+    print(hunter.flagged['6x6 Rectangular - Bare'])

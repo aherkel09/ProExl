@@ -8,21 +8,27 @@ class Resolver():
         self.hunter = DuplicateHunter()
         self.gui = DuplicateGUI()
         self.targets = {}
-        self.current_target = None
+        self.target_key = ''
+        self.target_options = []
 
     def begin(self):
         self.targets = self.hunter.acquire_targets()
-        self.displayTarget()
+        self.display_next_target()
         self.gui.root.mainloop()
     
-    def displayTarget(self):
-        target_key = next(iter(self.targets))
-        self.current_target = self.targets.pop(target_key)
-        
-        self.gui.make_label(target_key)
+    def display_next_target(self):
+        try:
+            self.target_key = next(iter(self.targets))
+        except:
+            self.check_complete()
 
-        option_number = 2
-        for opt in self.current_target:
+        self.target_options = self.targets.pop(self.target_key)
+        self.gui.make_label(self.target_key)
+        header_text = '\t'.join(self.hunter.headers)
+        # self.gui.make_label(header_text) FIXME: align headers
+
+        option_number = 2 # skip button is option 1
+        for opt in self.target_options:
             self.gui.option_button(option_number, opt) # button to select option
             option_number += 1
         
@@ -31,8 +37,26 @@ class Resolver():
     
     def select_option(self):
         selected = self.gui.int_var.get()
-        print(selected)
+        if selected > 1:
+            self.hunter.resolve_item(selected, self.target_key)
+        
+        self.display_next_target()
+
+    def check_complete(self):
+        self.hunter.drop_all_duplicates()
+
+        if self.hunter.is_finished():
+            self.gui.show_complete()
+        else:
+            self.review_skipped()
+
+    def review_skipped(self):
+        self.targets = self.hunter.flagged
+        self.display_next_target()
 
 if __name__ == '__main__':
     resolver = Resolver()
     resolver.begin()
+
+    first_key = next(iter(resolver.targets))
+    resolver.targets = {first_key: resolver.targets.pop(first_key)}

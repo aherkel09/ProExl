@@ -9,13 +9,15 @@ class Reader():
     def get_headers(self):
         with open(self.in_file, 'r') as csv_in:
             reader = csv.reader(csv_in)
-            return next(reader)
+            headers = next(reader)
+            headers.pop(0) # remove item code
+            return headers
 
     def list_data(self):
         with open(self.in_file, 'r') as csv_in:
             reader = csv.reader(csv_in)
             data = list(reader)
-            data.pop(0)
+            data.pop(0) # remove item code
             return data
 
     def sort_by_description(self, i):
