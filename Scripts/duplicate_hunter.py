@@ -45,8 +45,9 @@ class DuplicateHunter(Reader):
         eliminated = hardcodes.eliminate()
         
         for e in eliminated:
+            # if eliminating by hardcoded values leaves 1 option, resolve item
             if len(eliminated[e]) == 1:
-                self.item_descriptions[e] = eliminated[e]
+                self.item_descriptions[e] = eliminated[e][0]
                 self.resolved += [e]
 
         self.drop_all_duplicates()
