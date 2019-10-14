@@ -8,7 +8,7 @@ class Hardcodes():
             keep = []
             index = 0
             for option in self.items[item]:
-                if option[5] == '65': # check labor column for 65
+                if option[6] == '65': # check labor column for 65
                     trash += [index]
                 else:
                     keep += [index]

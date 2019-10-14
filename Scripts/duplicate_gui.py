@@ -9,7 +9,7 @@ class DuplicateGUI():
         self.root = tk.Tk()
         self.root.title('ProExl Duplicate Hunter')
         self.root.configure(bg='black')
-        self.font = tkFont.Font(family='Palatino Linotype', size=14)
+        self.font = tkFont.Font(family='Palatino Linotype', size=12)
         self.item_frame = None
         self.int_var = IntVar()
         self.colors = {
