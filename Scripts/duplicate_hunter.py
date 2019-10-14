@@ -15,7 +15,8 @@ class DuplicateHunter(Reader):
         self.find_duplicates()
         self.match_values()
         self.eliminate_hardcodes() # remove duplicates via hardcoded queries
-        return self.flagged
+        targets = self.flagged.copy() # make copy of data for use in gui
+        return targets
 
     def find_duplicates(self):
         for d in self.data:

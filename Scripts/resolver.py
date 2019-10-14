@@ -12,6 +12,7 @@ class Resolver():
         self.target_key = ''
         self.undo = {}
         self.last = []
+        self.skipped = 0
 
     def begin(self):
         self.targets = self.hunter.acquire_targets()
@@ -21,35 +22,48 @@ class Resolver():
     def display_next_target(self, key=None):
         if key:
             self.target_key = key
+            self.fill_gui()
         else:
-            try:
-                self.target_key = next(iter(self.targets))
-            except:
-                self.check_complete()
-
+            self.check_next_key()
+    
+    def check_next_key(self):
+        try:
+            self.target_key = next(iter(self.targets))
+            self.fill_gui()
+        except:
+            self.check_complete()
+    
+    def fill_gui(self):
+        self.show_remaining()
         self.gui.make_label(self.target_key)
         header_text = '\t'.join(self.hunter.headers)
         # self.gui.make_label(header_text) FIXME: align headers
 
-        option_number = 2 # skip button is option 1
+        option_number = 2 # option 1 reserved for skip button
         for opt in self.targets[self.target_key]:
-            self.gui.option_button(option_number, opt) # button to select option
+            self.gui.option_button(option_number, opt)
             option_number += 1
         
         self.gui.skip_button() # button to skip item
         self.gui.command_button('Select', self.select_option)
         self.gui.command_button('Undo', self.undo_last)
     
+    def show_remaining(self):
+        self.gui.make_label('Hunting For Duplicates: ' + str(len(self.targets) + self.skipped) + ' Unresolved')
+    
     def select_option(self):
         selected = self.gui.int_var.get()
         if selected > 1:
             self.hunter.resolve_item(selected, self.target_key)
+        else:
+            self.skipped += 1
         
         self.undo[self.target_key] = self.targets.pop(self.target_key)
         self.last += [self.target_key]
         self.gui.clear_item()
 
         if self.test:
+            self.hunter.flagged = self.undo # set to last item for testing
             self.check_complete()
         else:
             self.display_next_target()
@@ -69,7 +83,7 @@ class Resolver():
     def check_complete(self):
         self.hunter.drop_all_duplicates()
 
-        if self.hunter.is_finished() or self.test:
+        if self.hunter.is_finished():
             self.writer.write_to_file(self.hunter.item_descriptions)
             self.gui.show_complete()
         else:

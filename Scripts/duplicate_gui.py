@@ -37,7 +37,7 @@ class DuplicateGUI():
     def make_radio_button(self, button_text, button_val):
         radio = tk.Radiobutton(self.item_frame, text=button_text, variable=self.int_var,
                 value=button_val, bg='black', fg=self.grey,
-                selectcolor=self.colors['accent'], font=self.font, indicatoron=True)
+                selectcolor=self.colors['dark'], font=self.font, indicatoron=True)
         radio.pack(anchor=W)
 
     def make_label(self, label_text):
@@ -62,6 +62,7 @@ class DuplicateGUI():
     def show_complete(self):
         self.clear_item()
         self.make_label('Duplicate Hunter is finished. Check the Data folder for database revisions.')
+        self.command_button('Exit', self.root.destroy)
 
 if __name__ == '__main__':
     gui = DuplicateGUI()
