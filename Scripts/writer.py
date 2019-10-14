@@ -9,6 +9,14 @@ class Writer():
     def write_to_file(self, data):
         with open(self.out_file, 'w') as csv_out:
             writer = csv.writer(csv_out)
-            writer.writerows(data)
+            
+            index = 0
+            for d in data:
+                print(data[d])
+                index += 1
+                if index > 8:
+                    break
+
+                # writer.writerow(data[d])
 
 

@@ -1,4 +1,5 @@
 from reader import Reader
+from hardcodes import Hardcodes
 
 class DuplicateHunter(Reader):
     def __init__(self):
@@ -13,8 +14,8 @@ class DuplicateHunter(Reader):
     def acquire_targets(self):
         self.find_duplicates()
         self.match_values()
-        targets = self.flagged
-        return targets
+        self.eliminate_hardcodes() # remove duplicates via hardcoded queries
+        return self.flagged
 
     def find_duplicates(self):
         for d in self.data:
@@ -39,8 +40,18 @@ class DuplicateHunter(Reader):
                         value
                         ]
 
+    def eliminate_hardcodes(self):
+        hardcodes = Hardcodes(self.flagged)
+        eliminated = hardcodes.eliminate()
+        
+        for e in eliminated:
+            if len(eliminated[e]) == 1:
+                self.item_descriptions[e] = eliminated[e]
+                self.resolved += [e]
+
+        self.drop_all_duplicates()
+
     def resolve_item(self, selection, item):
-        print(self.flagged[item])
         user_choice = self.flagged[item][selection - 2] # get selected option
         self.item_descriptions[item] = user_choice
         self.resolved += [item]
