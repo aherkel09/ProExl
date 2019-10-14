@@ -1,20 +1,23 @@
+import random
+
 from tkinter import *
 import tkinter as tk
+import tkinter.font as tkFont
 
 class DuplicateGUI():
     def __init__(self):
         self.root = tk.Tk()
         self.root.title('ProExl Duplicate Hunter')
         self.root.configure(bg='black')
+        self.font = tkFont.Font(family='Palatino Linotype', size=14)
         self.item_frame = None
         self.int_var = IntVar()
         self.colors = {
             'brand': '#4bee8f',
-            'light': '#b5fdaf',
             'accent': '#74b6b5',
             'dark': '#676087',
-            'grey': '#f2f2f2'
         }
+        self.grey = '#f2f2f2'
         self.make_frame()
 
     def make_frame(self):
@@ -22,21 +25,25 @@ class DuplicateGUI():
         self.item_frame.pack(fill=BOTH)
 
     def make_button(self, button_text, callback=None):
-        button = tk.Button(self.item_frame, text=button_text, bg=self.colors['dark'],
-                fg=self.colors['grey'],activebackground=self.colors['accent'])
+        button = tk.Button(self.item_frame, text=button_text, 
+                bg=self.colors[random.choice(list(self.colors.keys()))],
+                fg=self.grey,activebackground=self.colors['accent'], font=self.font)
+        
         if callback:
             button.configure(command=callback)
-        button.pack()
+
+        button.pack(pady=7)
 
     def make_radio_button(self, button_text, button_val):
         radio = tk.Radiobutton(self.item_frame, text=button_text, variable=self.int_var,
-                value=button_val, bg='black', fg=self.colors['grey'],
-                selectcolor=self.colors['accent'], indicatoron=True)
+                value=button_val, bg='black', fg=self.grey,
+                selectcolor=self.colors['accent'], font=self.font, indicatoron=True)
         radio.pack(anchor=W)
 
     def make_label(self, label_text):
-        label = tk.Label(self.item_frame, text=label_text, bg='black', fg='#f2f2f2')
-        label.pack()
+        label = tk.Label(self.item_frame, text=label_text, bg='black', fg=self.grey,
+                font=self.font)
+        label.pack(pady=7)
 
     def skip_button(self):
         self.make_radio_button('Skip This Item', 1)
@@ -58,6 +65,6 @@ class DuplicateGUI():
 
 if __name__ == '__main__':
     gui = DuplicateGUI()
-    gui.skip_button()
+    gui.make_label('Welcome to the GUI')
     gui.option_button(2, ['click', 'me', 'please'])
     gui.root.mainloop()

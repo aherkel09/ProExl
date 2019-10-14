@@ -27,9 +27,9 @@ class DuplicateHunter(Reader):
     def match_values(self):
         for key, value in self.duplicate_descriptions.items():
             # remove unique item codes before matching
-            item = self.item_descriptions[key]
+            item = self.item_descriptions[key].copy()
             item.pop(0)
-            duplicate = value
+            duplicate = value.copy()
             duplicate.pop(0)
 
             if item == duplicate:
@@ -47,6 +47,7 @@ class DuplicateHunter(Reader):
         for e in eliminated:
             # if eliminating by hardcoded values leaves 1 option, resolve item
             if len(eliminated[e]) == 1:
+                print('should resolve ' + e)
                 self.item_descriptions[e] = eliminated[e][0]
                 self.resolved += [e]
 
