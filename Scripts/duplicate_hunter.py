@@ -4,6 +4,7 @@ from hardcodes import Hardcodes
 class DuplicateHunter(Reader):
     def __init__(self):
         super().__init__()
+        self.data_info = {}
         self.item_descriptions = {}
         self.duplicate_descriptions = {}
         self.safe_to_remove = {}
@@ -24,6 +25,11 @@ class DuplicateHunter(Reader):
                 self.item_descriptions[d[1]] = d
             else:
                 self.duplicate_descriptions[d[1]] = d
+
+        self.data_info['All Data'] = str(len(self.data))
+        self.data_info['Unique Items'] = str(len(self.item_descriptions))
+        self.data_info['Duplicates'] = str(len(self.duplicate_descriptions))
+        
 
     def match_values(self):
         for key, value in self.duplicate_descriptions.items():

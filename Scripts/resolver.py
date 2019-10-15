@@ -34,7 +34,9 @@ class Resolver():
             self.check_complete()
     
     def fill_gui(self):
+        self.show_info()
         self.show_remaining()
+        self.gui.make_label('')
         self.gui.make_label(self.target_key)
         header_text = '\t'.join(self.hunter.headers)
         # self.gui.make_label(header_text) FIXME: align headers
@@ -47,9 +49,14 @@ class Resolver():
         self.gui.skip_button() # button to skip item
         self.gui.command_button('Select', self.select_option)
         self.gui.command_button('Undo', self.undo_last)
+
+    def show_info(self):
+        for i in self.hunter.data_info:
+            self.gui.make_label(i + ': ' + self.hunter.data_info[i])
     
     def show_remaining(self):
-        self.gui.make_label('Hunting For Duplicates: ' + str(len(self.targets) + self.skipped) + ' Unresolved')
+        self.gui.make_label(str(len(self.targets) + self.skipped) +
+                            ' Unresolved Duplicates')
     
     def select_option(self):
         selected = self.gui.int_var.get()
