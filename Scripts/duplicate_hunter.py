@@ -1,4 +1,5 @@
 from reader import Reader
+from writer import Writer
 from hardcodes import Hardcodes
 
 class DuplicateHunter(Reader):
@@ -7,7 +8,6 @@ class DuplicateHunter(Reader):
         self.data_info = {}
         self.items = {}
         self.duplicates = []
-        self.safe_to_remove = {}
         self.flagged = {}
         self.resolved = []
 
@@ -38,7 +38,6 @@ class DuplicateHunter(Reader):
 
             if item == exact_copy:
                 num_copies += 1
-                self.safe_to_remove[description] = d
             else:
                 self.flagged[description] = [self.items[description], d]
 
@@ -68,9 +67,6 @@ class DuplicateHunter(Reader):
         for r in self.resolved:
             self.flagged.pop(r, None)
 
-        for s in self.safe_to_remove:
-            self.items.pop(s, None)
-
         self.analyze_results()
 
     def initial_results(self, copies):
@@ -86,6 +82,12 @@ class DuplicateHunter(Reader):
         num_resolved += len(self.resolved)
         self.resolved = []
         self.data_info['Resolved'] = str(num_resolved)
+    
+    def writeout(self):
+        writer = Writer()
+        writer.write_to_file({'headers': self.headers})
+        writer.write_to_file(self.items)
+        writer.write_results(self.data_info)
 
 if __name__ == '__main__':
     hunter = DuplicateHunter()

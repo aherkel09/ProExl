@@ -1,11 +1,9 @@
-from writer import Writer
 from duplicate_hunter import DuplicateHunter
 from duplicate_gui import DuplicateGUI
 
 class Resolver():
     def __init__(self, test=False):
         self.test = test
-        self.writer = Writer()
         self.hunter = DuplicateHunter()
         self.gui = DuplicateGUI()
         self.targets = {}
@@ -91,15 +89,11 @@ class Resolver():
         self.hunter.drop_all_duplicates()
 
         if self.hunter.is_finished():
-            self.writeout()
+            self.hunter.analyze_results()
+            self.hunter.writeout()
+            self.gui.show_complete()
         else:
             self.review_skipped()
-
-    def writeout(self):
-        self.hunter.analyze_results()
-        self.writer.write_to_file(self.hunter.items)
-        self.writer.write_results(self.hunter.data_info)
-        self.gui.show_complete()
 
     def review_skipped(self):
         self.targets = self.hunter.flagged

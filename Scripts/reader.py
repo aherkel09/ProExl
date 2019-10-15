@@ -10,7 +10,6 @@ class Reader():
         with open(self.in_file, 'r') as csv_in:
             reader = csv.reader(csv_in)
             headers = next(reader)
-            headers.pop(0) # remove item code
             
             return headers
 
