@@ -107,5 +107,5 @@ class Resolver():
         self.display_next_target()
 
 if __name__ == '__main__':
-    resolver = Resolver(test=True)
+    resolver = Resolver(test=False)
     resolver.begin()

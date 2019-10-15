@@ -18,6 +18,6 @@ class Writer():
     def write_results(self, results):
         with open(self.results_file, 'w') as file:
             for r in results:
-                file.write(r + ': ' + results[r] + '\n')
+                file.write(r + ': ' + str(results[r]) + '\n')
 
 

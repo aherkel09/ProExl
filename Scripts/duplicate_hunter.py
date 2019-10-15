@@ -78,14 +78,14 @@ class DuplicateHunter(Reader):
             'All Data': str(len(self.data)),
             'Unique Items': str(len(self.items)),
             'Duplicates': str(len(self.duplicates)),
-            'Exact Copies': str(copies),
+            'Resolved': str(copies),
         }
 
     def analyze_results(self):
-       resolved = int(self.data_info['Exact Copies'])
-       resolved += len(self.resolved)
-       self.resolved = []
-       self.data_info['Resolved'] = resolved
+        num_resolved = int(self.data_info['Resolved'])
+        num_resolved += len(self.resolved)
+        self.resolved = []
+        self.data_info['Resolved'] = str(num_resolved)
 
 if __name__ == '__main__':
     hunter = DuplicateHunter()

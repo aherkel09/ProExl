@@ -9,9 +9,10 @@ class DuplicateGUI():
         self.root = tk.Tk()
         self.root.title('ProExl Duplicate Hunter')
         self.root.configure(bg='black')
-        self.font = tkFont.Font(family='Palatino Linotype', size=12)
         self.item_frame = None
         self.int_var = IntVar()
+        self.pady = 4
+        self.font = tkFont.Font(family='Palatino Linotype', size=12)
         self.colors = {
             'brand': '#4bee8f',
             'accent': '#74b6b5',
@@ -32,7 +33,7 @@ class DuplicateGUI():
         if callback:
             button.configure(command=callback)
 
-        button.pack(pady=7)
+        button.pack(pady=self.pady)
 
     def make_radio_button(self, button_text, button_val):
         radio = tk.Radiobutton(self.item_frame, text=button_text, variable=self.int_var,
@@ -43,7 +44,7 @@ class DuplicateGUI():
     def make_label(self, label_text):
         label = tk.Label(self.item_frame, text=label_text, bg='black', fg=self.grey,
                 font=self.font)
-        label.pack(pady=7)
+        label.pack(pady=self.pady)
 
     def skip_button(self):
         self.make_radio_button('Skip This Item', 1)

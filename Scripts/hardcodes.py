@@ -33,6 +33,7 @@ class Hardcodes():
             self.eliminate_by_value(item, 'labor_prod', '0')
             self.eliminate_by_value(item, 'labor_prod', '1')
             self.eliminate_by_value(item, 'labor_prod', '12')
+            self.eliminate_by_value(item, 'labor_prod', '6')
             
         return self.items
 
