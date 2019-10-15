@@ -5,11 +5,10 @@ class DuplicateHunter(Reader):
     def __init__(self):
         super().__init__()
         self.data_info = {}
-        self.item_descriptions = {}
-        self.duplicate_descriptions = {}
+        self.items = {}
+        self.duplicates = []
         self.safe_to_remove = {}
         self.flagged = {}
-        self.selections = {}
         self.resolved = []
 
     def acquire_targets(self):
@@ -20,32 +19,30 @@ class DuplicateHunter(Reader):
         return targets
 
     def find_duplicates(self):
-        for d in self.data:
-            if d[1] not in self.item_descriptions:
-                self.item_descriptions[d[1]] = d
+        for data_row in self.data:
+            description = data_row[1]
+            if description not in self.items:
+                self.items[description] = data_row
             else:
-                self.duplicate_descriptions[d[1]] = d
-
-        self.data_info['All Data'] = str(len(self.data))
-        self.data_info['Unique Items'] = str(len(self.item_descriptions))
-        self.data_info['Duplicates'] = str(len(self.duplicate_descriptions))
-        
+                self.duplicates += [data_row]
 
     def match_values(self):
-        for key, value in self.duplicate_descriptions.items():
+        num_copies = 0
+        for d in self.duplicates:
+            description = d[1]
             # remove unique item codes before matching
-            item = self.item_descriptions[key].copy()
+            item = self.items[description].copy()
             item.pop(0)
-            duplicate = value.copy()
-            duplicate.pop(0)
+            exact_copy = d.copy()
+            exact_copy.pop(0)
 
-            if item == duplicate:
-                self.safe_to_remove[key] = value # safe to remove if all values match
+            if item == exact_copy:
+                num_copies += 1
+                self.safe_to_remove[description] = d
             else:
-                self.flagged[key] = [ # flag for user review
-                        self.item_descriptions[key],
-                        value
-                        ]
+                self.flagged[description] = [self.items[description], d]
+
+        self.initial_results(num_copies)
 
     def eliminate_hardcodes(self):
         hardcodes = Hardcodes(self.flagged)
@@ -54,29 +51,43 @@ class DuplicateHunter(Reader):
         for e in eliminated:
             # if eliminating by hardcoded values leaves 1 option, resolve item
             if len(eliminated[e]) == 1:
-                self.item_descriptions[e] = eliminated[e][0]
+                self.items[e] = eliminated[e][0]
                 self.resolved += [e]
 
         self.drop_all_duplicates()
 
     def resolve_item(self, selection, item):
         user_choice = self.flagged[item][selection - 2] # get selected option
-        self.item_descriptions[item] = user_choice
+        self.items[item] = user_choice
         self.resolved += [item]
 
     def is_finished(self):
-        return len(self.item_descriptions) and not len(self.flagged)
+        return len(self.items) and not len(self.flagged)
 
     def drop_all_duplicates(self):
         for r in self.resolved:
             self.flagged.pop(r, None)
 
         for s in self.safe_to_remove:
-            self.item_descriptions.pop(s, None)
+            self.items.pop(s, None)
 
+        self.analyze_results()
+
+    def initial_results(self, copies):
+        self.data_info = {
+            'All Data': str(len(self.data)),
+            'Unique Items': str(len(self.items)),
+            'Duplicates': str(len(self.duplicates)),
+            'Exact Copies': str(copies),
+        }
+
+    def analyze_results(self):
+       resolved = int(self.data_info['Exact Copies'])
+       resolved += len(self.resolved)
+       self.resolved = []
+       self.data_info['Resolved'] = resolved
 
 if __name__ == '__main__':
     hunter = DuplicateHunter()
     hunter.acquire_targets()
-
-    print(hunter.flagged['6x6 Rectangular - Bare'])
+    print(hunter.data_info)

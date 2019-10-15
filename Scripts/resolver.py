@@ -91,15 +91,21 @@ class Resolver():
         self.hunter.drop_all_duplicates()
 
         if self.hunter.is_finished():
-            self.writer.write_to_file(self.hunter.item_descriptions)
-            self.gui.show_complete()
+            self.writeout()
         else:
             self.review_skipped()
 
+    def writeout(self):
+        self.hunter.analyze_results()
+        self.writer.write_to_file(self.hunter.items)
+        self.writer.write_results(self.hunter.data_info)
+        self.gui.show_complete()
+
     def review_skipped(self):
         self.targets = self.hunter.flagged
+        self.skipped = 0 # reset skipped count
         self.display_next_target()
 
 if __name__ == '__main__':
-    resolver = Resolver(test=False)
+    resolver = Resolver(test=True)
     resolver.begin()
