@@ -1,6 +1,7 @@
 class Hardcodes():
     def __init__(self, flagged):
         self.items = flagged
+        self.garbage = {}
         self.columns = {
             'code': 0,
             'description': 1,
@@ -22,18 +23,20 @@ class Hardcodes():
                 keep += [index]
 
         if len(keep):
+            self.garbage[item] = []
             for t in trash:
-                self.items[item].pop(t)
+                self.garbage[item] += [self.items[item].pop(t)]
     
     def eliminate(self):
         for item in self.items:
             self.eliminate_by_value(item, 'unit', 'LB')
             self.eliminate_by_value(item, 'labor_cost', '65')
-            self.eliminate_by_value(item, 'mat_cost', '0')  
+            self.eliminate_by_value(item, 'mat_cost', '0')
             self.eliminate_by_value(item, 'labor_prod', '0')
             self.eliminate_by_value(item, 'labor_prod', '1')
             self.eliminate_by_value(item, 'labor_prod', '12')
             self.eliminate_by_value(item, 'labor_prod', '6')
-            
-        return self.items
+
+        print(self.garbage)   
+        return (self.items, self.garbage)
 
