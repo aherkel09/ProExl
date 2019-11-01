@@ -59,7 +59,7 @@ class Resolver():
     def select_option(self):
         selected = self.gui.int_var.get()
         if selected > 1:
-            self.hunter.resolve_item(selected, self.target_key)
+            self.hunter.resolve_selection(selected, self.target_key)
         else:
             self.skipped += 1
         

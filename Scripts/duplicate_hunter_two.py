@@ -14,7 +14,7 @@ class DuplicateHunter(Reader):
 
     def acquire_targets(self):
         self.find_duplicates()
-        copies = self.check_exact_copies()
+        copies = self.flag_or_resolve()
         self.initial_results(copies)
         self.eliminate_hardcodes()
 
@@ -29,27 +29,57 @@ class DuplicateHunter(Reader):
             else:
                 self.duplicates[description] += [d]
 
-    def check_exact_copies(self):
+    def flag_or_resolve(self):
         copies = 0
         for item in self.duplicates:
-            for option in self.duplicates[item]:
-                # make copies without unique item codes
-                unique = self.unique[item][0].copy()[1:]
-                exact_copy = option.copy()[1:]
-                
-                if unique == exact_copy:
-                    self.resolved += [item]
-                    copies += 1
-                elif item in self.flagged:
-                    self.flagged[item] += [option]
-                else:
-                    self.flagged[item] = [option]
-                    
+            self.flagged[item] = self.unique[item]
+            copies += self.flag_copies(item)
+            self.check_resolved(item)
+
         return copies
 
+    def flag_copies(self, item):
+        copies = 0
+        for option in self.duplicates[item]:
+            # make copies without unique item codes
+            unique = self.unique[item][0].copy()[1:]
+            exact_copy = option.copy()[1:]
+            
+            if unique == exact_copy:
+                # update item description
+                option[1] += ' DELETE'
+                copies += 1
+            else:
+                self.flagged[item] += [option]
+
+        return copies
+
+
     def eliminate_hardcodes(self):
-        hardcodes = Hardcodes(self.flagged)
-        (kept, trashed) = hardcodes.eliminate()
+        hardcodes = Hardcodes(self.flagged.copy())
+        (trash, keep) = hardcodes.eliminate()
+
+    def check_resolved(self, item):
+        if len(self.flagged[item]) == 1:
+            self.flagged.pop(item, None)
+            self.resolved += [item]
+
+    def resolve_selection(self, selection, description):
+        user_choice = selection - 2
+        self.resolve_item(user_choice, description)
+
+    def resolve_item(self, choice, description):
+        user_choice = self.flagged[description].pop(choice)
+        self.unique[description] = user_choice
+        self.signal_deleted(description)
+
+    def signal_deleted(self, item):
+        for option in self.flagged[item]:
+            option[1] += ' DELETE'
+
+        self.duplicates[item] = item
+        self.flagged.pop(item, None)
+        self.resolved += [item]
 
     def initial_results(self, copies):
         self.data_info = {
@@ -65,21 +95,6 @@ class DuplicateHunter(Reader):
         num_resolved += len(self.resolved)
         self.resolved = []
         self.data_info['Resolved'] = str(num_resolved)
-
-    def get_final_data(self):
-        for d in self.data:
-            if self.data[d] == self.duplicates[d]:
-                self.signal_deleted(d)
-
-        return self.data
-
-    def signal_deleted(self, item):
-        deleted = []
-        for option in self.data[item]:
-            item[1] += ' DELETE'
-            deleted += [item]
-
-        self.data[item] = deleted
     
     def writeout(self):
         writer = Writer()
