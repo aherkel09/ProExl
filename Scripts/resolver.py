@@ -1,4 +1,4 @@
-from duplicate_hunter import DuplicateHunter
+from duplicate_hunter_two import DuplicateHunter
 from duplicate_gui import DuplicateGUI
 
 class Resolver():
@@ -49,6 +49,7 @@ class Resolver():
         self.gui.command_button('Undo', self.undo_last)
 
     def show_info(self):
+        self.hunter.analyze_results()
         for i in self.hunter.data_info:
             self.gui.make_label(i + ': ' + self.hunter.data_info[i])
     
@@ -86,8 +87,6 @@ class Resolver():
             print('nothing to undo')
 
     def check_complete(self):
-        self.hunter.drop_all_duplicates()
-
         if self.hunter.is_finished():
             self.hunter.analyze_results()
             self.hunter.writeout()
@@ -96,7 +95,7 @@ class Resolver():
             self.review_skipped()
 
     def review_skipped(self):
-        self.targets = self.hunter.flagged
+        self.targets = self.hunter.flagged.copy()
         self.skipped = 0 # reset skipped count
         self.display_next_target()
 

@@ -1,43 +1,59 @@
 import unittest
-from duplicate_hunter import DuplicateHunter
+from duplicate_hunter_two import DuplicateHunter
 
-class TestDropDuplicates(unittest.TestCase):
+class TestDuplicateHunter(unittest.TestCase):
     def create_hunter(self):
         hunter = DuplicateHunter()
         return hunter
 
+    def get_total_items(self, hunter):
+        total_items = 0
+        for u in hunter.unique:
+            total_items += len(hunter.unique[u])
+        for d in hunter.duplicates:
+            total_items += len(hunter.duplicates[d])
+
+        return total_items
+
+    def list_codes(self, data):
+        codes = []
+        
+        for d in data:
+            codes += d
+            print(codes)
+            break
+
+        return codes
+
     def test_find_duplicates(self):
         hunter = self.create_hunter()
         hunter.find_duplicates()
-        self.assertTrue(len(hunter.item_descriptions) > 0)
-        self.assertTrue(len(hunter.duplicate_descriptions) > 0)
-        self.assertTrue(list(hunter.duplicate_descriptions.keys())[0] in hunter.item_descriptions)
+        total_items = self.get_total_items(hunter)
+        
+        self.assertTrue(total_items == len(hunter.data))
 
-    def test_match_values(self):
+    def test_acquire_targets(self):
         hunter = self.create_hunter()
         hunter.find_duplicates()
-        hunter.match_values()
-        self.assertTrue(len(hunter.flagged) > 0)
-        self.assertTrue(len(hunter.safe_to_remove) > 0)
-    
-    def test_resolution(self):
+        initial_items = self.get_total_items(hunter)
+        
+        hunter.flag_or_resolve()
+        hunter.eliminate_hardcodes()
+        final_items = self.get_total_items(hunter)
+
+        print(initial_items, final_items)
+        self.assertTrue(initial_items == final_items)
+
+    def test_results(self):
         hunter = self.create_hunter()
-        hunter.find_duplicates()
-        hunter.match_values()
-        
-        first_key = next(iter(hunter.flagged))
-        current_item = hunter.item_descriptions[first_key]
-        flagged_item = hunter.flagged[first_key]
-        hunter.flagged = {first_key: flagged_item}
-        hunter.select_duplicates()
-        
-        self.assertTrue(
-                hunter.item_descriptions[first_key] == current_item or 
-                hunter.item_descriptions[first_key] in flagged_item
-            )
+        hunter.acquire_targets()
+        final = hunter.get_final_data()
 
-        self.assertTrue(hunter.is_finished())
+        self.assertTrue(len(final) == len(hunter.data))
+        self.assertTrue(self.list_codes(final) == self.list_codes(hunter.data))
 
+        
+        
 if __name__ == '__main__':
     unittest.main()
 

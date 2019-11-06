@@ -16,6 +16,7 @@ class DuplicateHunter(Reader):
         self.match_values()
         self.eliminate_hardcodes() # remove duplicates via hardcoded queries
         targets = self.flagged.copy() # make copy of data for use in gui
+        
         return targets
 
     def find_duplicates(self):
@@ -85,6 +86,7 @@ class DuplicateHunter(Reader):
             'Duplicates': str(len(self.duplicates)),
             'Resolved': str(copies),
         }
+        
         print(self.data_info)
 
     def analyze_results(self):
@@ -92,6 +94,7 @@ class DuplicateHunter(Reader):
         num_resolved += len(self.resolved)
         self.resolved = []
         self.data_info['Resolved'] = str(num_resolved)
+        
         print(self.data_info)
 
     def get_final_data(self):

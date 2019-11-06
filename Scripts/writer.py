@@ -13,7 +13,7 @@ class Writer():
             writer = csv.writer(csv_out)
             
             for d in data:
-                writer.writerow(data[d])
+                writer.writerow(d)
 
     def write_results(self, results):
         with open(self.results_file, 'a') as file:
