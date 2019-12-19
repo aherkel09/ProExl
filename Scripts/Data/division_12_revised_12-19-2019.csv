@@ -16350,9 +16350,9 @@ Code,Description,Unit,Mat Cost,Mat Factor,Mat Unit,Labor Cost,Labor Productivity
 12.010080.0090,"9,000 CFM In-Line Exhaust Fan",EA,100,1,,75,12,HR,0,0,1,HR,0
 12.010080.0100,Tjerlund Inline Fan,EA,10,1,,75,1,HR,0,0,1,HR,0
 12.010090 Linesets,,,,,,,,,,,,,
-12.010090.0010,"3/8""x 3/4"" Lineset",LF,2.35,1,,75,0.08,HR,0,0,1,HR,0
-12.010090.0020,"3/8""x 7/8"" Lineset",LF,3.17,1,,75,0.08,HR,0,0,1,HR,0
-12.010090.0030,"3/4"" Linset",LF,3.75,1,,75,0.12,HR,0,0,1,HR,0
+12.010090.0010,3/8x3/4 Lineset,LF,2.35,1,,75,0.08,HR,0,0,1,HR,0
+12.010090.0020,3/8x7/8 Lineset,LF,3.17,1,,75,0.08,HR,0,0,1,HR,0
+12.010090.0030,3/4 Linset,LF,3.75,1,,75,0.12,HR,0,0,1,HR,0
 12.010090.0040,"25'-0"" Lineset- 2.5 Ton Unit",EA,5,1,,75,5,HR,0,75,1,HR,0
 12.010090.0050,"35'-0"" Lineset -2.5 Ton Unit",EA,5,1,,75,8,HR,0,90,1,HR,0
 12.010090.0060,"50'-0"" Lineset -5 Ton Unit",EA,5,1,,75,10,HR,0,155,1,HR,0
