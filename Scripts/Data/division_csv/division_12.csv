@@ -5266,10 +5266,10 @@ Code,Description,Unit,Mat Cost,Mat Factor,Mat Unit,Labor Cost,Labor Productivity
 12.001240.0090,Vertical Duct Elbow - 48x22,EA,0,1,,75,1,HR,0,0,1,HR,0
 12.001240.0100,Vertical Duct Elbow - 48x24,EA,0,1,,75,1,HR,0,0,1,HR,0
 "12.001250 Rectangular, Tees",,,,,,,,,,,,,
-12.001250.0010,8x8x8 - Rectangular Tee,,0,1,,0,1,HR,0,0,1,HR,0
-12.001250.0020,10x10x10 - Rectangular Tee,,0,1,,0,1,HR,0,0,1,HR,0
-12.001250.0030,12x12x12 - Rectangular Tee,,0,1,,0,1,HR,0,0,1,HR,0
-12.001250.0040,14x14x14 - Rectangular Tee,,0,1,,0,1,HR,0,0,1,HR,0
+12.001250.0010,8x8x8 - Rectangular Tee,EA,0,1,,0,1,HR,0,0,1,HR,0
+12.001250.0020,10x10x10 - Rectangular Tee,EA,0,1,,0,1,HR,0,0,1,HR,0
+12.001250.0030,12x12x12 - Rectangular Tee,EA,0,1,,0,1,HR,0,0,1,HR,0
+12.001250.0040,14x14x14 - Rectangular Tee,EA,0,1,,0,1,HR,0,0,1,HR,0
 12.001250.0100,16x16x16 - Rectangular Tee,EA,0,1,,75,1,HR,0,0,1,HR,0
 12.001260 Rectangular Reducers - 42x24,,,,,,,,,,,,,
 12.001260.0010,42x24 to 42x22 - Reducer,EA,0,1,,75,1,HR,0,0,1,HR,0
@@ -9869,7 +9869,7 @@ Code,Description,Unit,Mat Cost,Mat Factor,Mat Unit,Labor Cost,Labor Productivity
 12.001730.0280,34x8 to 6x8 - Reducer,EA,0,1,,75,1,HR,0,0,1,HR,0
 12.001730.0500,34x8 to 6x6 - Reducer,EA,0,1,,75,1,HR,0,0,1,HR,0
 12.001740 Rectangular Reducers - 34x6,,,,,,,,,,,,,
-12.001740.0010,34x6 to 32x6 - Reducer,,0,1,,75,1,HR,0,0,1,HR,0
+12.001740.0010,34x6 to 32x6 - Reducer,EA,0,1,,75,1,HR,0,0,1,HR,0
 12.001740.0020,34x6 to 30x6 - Reducer,EA,0,1,,75,1,HR,0,0,1,HR,0
 12.001740.0030,34x6 to 28x6 - Reducer,EA,0,1,,75,1,HR,0,0,1,HR,0
 12.001740.0040,34x6 to 26x6 - Reducer,EA,0,1,,75,1,HR,0,0,1,HR,0
@@ -12221,7 +12221,7 @@ Code,Description,Unit,Mat Cost,Mat Factor,Mat Unit,Labor Cost,Labor Productivity
 12.002060.1950,26x22 to 6x6 - Reducer,EA,0,1,,75,1,HR,0,0,1,HR,0
 12.002070 Rectangular Reducers - 26x20,,,,,,,,,,,,,
 12.002070.0010,26x20 to 26x18 - Reducer,EA,0,1,,75,1,HR,0,0,1,HR,0
-12.002070.0012,26x20 to 26x16 - Reducer,,0,1,,75,1,HR,0,0,1,HR,0
+12.002070.0012,26x20 to 26x16 - Reducer,EA,0,1,,75,1,HR,0,0,1,HR,0
 12.002070.0014,26x20 to 26x14 - Reducer,EA,0,1,,75,1,HR,0,0,1,HR,0
 12.002070.0020,26x20 to 22x12 - Reducer,EA,0,1,,75,1,HR,0,0,1,HR,0
 12.002070.0030,26x20 to 22x10 - Reducer,EA,0,1,,75,1,HR,0,0,1,HR,0

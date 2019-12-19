@@ -1,8 +1,8 @@
 import csv
 
 class Reader():
-    def __init__(self):
-        self.in_file = "Data/db_items.csv"
+    def __init__(self, in_file):
+        self.in_file = in_file
         self.data = self.list_data()
         self.headers = self.get_headers()
 

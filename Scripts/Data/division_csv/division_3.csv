@@ -1,0 +1,2284 @@
+Code,Description,Unit,Mat Cost,Mat Factor,Mat Unit,Labor Cost,Labor Productivity,Labor Unit,Sub Cost,Equip Cost,Equip Productivity,Equip Unit,Other Cost
+03.010010 Copper Pipe - Hard - Type K,,,,,,,,,,,,,
+03.010010.0010,"1/2"" Copper Pipe, Hard, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0020,"3/4"" Copper Pipe, Hard, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0030,"1"" Copper Pipe, Hard, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0040,"1-1/4"" Copper Pipe, Hard, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0050,"1-1/2"" Copper Pipe, Hard, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0060,"2"" Copper Pipe, Hard, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0070,"2-1/2"" Copper Pipe, Hard, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0080,"3"" Copper Pipe, Hard, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0090,"3-1/2"" Copper Pipe, Hard, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0100,"1/2"" Copper Pipe, Hard, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0110,"4"" Copper Pipe, Hard, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0120,"3/4"" Copper Pipe, Hard, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0130,"1"" Copper Pipe, Hard, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0140,"1-1/4"" Copper Pipe, Hard, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0150,"1-1/2"" Copper Pipe, Hard, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0160,"2"" Copper Pipe, Hard, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0170,"2-1/2"" Copper Pipe, Hard, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0180,"3"" Copper Pipe, Hard, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010010.0190,"3-1/2"" Copper Pipe, Hard, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010020 Copper Pipe - Hard - Type L,,,,,,,,,,,,,
+03.010020.0010,"1/2"" Copper Pipe, Hard, Type L",LF,1.32,1,,75,0.2,HR,0,0,1,HR,0
+03.010020.0020,"3/4"" Copper Pipe, Hard, Type L",LF,2.14,1,,75,0.25,HR,0,0,1,HR,0
+03.010020.0030,"1"" Copper Pipe, Hard, Type L",LF,3.07,1,,75,4.44,HR,0,0,1,HR,0
+03.010020.0040,"1-1/4"" Copper Pipe, Hard, Type L",LF,4.21,1,,75,0.25,HR,0,0,1,HR,0
+03.010020.0050,"1-1/2"" Copper Pipe, Hard, Type L",LF,5.42,1,,75,0.3,HR,0,0,1,HR,0
+03.010020.0060,"2"" Copper Pipe, Hard, Type L",LF,8.73,1,,75,0.35,HR,0,0,1,HR,0
+03.010020.0070,"2-1/2"" Copper Pipe, Hard, Type L",LF,12.39,1,,75,0.35,HR,0,0,1,HR,0
+03.010020.0080,"3"" Copper Pipe, Hard, Type L",LF,16.78,1,,75,0.5,HR,0,0,1,HR,0
+03.010020.0090,"3-1/2"" Copper Pipe, Hard, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010020.0100,"4"" Copper Pipe, Hard, Type L",LF,29.44,1,,75,0.65,HR,0,0,1,HR,0
+03.010020.0110,"5"" Copper Pipe, Hard, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010020.0120,"6"" Copper Pipe, Hard, Type L DELETE",LF,0,1,,65,1,HR,0,0,1,HR,0
+03.010020.0130,"4"" Copper Pipe, Hard, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010020.0140,"5"" Copper Pipe, Hard, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010020.0150,"6"" Copper Pipe, Hard, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010020.0160,"3/4"" Copper Pipe, Hard, Type L DELETE",LF,1.85,1,,75,1,HR,0,0,1,HR,0
+03.010020.0170,"1"" Copper Pipe, Hard, Type L DELETE",LF,2.81,1,,75,1,HR,0,0,1,HR,0
+03.010020.0180,"1-1/4"" Copper Pipe, Hard, Type L DELETE",LF,3.99,1,,75,1,HR,0,0,1,HR,0
+03.010020.0190,"1-1/2"" Copper Pipe, Hard, Type L DELETE",LF,5.15,1,,75,1,HR,0,0,1,HR,0
+03.010020.0200,"2"" Copper Pipe, Hard, Type L DELETE",LF,7.84,1,,75,1,HR,0,0,1,HR,0
+03.010020.0210,"2-1/2"" Copper Pipe, Hard, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010020.0220,"3"" Copper Pipe, Hard, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010020.0230,"3-1/2"" Copper Pipe, Hard, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010030 Copper Pipe - Hard - Type M,,,,,,,,,,,,,
+03.010030.0010,"1/2"" Copper Pipe, Hard, Type M",LF,0.81,1,,75,1,HR,0,0,1,HR,0
+03.010030.0020,"3/4"" Copper Pipe, Hard, Type M",LF,1.3,1,,75,1,HR,0,0,1,HR,0
+03.010030.0030,"1"" Copper Pipe, Hard, Type M",LF,2.21,1,,75,1,HR,0,0,1,HR,0
+03.010030.0040,"1-1/4"" Copper Pipe, Hard, Type M",LF,3.25,1,,75,1,HR,0,0,1,HR,0
+03.010030.0050,"1-1/2"" Copper Pipe, Hard, Type M",LF,4.48,1,,75,1,HR,0,0,1,HR,0
+03.010030.0060,"2"" Copper Pipe, Hard, Type M",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010030.0070,"2-1/2"" Copper Pipe, Hard, Type M",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010030.0080,"3"" Copper Pipe, Hard, Type M",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010030.0090,"3-1/2"" Copper Pipe, Hard, Type M",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010030.0100,"4"" Copper Pipe, Hard, Type M DELETE",LF,0,1,,65,1,HR,0,0,1,HR,0
+03.010030.0110,"4"" Copper Pipe, Hard, Type M",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010030.0120,"3/4"" Copper Pipe, Hard, Type M DELETE",LF,1.3,1,,75,1,HR,0,0,1,HR,0
+03.010030.0130,"1"" Copper Pipe, Hard, Type M DELETE",LF,2.21,1,,75,1,HR,0,0,1,HR,0
+03.010030.0140,"1-1/4"" Copper Pipe, Hard, Type M DELETE",LF,3.25,1,,75,1,HR,0,0,1,HR,0
+03.010030.0150,"1-1/2"" Copper Pipe, Hard, Type M DELETE",LF,4.48,1,,75,1,HR,0,0,1,HR,0
+03.010030.0160,"2"" Copper Pipe, Hard, Type M DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010030.0170,"2-1/2"" Copper Pipe, Hard, Type M DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010030.0180,"3"" Copper Pipe, Hard, Type M DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010030.0190,"3-1/2"" Copper Pipe, Hard, Type M DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010040 Copper Pipe - Soft - Type K,,,,,,,,,,,,,
+03.010040.0010,"1/2"" Copper Pipe, Soft, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010040.0020,"3/4"" Copper Pipe, Soft, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010040.0030,"1"" Copper Pipe, Soft, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010040.0040,"1-1/4"" Copper, Soft, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010040.0050,"1-1/2"" Copper Pipe, Soft, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010040.0060,"2"" Copper Pipe, Soft, Type K DELETE",LF,0,1,,65,1,HR,0,0,1,HR,0
+03.010040.0070,"3/4"" Copper Pipe, Soft, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010040.0080,"1"" Copper Pipe, Soft, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010040.0090,"1-1/4"" Copper, Soft, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010040.0100,"1-1/2"" Copper Pipe, Soft, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010040.0110,"2"" Copper Pipe, Soft, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010050 Copper Pipe - Soft - Type L,,,,,,,,,,,,,
+03.010050.0010,"1/4"" Copper Pipe, Soft, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010050.0020,"3/8"" Copper Pipe, Soft, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010050.0030,"1/2"" Copper Pipe, Soft, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010050.0040,"3/4"" Copper Pipe, Soft, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010050.0050,"1"" Copper Pipe, Soft, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010050.0060,"1-1/4"" Copper, Soft, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010050.0070,"1-1/2"" Copper Pipe, Soft, Type L DELETE",LF,0,1,,65,1,HR,0,0,1,HR,0
+03.010050.0080,"3/8"" Copper Pipe, Soft, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010050.0090,"1/2"" Copper Pipe, Soft, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010050.0100,"3/4"" Copper Pipe, Soft, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010050.0110,"1"" Copper Pipe, Soft, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010050.0120,"1-1/4"" Copper, Soft, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010050.0130,"1-1/2"" Copper Pipe, Soft, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
+"03.010060 Copper Pipe - Soft, Type L - Coil",,,,,,,,,,,,,
+03.010060.0010,"1/2"" Copper Pipe, Soft, Type L, 60' Coil",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010060.0020,"3/4"" Copper Pipe, Soft, Type L, 60' Coil",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010060.0030,"1"" Copper Pipe, Soft, Type L, 60' Coil",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010060.0040,"1-1/4"" Copper Pipe, Soft, Type L, 60' Coil",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010060.0050,"1-1/2"" Copper Pipe, Soft, Type L, 60' Coil DELETE",LF,0,1,,65,1,HR,0,0,1,HR,0
+03.010060.0060,"3/4"" Copper Pipe, Soft, Type L, 60' Coil DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010060.0070,"1"" Copper Pipe, Soft, Type L, 60' Coil DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010060.0080,"1-1/4"" Copper Pipe, Soft, Type L, 60' Coil DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010060.0090,"1-1/2"" Copper Pipe, Soft, Type L, 60' Coil",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010 Copper Pipe - Oxygen Service - Type K,,,,,,,,,,,,,
+03.020010.0010,"1/2"" Copper Pipe, Oxygen Service, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0020,"3/4"" Copper Pipe, Oxygen Service, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0030,"1"" Copper Pipe, Oxygen Service, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0040,"1-1/4"" Copper Pipe, Oxygen Service, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0050,"1-1/2"" Copper Pipe, Oxygen Service, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0060,"2"" Copper Pipe, Oxygen Service, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0070,"2-1/2"" Copper Pipe, Oxygen Service, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0080,"3"" Copper Pipe, Oxygen Service, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0090,"3-1/2"" Copper Pipe, Oxygen Service, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0100,"1/2"" Copper Pipe, Oxygen Service, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0110,"4"" Copper Pipe, Oxygen Service, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0120,"3/4"" Copper Pipe, Oxygen Service, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0130,"1"" Copper Pipe, Oxygen Service, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0140,"1-1/4"" Copper Pipe, Oxygen Service, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0150,"1-1/2"" Copper Pipe, Oxygen Service, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0160,"2"" Copper Pipe, Oxygen Service, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0170,"2-1/2"" Copper Pipe, Oxygen Service, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0180,"3"" Copper Pipe, Oxygen Service, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.020010.0190,"3-1/2"" Copper Pipe, Oxygen Service, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030010 Copper Pipe - Hard - Drain-Waste and Vent,,,,,,,,,,,,,
+03.030010.0010,"1-1/4"" Copper Pipe DWV, Hard",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030010.0020,"1-1/2"" Copper Pipe DWV, Hard",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030010.0030,"2"" Copper Pipe DWV, Hard",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030010.0040,"3"" Copper Pipe DWV, Hard",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030010.0050,"4"" Copper Pipe DWV, Hard",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030010.0060,"6"" Copper Pipe DWV, Hard",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030010.0070,"8"" Copper Pipe DWV, Hard DELETE",LF,0,1,,65,1,HR,0,0,1,HR,0
+03.030010.0080,"1-1/2"" Copper Pipe DWV, Hard DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030010.0090,"2"" Copper Pipe DWV, Hard DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030010.0100,"3"" Copper Pipe DWV, Hard DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030010.0110,"4"" Copper Pipe DWV, Hard DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030010.0120,"6"" Copper Pipe DWV, Hard DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030010.0130,"8"" Copper Pipe DWV, Hard",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030020 Copper Pipe - Refrigerant - Soft,,,,,,,,,,,,,
+03.030020.0010,"3/16"" Copper Pipe, Refrigerant, Soft",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030020.0020,"1/4"" Copper Pipe, Refrigerant, Soft",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030020.0030,"5/16"" Copper Pipe, Refrigerant, Soft",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030020.0040,"3/8"" Copper Pipe, Refrigerant, Soft",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030020.0050,"1/2"" Copper Pipe, Refrigerant, Soft",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030020.0060,"3/4"" Copper Pipe, Refrigerant, Soft DELETE",LF,0,1,,65,1,HR,0,0,1,HR,0
+03.030020.0070,"1/4"" Copper Pipe, Refrigerant, Soft DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030020.0080,"5/16"" Copper Pipe, Refrigerant, Soft DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030020.0090,"3/8"" Copper Pipe, Refrigerant, Soft DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030020.0100,"1/2"" Copper Pipe, Refrigerant, Soft DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.030020.0110,"3/4"" Copper Pipe, Refrigerant, Soft",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.040010 90 Degree Elbow - Wrot,,,,,,,,,,,,,
+03.040010.0010,"1/4"" CxC Pressure 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040010.0020,"3/8"" CxC Pressure 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040010.0030,"1/2"" CxC Pressure 90 Degree Elbow, Wrot",EA,0.55,1,,75,0.4,HR,0,0,1,HR,0
+03.040010.0040,"3/4"" CxC Pressure 90 Degree Elbow, Wrot",EA,0.95,1,,75,0.3,HR,0,0,1,HR,0
+03.040010.0050,"1"" CxC Pressure 90 Degree Elbow, Wrot",EA,2.85,1,,75,0.45,HR,0,0,1,HR,0
+03.040010.0060,"1-1/4"" CxC Pressure 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040010.0070,"1-1/2"" CxC Pressure 90 Degree Elbow, Wrot",EA,4.3,1,,75,0.4,HR,0,0,1,HR,0
+03.040010.0080,"2"" CxC Pressure 90 Degree Elbow, Wrot",EA,8.4,1,,75,0.5,HR,0,0,1,HR,0
+03.040010.0090,"2-1/2"" CxC Pressure 90 Degree Elbow, Wrot",EA,21.4,1,,75,0.75,HR,0,0,1,HR,0
+03.040010.0100,"3"" CxC Pressure 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040010.0110,"3-1/2"" CxC Pressure 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040010.0120,"4"" CxC Pressure 90 Degree Elbow, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040010.0130,"3"" CxC Pressure 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040010.0140,"3-1/2"" CxC Pressure 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040010.0150,"4"" CxC Pressure 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040010.0160,"3/8"" CxC Pressure 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040010.0170,"1/2"" CxC Pressure 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040010.0180,"3/4"" CxC Pressure 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040010.0190,"1"" CxC Pressure 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040010.0200,"1-1/4"" CxC Pressure 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040010.0210,"1-1/2"" CxC Pressure 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040010.0220,"2"" CxC Pressure 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040010.0230,"2-1/2"" CxC Pressure 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020 90 Degree Elbow - Long Turn - Wrot,,,,,,,,,,,,,
+03.040020.0010,"1/4"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0020,"3/8"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0030,"1/2"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0040,"3/4"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0050,"1"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0060,"1-1/4"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0070,"1-1/2"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0080,"2"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0090,"2-1/2"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0100,"3"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0110,"3-1/2"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0120,"4"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040020.0130,"3"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0140,"3-1/2"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0150,"4"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0160,"3/8"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0170,"1/2"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0180,"3/4"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0190,"1"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0200,"1-1/4"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0210,"1-1/2"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0220,"2"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040020.0230,"2-1/2"" CxC Pressure 90 Degree Elbow, Long Turn, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040030 90 Degree Reducing Elbow - Short Turn,,,,,,,,,,,,,
+03.040030.0010,"1/2"" x 3/8"" CxC Pressure 90 Degree Reducing Elbow, Short Turn",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040030.0020,"3/4"" x 1/2"" CxC Pressure 90 Degree Reducing Elbow, Short Turn",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040030.0030,"1"" x 1/2"" CxC Pressure 90 Degree Reducing Elbow, Short Turn",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040030.0040,"1"" x 3/4"" CxC Pressure 90 Degree Reducing Elbow, Short Turn",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040030.0050,"1-1/4"" x 1"" CxC Pressure 90 Degree Reducing Elbow, Short Turn",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040030.0060,"1-1/2"" x 1-1/4"" CxC Pressure 90 Degree Reducing Elbow, Short Turn",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040030.0070,"2"" x 1-1/2"" CxC Pressure 90 Degree Reducing Elbow, Short Turn DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040030.0080,"3/4"" x 1/2"" CxC Pressure 90 Degree Reducing Elbow, Short Turn DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040030.0090,"1"" x 1/2"" CxC Pressure 90 Degree Reducing Elbow, Short Turn DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040030.0100,"1"" x 3/4"" CxC Pressure 90 Degree Reducing Elbow, Short Turn DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040030.0110,"1-1/4"" x 1"" CxC Pressure 90 Degree Reducing Elbow, Short Turn DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040030.0120,"1-1/2"" x 1-1/4"" CxC Pressure 90 Degree Reducing Elbow, Short Turn DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040030.0130,"2"" x 1-1/2"" CxC Pressure 90 Degree Reducing Elbow, Short Turn",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040 45 Degree Elbows,,,,,,,,,,,,,
+03.040040.0010,"1/4"" FTGxC, 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040.0020,"1/2"" FTGxC, 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040.0030,"3/4"" FTGxC, 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040.0040,"1"" FTGxC, 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040.0050,"1-1/4"" FTGxC, 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040.0060,"1-1/2"" FTGxC, 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040.0070,"2"" FTGxC, 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040.0080,"2-1/2"" FTGxC, 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040.0090,"3"" FTGxC, 45 Degree Elbow, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040040.0100,"1/2"" FTGxC, 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040.0110,"3/4"" FTGxC, 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040.0120,"1"" FTGxC, 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040.0130,"1-1/4"" FTGxC, 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040.0140,"1-1/2"" FTGxC, 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040.0150,"2"" FTGxC, 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040.0160,"2-1/2"" FTGxC, 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040040.0170,"3"" FTGxC, 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050 90 Degree Elbows,,,,,,,,,,,,,
+03.040050.0010,"3/8"" FTGxC, 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0020,"1/2"" FTGxC, 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0030,"3/4"" FTGxC, 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0040,"1"" FTGxC, 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0050,"1-1/4"" FTGxC, 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0060,"1-1/2"" FTGxC, 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0070,"2"" FTGxC, 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0080,"2-1/2"" FTGxC, 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0090,"3"" FTGxC, 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0100,"3/8"" FTGxC, 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0110,"4"" FTGxC, 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0120,"1/2"" FTGxC, 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0130,"3/4"" FTGxC, 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0140,"1"" FTGxC, 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0150,"1-1/4"" FTGxC, 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0160,"1-1/2"" FTGxC, 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0170,"2"" FTGxC, 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0180,"2-1/2"" FTGxC, 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040050.0190,"3"" FTGxC, 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060 45 Degree Elbows - CxC,,,,,,,,,,,,,
+03.040060.0010,"1/4"" CxC Pressure 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0020,"3/8"" CxC Pressure 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0030,"1/2"" CxC Pressure 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0040,"3/4"" CxC Pressure 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0050,"1"" CxC Pressure 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0060,"1-1/4"" CxC Pressure 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0070,"1-1/2"" CxC Pressure 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0080,"2"" CxC Pressure 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0090,"2-1/2"" CxC Pressure 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0100,"1/4"" CxC Pressure 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0110,"3"" CxC Pressure 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0120,"3/8"" CxC Pressure 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0130,"1/2"" CxC Pressure 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0140,"3/4"" CxC Pressure 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0150,"1"" CxC Pressure 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0160,"1-1/4"" CxC Pressure 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0170,"1-1/2"" CxC Pressure 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0180,"2"" CxC Pressure 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040060.0190,"2-1/2"" CxC Pressure 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070 Tees,,,,,,,,,,,,,
+03.040070.0010,"1/4"" CxCxC Pressure Tee, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0020,"3/8"" CxCxC Pressure Tee, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0030,"1/2"" CxCxC Pressure Tee, Wrot",EA,0.75,1,,75,0.4,HR,0,0,1,HR,0
+03.040070.0040,"3/4"" CxCxC Pressure Tee, Wrot",EA,1.65,1,,75,0.4,HR,0,0,1,HR,0
+03.040070.0050,"1"" CxCxC Pressure Tee, Wrot",EA,4.1,1,,75,0.5,HR,0,0,1,HR,0
+03.040070.0060,"1-1/4"" CxCxC Pressure Tee, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0070,"1-1/2"" CxCxC Pressure Tee, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0080,"2"" CxCxC Pressure Tee, Wrot",EA,14.75,1,,75,0.5,HR,0,0,1,HR,0
+03.040070.0090,"2-1/2"" CxCxC Pressure Tee, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0100,"3"" CxCxC Pressure Tee, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0110,"3-1/2"" CxCxC Pressure Tee, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0120,"4"" CxCxC Pressure Tee, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0130,"5"" CxCxC Pressure Tee, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0140,"6"" CxCxC Pressure Tee, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040070.0150,"3"" CxCxC Pressure Tee, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0160,"3-1/2"" CxCxC Pressure Tee, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0170,"4"" CxCxC Pressure Tee, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0180,"5"" CxCxC Pressure Tee, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0190,"6"" CxCxC Pressure Tee, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0200,"3/8"" CxCxC Pressure Tee, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0210,"1/2"" CxCxC Pressure Tee, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0220,"3/4"" CxCxC Pressure Tee, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0230,"1"" CxCxC Pressure Tee, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0240,"1-1/4"" CxCxC Pressure Tee, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0250,"1-1/2"" CxCxC Pressure Tee, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0260,"2"" CxCxC Pressure Tee, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040070.0270,"2-1/2"" CxCxC Pressure Tee, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+"03.040080 Reducing Tees - < 1""",,,,,,,,,,,,,
+03.040080.0010,"3/8"" x 3/8"" x 1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0020,"3/8"" x 3/8"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0030,"1/2"" x 3/8"" x 3/8"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0040,"1/2"" x 1/2"" x 1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0050,"1/2"" x 1/2"" x 3/8"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0060,"1/2"" x 1/2"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0070,"1/2"" x 1/2"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0080,"3/4"" x 3/8"" x 3/8"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0090,"3/4"" x 1/2"" x 3/8"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0100,"3/4"" x 1/2"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0110,"3/4"" x 1/2"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0120,"3/4"" x 3/4"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0130,"3/4"" x 3/4"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040080.0140,"3/4"" x 1/2"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0150,"3/4"" x 1/2"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0160,"3/4"" x 3/4"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0170,"3/4"" x 3/4"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0180,"3/8"" x 3/8"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0190,"1/2"" x 3/8"" x 3/8"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0200,"1/2"" x 1/2"" x 1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0210,"1/2"" x 1/2"" x 3/8"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0220,"1/2"" x 1/2"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0230,"1/2"" x 1/2"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0240,"3/4"" x 3/8"" x 3/8"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040080.0250,"3/4"" x 1/2"" x 3/8"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+"03.040090 Reducing Tees - 1""",,,,,,,,,,,,,
+03.040090.0010,"1"" x 1/2"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0020,"1"" x 1/2"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0030,"1"" x 1/2"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0040,"1"" x 3/4"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0050,"1"" x 3/4"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0060,"1"" x 3/4"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0070,"1"" x 1"" x 3/8"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0080,"1"" x 1"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0090,"1"" x 1"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0100,"1"" x 1"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0110,"1"" x 1"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0120,"1-1/4"" x 1-1/4"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0130,"1-1/4"" x 1-1/4"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0140,"1-1/4"" x 1-1/4"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0150,"1-1/4"" x 1-1/4"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0160,"1-1/4"" x 1-1/4"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0170,"1-1/4"" x 1-1/4"" x 3/8"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0180,"1-1/4"" x 1"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0190,"1-1/4"" x 1"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0200,"1-1/4"" x 1"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0210,"1-1/4"" x 1"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0220,"1-1/4"" x 3/4"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0230,"1-1/4"" x 3/4"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0240,"1-1/4"" x 3/4"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0250,"1-1/4"" x 3/4"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0260,"1-1/4"" x 1/2"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0270,"1-1/2"" x 1-1/2"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0280,"1-1/2"" x 1-1/2"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0290,"1-1/2"" x 1-1/2"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0300,"1-1/2"" x 1-1/2"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0310,"1-1/2"" x 1-1/4"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0320,"1-1/2"" x 1-1/4"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0330,"1-1/2"" x 1-1/4"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0340,"1-1/2"" x 1-1/4"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0350,"1-1/2"" x 1-1/4"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0360,"1-1/2"" x 1"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0370,"1-1/2"" x 1"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0380,"1-1/2"" x 1"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0390,"1-1/2"" x 1"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0400,"1-1/2"" x 1"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0410,"1-1/2"" x 3/4"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0420,"1-1/2"" x 3/4"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0430,"1-1/2"" x 3/4"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0440,"1-1/2"" x 3/4"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0450,"1-1/2"" x 3/4"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040090.0460,"1"" x 1"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0470,"1"" x 1"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0480,"1-1/4"" x 1-1/4"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0490,"1-1/4"" x 1-1/4"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0500,"1-1/4"" x 1-1/4"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0510,"1-1/4"" x 1-1/4"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0520,"1-1/4"" x 1-1/4"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0530,"1-1/4"" x 1-1/4"" x 3/8"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0540,"1-1/4"" x 1"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0550,"1-1/4"" x 1"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0560,"1"" x 1/2"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0570,"1-1/4"" x 1"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0580,"1-1/4"" x 1"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0590,"1-1/4"" x 3/4"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0600,"1-1/4"" x 3/4"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0610,"1-1/4"" x 3/4"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0620,"1-1/4"" x 3/4"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0630,"1-1/4"" x 1/2"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0640,"1-1/2"" x 1-1/2"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0650,"1-1/2"" x 1-1/2"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0654,"1-1/2"" x 1-1/2"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0660,"1-1/2"" x 1-1/2"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0670,"1"" x 1/2"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0680,"1-1/2"" x 1-1/2"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0690,"1-1/2"" x 1-1/4"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0700,"1-1/2"" x 1-1/4"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0710,"1-1/2"" x 1-1/4"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0720,"1-1/2"" x 1-1/4"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0730,"1-1/2"" x 1-1/4"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0740,"1-1/2"" x 1"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0750,"1-1/2"" x 1"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0760,"1-1/2"" x 1"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0770,"1-1/2"" x 1"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0780,"1"" x 3/4"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0790,"1-1/2"" x 1"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0800,"1-1/2"" x 3/4"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0810,"1-1/2"" x 3/4"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0820,"1-1/2"" x 3/4"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0830,"1-1/2"" x 3/4"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0840,"1-1/2"" x 3/4"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0850,"1"" x 3/4"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0860,"1"" x 3/4"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0870,"1"" x 1"" x 3/8"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0880,"1"" x 1"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040090.0890,"1"" x 1"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+"03.040100 Reducing Tees - 2""",,,,,,,,,,,,,
+03.040100.0010,"2"" x 2"" x 2-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0020,"2"" x 2"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0030,"2"" x 2"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0040,"2"" x 2"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0050,"2"" x 2"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0060,"2"" x 2"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0070,"2"" x 1-1/2"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0080,"2"" x 1-1/2"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0090,"2"" x 1-1/2"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0100,"2"" x 1-1/2"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0110,"2"" x 1-1/2"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0120,"2"" x 1-1/4"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0130,"2"" x 1-1/4"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0140,"2"" x 1-1/4"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0150,"2"" x 1-1/4"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0160,"2"" x 1-1/4"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0170,"2"" x 1"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0180,"2"" x 1"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0190,"2"" x 3/4"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0200,"2"" x 1/2"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0210,"2-1/2"" x 2-1/2"" x 2""  CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0220,"2-1/2"" x 2-1/2"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0230,"2-1/2"" x 2-1/2"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0240,"2-1/2"" x 2-1/2"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0250,"2-1/2"" x 2-1/2"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0260,"2-1/2"" x 2-1/2"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0270,"2-1/2"" x 2"" x 2-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0280,"2-1/2"" x 2"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0290,"2-1/2"" x 2"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0300,"2-1/2"" x 2"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0310,"2-1/2"" x 2"" x 1""  CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0320,"2-1/2"" x 2"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0330,"2-1/2"" x 1-1/2"" x 2-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0340,"2-1/2"" x 1-1/2"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0350,"2-1/2"" x 1-1/2"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0360,"2-1/2"" x 1-1/2"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0370,"2-1/2"" x 1-1/4"" x 2-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0380,"2-1/2"" x 1-1/4"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0390,"2-1/2"" x 1"" x 2-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0400,"2"" x 2"" x 2-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0410,"2"" x 1-1/2"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0420,"2"" x 1-1/2"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0430,"2"" x 1-1/4"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0440,"2"" x 1-1/4"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0450,"2"" x 1-1/4"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0460,"2"" x 1-1/4"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0470,"2"" x 1-1/4"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0480,"2"" x 1"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0490,"2"" x 1"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0500,"2"" x 3/4"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0510,"2"" x 2"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0520,"2"" x 1/2"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0530,"2-1/2"" x 2-1/2"" x 2""  CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0540,"2-1/2"" x 2-1/2"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0550,"2-1/2"" x 2-1/2"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0560,"2-1/2"" x 2-1/2"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0570,"2-1/2"" x 2-1/2"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0580,"2-1/2"" x 2-1/2"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0590,"2-1/2"" x 2"" x 2-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0600,"2-1/2"" x 2"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0610,"2-1/2"" x 2"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0620,"2"" x 2"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0630,"2-1/2"" x 2"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0640,"2-1/2"" x 2"" x 1""  CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0650,"2-1/2"" x 2"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0660,"2-1/2"" x 1-1/2"" x 2-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0670,"2-1/2"" x 1-1/2"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0680,"2-1/2"" x 1-1/2"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0690,"2-1/2"" x 1-1/2"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0700,"2-1/2"" x 1-1/4"" x 2-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0710,"2-1/2"" x 1-1/4"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0720,"2-1/2"" x 1"" x 2-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0730,"2"" x 2"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0740,"2-1/2"" x 3/4"" x 2-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0750,"2"" x 2"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0760,"2"" x 2"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0770,"2"" x 1-1/2"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0780,"2"" x 1-1/2"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040100.0790,"2"" x 1-1/2"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+"03.040110 Reducing Tees - 3""",,,,,,,,,,,,,
+03.040110.0010,"3"" x 3"" x 2-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0020,"3"" x 3"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0030,"3"" x 3"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0040,"3"" x 3"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0050,"3"" x 3"" x 1""  CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0060,"3"" x 3"" x 3/4""  CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0070,"3"" x 3"" x 1/2""  CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0080,"3"" x 2-1/2"" x 3"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0090,"3"" x 2-1/2"" x 2-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0100,"3"" x 2-1/2"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0110,"3"" x 2-1/2"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0120,"3"" x 2-1/2"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0130,"3"" x 2-1/2"" x 3/4""  CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0140,"3"" x 2-1/2"" x 1/2""  CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0150,"3"" x 2"" x 3"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0160,"3"" x 2"" x 2-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0170,"3"" x 2"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0180,"3"" x 2"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0190,"3"" x 2"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0200,"3"" x 2"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0210,"3"" x 1-1/2"" x 3"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0220,"3"" x 1-1/2"" x 2-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0230,"3"" x 1-1/2"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0240,"3"" x 1-1/2"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0250,"3"" x 1-1/4"" x 3"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0260,"3"" x 1"" x 3"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0270,"3"" x 3/4"" x 3"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040110.0280,"3"" x 2-1/2"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0290,"3"" x 2-1/2"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0300,"3"" x 2-1/2"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0310,"3"" x 2-1/2"" x 3/4""  CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0320,"3"" x 2-1/2"" x 1/2""  CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0330,"3"" x 2"" x 3"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0340,"3"" x 2"" x 2-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0350,"3"" x 2"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0360,"3"" x 2"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0370,"3"" x 2"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0380,"3"" x 3"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0390,"3"" x 2"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0400,"3"" x 1-1/2"" x 3"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0410,"3"" x 1-1/2"" x 2-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0420,"3"" x 1-1/2"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0430,"3"" x 1-1/2"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0440,"3"" x 1-1/4"" x 3"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0450,"3"" x 1"" x 3"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0460,"3"" x 3/4"" x 3"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0470,"3"" x 3"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0480,"3"" x 3"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0490,"3"" x 3"" x 1""  CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0500,"3"" x 3"" x 3/4""  CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0510,"3"" x 3"" x 1/2""  CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0520,"3"" x 2-1/2"" x 3"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040110.0530,"3"" x 2-1/2"" x 2-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+"03.040120 Reducing Tees - 4""",,,,,,,,,,,,,
+03.040120.0010,"4"" x 4"" x 3"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0020,"4"" x 4"" x 2-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0030,"4"" x 4"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0040,"4"" x 4"" x 1-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0050,"4"" x 4"" x 1-1/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0060,"4"" x 4"" x 1"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0070,"4"" x 4"" x 3/4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0080,"4"" x 4"" x 1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0090,"4"" x 3"" x 4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0100,"4"" x 3"" x 3"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0110,"4"" x 3"" x 2-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0120,"4"" x 3"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0130,"4"" x 2-1/2"" x 4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0140,"4"" x 2-1/2"" x 2-1/2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0150,"4"" x 2"" x 4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0160,"4"" x 2"" x 2"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0170,"4"" x 1-1/2"" x 4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0180,"4"" x 1"" x 4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040120.0190,"4"" x 3"" x 3"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0200,"4"" x 3"" x 2-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0210,"4"" x 3"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0220,"4"" x 2-1/2"" x 4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0230,"4"" x 2-1/2"" x 2-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0240,"4"" x 2"" x 4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0250,"4"" x 2"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0260,"4"" x 1-1/2"" x 4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0270,"4"" x 1"" x 4"" CxCxC Reducing Tees, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0280,"4"" x 4"" x 2-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0290,"4"" x 4"" x 2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0300,"4"" x 4"" x 1-1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0310,"4"" x 4"" x 1-1/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0320,"4"" x 4"" x 1"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0330,"4"" x 4"" x 3/4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0340,"4"" x 4"" x 1/2"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040120.0350,"4"" x 3"" x 4"" CxCxC Reducing Tees, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130 Coupling,,,,,,,,,,,,,
+03.040130.0010,"1/8"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0020,"1/4"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0030,"3/8"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0040,"1/2"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0050,"5/8"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0060,"3/4"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0070,"1"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0080,"1-1/4"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0090,"1-1/2"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0100,"2"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0110,"2-1/2"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0120,"3"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0130,"3-1/2"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0140,"4"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0150,"5"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0160,"6"" CxC Pressure Coupling, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040130.0170,"2"" CxC Pressure Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0180,"2-1/2"" CxC Pressure Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0190,"3"" CxC Pressure Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0200,"3-1/2"" CxC Pressure Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0210,"4"" CxC Pressure Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0220,"5"" CxC Pressure Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0230,"6"" CxC Pressure Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0240,"1/4"" CxC Pressure Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0250,"3/8"" CxC Pressure Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0260,"1/2"" CxC Pressure Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0270,"5/8"" CxC Pressure Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0280,"3/4"" CxC Pressure Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0290,"1"" CxC Pressure Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0300,"1-1/4"" CxC Pressure Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040130.0310,"1-1/2"" CxC Pressure Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140 Couplings - Reducing,,,,,,,,,,,,,
+03.040140.0010,"1/4"" x 1/8"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0020,"3/8"" x 1/8"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0030,"3/8"" x 1/4"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0040,"1/2"" x 1/8"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0050,"1/2"" x 1/4"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0060,"1/2"" x 3/8"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0070,"3/4"" x 3/8"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0080,"3/4"" x 1/2"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0090,"3/4"" x 5/8"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0100,"1"" x 1/2"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0110,"1"" x 3/4"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0120,"1-1/4"" x 1/2"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0130,"1-1/4"" x 3/4"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0140,"1-1/4"" x 1"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0150,"1-1/2"" x 1/2"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0160,"1-1/2"" x 3/4"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0170,"1-1/2"" x 1"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0180,"1-1/2"" x 1-1/4"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0190,"2"" x 1/2"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0200,"2"" x 3/4"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0210,"2"" x 1"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0220,"2"" x 1-1/4"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0230,"2"" x 1-1/2"" CxC Reducing Coupling, Wrot",EA,14.5,1,,75,0.3,HR,0,0,1,HR,0
+03.040140.0240,"2-1/2"" x 1"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0250,"2-1/2"" x 1-1/4"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0260,"2-1/2"" x 1-1/2"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0270,"2-1/2"" x 2"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0280,"3"" x 1-1/2"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0290,"3"" x 2"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0300,"3"" x 2-1/2"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0310,"4"" x 2"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0320,"4"" x 2-1/2"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0330,"4"" x 3"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0340,"4"" x 3-1/2"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0350,"6"" x 3"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0360,"6"" x 4"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040140.0370,"1"" x 1/2"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0380,"1"" x 3/4"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0390,"1-1/4"" x 1/2"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0400,"1-1/4"" x 3/4"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0410,"1-1/4"" x 1"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0420,"1-1/2"" x 1/2"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0430,"1-1/2"" x 3/4"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0440,"1-1/2"" x 1"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0450,"1-1/2"" x 1-1/4"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0460,"2"" x 1/2"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0470,"3/8"" x 1/8"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0480,"2"" x 3/4"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0490,"2"" x 1"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0500,"2"" x 1-1/4"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0510,"2"" x 1-1/2"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0520,"2-1/2"" x 1"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0530,"2-1/2"" x 1-1/4"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0540,"2-1/2"" x 1-1/2"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0550,"2-1/2"" x 2"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0560,"3"" x 1-1/2"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0570,"3"" x 2"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0580,"3/8"" x 1/4"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0590,"3"" x 2-1/2"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0600,"4"" x 2"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0610,"4"" x 2-1/2"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0620,"4"" x 3"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0630,"4"" x 3-1/2"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0640,"6"" x 3"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0650,"6"" x 4"" CxC Reducing Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0660,"1/2"" x 1/8"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0670,"1/2"" x 1/4"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0680,"1/2"" x 3/8"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0690,"3/4"" x 3/8"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0700,"3/4"" x 1/2"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040140.0710,"3/4"" x 5/8"" CxC Reducing Coupling, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040150 Couplings - Reducing - Eccentric,,,,,,,,,,,,,
+03.040150.0010,"1-1/4"" x 3/4"" CxC Reducing Coupling Eccentric, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040160 Couplings - Crossover,,,,,,,,,,,,,
+03.040160.0010,"1/2"" CxC Pressure Crossover Coupling, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170 Male Adapters,,,,,,,,,,,,,
+03.040170.0010,"1/4"" CxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170.0020,"1/2"" CxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170.0030,"3/4"" CxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170.0040,"1"" CxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170.0050,"1-1/4"" CxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170.0060,"1-1/2"" CxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170.0070,"2"" CxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170.0080,"2-1/2"" CxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170.0090,"3"" CxM Adapter, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040170.0100,"1/2"" CxM Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170.0110,"3/4"" CxM Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170.0120,"1"" CxM Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170.0130,"1-1/4"" CxM Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170.0140,"1-1/2"" CxM Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170.0150,"2"" CxM Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170.0160,"2-1/2"" CxM Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040170.0170,"3"" CxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040180 Male Adapters - Reducing,,,,,,,,,,,,,
+03.040180.0010,"3/8"" x 1/4"" CxM Reducing Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040180.0020,"1/2"" x 1/4"" CxM Reducing Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040180.0030,"3/4"" x 1/2"" CxM Reducing Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040180.0040,"1"" x 3/4"" CxM Reducing Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040180.0050,"1-1/4"" x 1"" CxM Reducing Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040180.0060,"1-1/2"" x 1"" CxM Reducing Adapter, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040180.0070,"1/2"" x 1/4"" CxM Reducing Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040180.0080,"3/4"" x 1/2"" CxM Reducing Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040180.0090,"1"" x 3/4"" CxM Reducing Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040180.0100,"1-1/4"" x 1"" CxM Reducing Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040180.0110,"1-1/2"" x 1"" CxM Reducing Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040190 Male Adapters - Fitting,,,,,,,,,,,,,
+03.040190.0010,"3/8"" FTGxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040190.0020,"1/2"" FTGxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040190.0030,"3/4"" FTGxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040190.0040,"1"" FTGxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040190.0050,"1-1/4"" FTGxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040190.0060,"1-1/2"" FTGxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040190.0070,"2"" FTGxM Adapter, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040190.0080,"1/2"" FTGxM Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040190.0090,"3/4"" FTGxM Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040190.0100,"1"" FTGxM Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040190.0110,"1-1/4"" FTGxM Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040190.0120,"1-1/2"" FTGxM Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040190.0130,"2"" FTGxM Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200 Female Adapters,,,,,,,,,,,,,
+03.040200.0010,"1/4"" CxF Pipe Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0020,"3/8"" CxF Pipe Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0030,"1/2"" CxF Pipe Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0040,"3/4"" CxF Pipe Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0050,"1"" CxF Pipe Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0060,"1-1/4"" CxF Pipe Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0070,"1-1/2"" CxF Pipe Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0080,"2"" CxF Pipe Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0090,"2-1/2"" CxF Pipe Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0100,"3"" CxF Pipe Adapter, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040200.0110,"3"" CxF Pipe Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0120,"3/8"" CxF Pipe Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0130,"1/2"" CxF Pipe Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0140,"3/4"" CxF Pipe Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0150,"1"" CxF Pipe Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0160,"1-1/4"" CxF Pipe Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0170,"1-1/2"" CxF Pipe Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0180,"2"" CxF Pipe Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040200.0190,"2-1/2"" CxF Pipe Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040210 Female Adapters - Reducing,,,,,,,,,,,,,
+03.040210.0010,"3/8"" x 1/4"" CxF Pipe Reducing Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040210.0020,"1/2"" x 1/4"" CxF Pipe Reducing Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040210.0030,"3/4"" x 1/2"" CxF Pipe Reducing Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040210.0040,"1"" x 3/4"" CxF Pipe Reducing Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040210.0050,"1-1/4"" x 1"" CxF Pipe Reducing Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040210.0060,"1-1/2"" x 1-1/4"" CxF Pipe Reducing Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040210.0070,"2"" x 1-1/2"" CxF Pipe Reducing Adapter, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040210.0080,"1/2"" x 1/4"" CxF Pipe Reducing Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040210.0090,"3/4"" x 1/2"" CxF Pipe Reducing Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040210.0100,"1"" x 3/4"" CxF Pipe Reducing Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040210.0110,"1-1/4"" x 1"" CxF Pipe Reducing Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040210.0120,"1-1/2"" x 1-1/4"" CxF Pipe Reducing Adapter, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040210.0130,"2"" x 1-1/2"" CxF Pipe Reducing Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040220 Female Adapters - Fitting,,,,,,,,,,,,,
+03.040220.0010,"1/2"" x 3/8"" FTGxF Adapter, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230 Bushings - Flush,,,,,,,,,,,,,
+03.040230.0010,"1/4"" x 1/8"" FTGxC Bushing, Flush, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0020,"3/8"" x 1/4"" FTGxC Bushing, Flush, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0030,"1/2"" x 1/4"" FTGxC Bushing, Flush, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0040,"1/2"" x 3/8"" FTGxC Bushing, Flush, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0050,"5/8"" x 1/2"" FTGxC Bushing, Flush, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0060,"3/4"" x 3/8"" FTGxC Bushing, Flush, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0070,"3/4"" x 1/2"" FTGxC Bushing, Flush, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0080,"3/4"" x 5/8"" FTGxC Bushing, Flush, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0090,"1"" x 1/2"" FTGxC Bushing, Flush, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0100,"1"" x 3/4"" FTGxC Bushing, Flush, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0110,"1-1/4"" x 1"" FTGxC Bushing, Flush, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0120,"1-1/2"" x 1-1/4"" FTGxC Bushing, Flush, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0130,"2"" x 1-1/2"" FTGxC Bushing, Flush, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0140,"3"" x 2"" FTGxC Bushing, Flush, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040230.0150,"1"" x 3/4"" FTGxC Bushing, Flush, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0160,"1-1/4"" x 1"" FTGxC Bushing, Flush, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0170,"1-1/2"" x 1-1/4"" FTGxC Bushing, Flush, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0180,"2"" x 1-1/2"" FTGxC Bushing, Flush, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0190,"3"" x 2"" FTGxC Bushing, Flush, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0200,"3/8"" x 1/4"" FTGxC Bushing, Flush, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0210,"1/2"" x 1/4"" FTGxC Bushing, Flush, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0220,"1/2"" x 3/8"" FTGxC Bushing, Flush, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0230,"5/8"" x 1/2"" FTGxC Bushing, Flush, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0240,"3/4"" x 3/8"" FTGxC Bushing, Flush, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0250,"3/4"" x 1/2"" FTGxC Bushing, Flush, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0260,"3/4"" x 5/8"" FTGxC Bushing, Flush, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040230.0270,"1"" x 1/2"" FTGxC Bushing, Flush, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040240 Unions,,,,,,,,,,,,,
+03.040240.0010,"3/8"" CxC Pressure Union, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040240.0020,"1/2"" CxC Pressure Union, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040240.0030,"3/4"" CxC Pressure Union, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040240.0040,"1"" CxC Pressure Union, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040240.0050,"1-1/4"" CxC Pressure Union, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040240.0060,"1-1/2"" CxC Pressure Union, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040240.0070,"2"" CxC Pressure Union, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040240.0080,"1/2"" CxC Pressure Union, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040240.0090,"3/4"" CxC Pressure Union, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040240.0100,"1"" CxC Pressure Union, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040240.0110,"1-1/4"" CxC Pressure Union, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040240.0120,"1-1/2"" CxC Pressure Union, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040240.0130,"2"" CxC Pressure Union, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250 Caps,,,,,,,,,,,,,
+03.040250.0010,"1/4"" Cap, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0020,"3/8"" Cap, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0030,"1/2"" Cap, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0040,"3/4"" Cap, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0050,"1"" Cap, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0060,"1-1/4"" Cap, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0070,"1-1/2"" Cap, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0080,"2"" Cap, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0090,"2-1/2"" Cap, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0100,"3"" Cap, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.040250.0110,"3"" Cap, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0120,"3/8"" Cap, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0130,"1/2"" Cap, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0140,"3/4"" Cap, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0150,"1"" Cap, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0160,"1-1/4"" Cap, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0170,"1-1/2"" Cap, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0180,"2"" Cap, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040250.0190,"2-1/2"" Cap, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.040260 Valves,,,,,,,,,,,,,
+03.040260.0010,"1/2"" Valve",EA,5.5,1,,75,0.35,HR,0,0,1,HR,0
+03.040260.0020,"3/4"" Valve",EA,5.69,1,,65,0.35,HR,0,0,1,HR,0
+03.040260.0025,"1"" Valve",EA,8.56,0,,75,0.4,HR,0,0,0,,0
+03.040260.0030,"1-1/4"" Valve",EA,14.2,1,,75,0.5,HR,0,0,1,HR,0
+03.040260.0040,"1-1/2"" Valve",EA,17.6,1,,75,0.5,HR,0,0,1,HR,0
+03.040260.0050,"2"" Valve",EA,21.96,1,,75,0.7,HR,0,0,1,HR,0
+03.050010 90 Degree Elbows,,,,,,,,,,,,,
+03.050010.0010,"3/8"" CxF 90 Degree Elbow, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050010.0020,"1/2"" CxF 90 Degree Elbow, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050010.0030,"3/4"" CxF 90 Degree Elbow, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050010.0040,"1"" CxF 90 Degree Elbow, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050010.0050,"1-1/4"" CxF 90 Degree Elbow, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050010.0060,"1-1/2"" CxF 90 Degree Elbow, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050010.0070,"2"" CxF 90 Degree Elbow, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.050010.0080,"1/2"" CxF 90 Degree Elbow, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050010.0090,"3/4"" CxF 90 Degree Elbow, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050010.0100,"1"" CxF 90 Degree Elbow, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050010.0110,"1-1/4"" CxF 90 Degree Elbow, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050010.0120,"1-1/2"" CxF 90 Degree Elbow, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050010.0130,"2"" CxF 90 Degree Elbow, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050020 90 Degree Elbows - Reducing,,,,,,,,,,,,,
+03.050020.0010,"1/2"" x 1/4"" CxF 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050020.0020,"3/4"" x 1/2"" CxF 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050020.0030,"1"" x 3/4"" CxF 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050020.0040,"1-1/4"" x 1"" CxF 90 Degree Elbow, Reducing, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.050020.0050,"3/4"" x 1/2"" CxF 90 Degree Elbow, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050020.0060,"1"" x 3/4"" CxF 90 Degree Elbow, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050020.0070,"1-1/4"" x 1"" CxF 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050030 Couplings - Crossover,,,,,,,,,,,,,
+03.050030.0010,"3/4"" CxC Crossover Coupling",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050030.0020,"1/2"" CxC Crossover Coupling DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.050030.0030,"1/2"" CxC Crossover Coupling",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040 45 Degree Elbows - Short Radius,,,,,,,,,,,,,
+03.050040.0010,"1/2"" CxC 45 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040.0020,"3/4"" CxC 45 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040.0030,"1"" CxC 45 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040.0040,"1-1/4"" CxC 45 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040.0050,"1-1/2"" CxC 45 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040.0060,"2"" CxC 45 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040.0070,"2-1/2"" CxC 45 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040.0080,"3"" CxC 45 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040.0090,"4"" CxC 45 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.050040.0100,"3/4"" CxC 45 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040.0110,"1"" CxC 45 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040.0120,"1-1/4"" CxC 45 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040.0130,"1-1/2"" CxC 45 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040.0140,"2"" CxC 45 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040.0150,"2-1/2"" CxC 45 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040.0160,"3"" CxC 45 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050040.0170,"4"" CxC 45 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050 90 Degree Elbows - Short Radius,,,,,,,,,,,,,
+03.050050.0010,"1/2"" CxC 90 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0020,"3/4"" CxC 90 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0030,"1"" CxC 90 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0040,"1-1/4"" CxC 90 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0050,"1-1/2"" CxC 90 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0060,"2"" CxC 90 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0070,"2-1/2"" CxC 90 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0080,"3"" CxC 90 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0090,"3-1/2"" CxC 90 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0100,"4"" CxC 90 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0110,"5"" CxC 90 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0120,"6"" CxC 90 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0130,"8"" CxC 90 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0140,"10"" CxC 90 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.050050.0150,"4"" CxC 90 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0160,"5"" CxC 90 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0170,"6"" CxC 90 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0180,"8"" CxC 90 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0190,"10"" CxC 90 Degree Elbow, Short Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0200,"3/4"" CxC 90 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0210,"1"" CxC 90 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0220,"1-1/4"" CxC 90 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0230,"1-1/2"" CxC 90 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0240,"2"" CxC 90 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0250,"2-1/2"" CxC 90 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0260,"3"" CxC 90 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050050.0270,"3-1/2"" CxC 90 Degree Elbow, Short Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060 45 Degree Elbows - Long Radius,,,,,,,,,,,,,
+03.050060.0010,"1/2"" CxC 45 Degree Elbow, Long Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0020,"3/4"" CxC 45 Degree Elbow, Long Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0030,"1"" CxC 45 Degree Elbow, Long Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0040,"1-1/4"" CxC 45 Degree Elbow, Long Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0050,"1-1/2"" CxC 45 Degree Elbow, Long Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0060,"2"" CxC 45 Degree Elbow, Long Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0070,"2-1/2"" CxC 45 Degree Elbow, Long Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0080,"3"" CxC 45 Degree Elbow, Long Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0090,"3-1/2"" CxC 45 Degree Elbow, Long Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0100,"4"" CxC 45 Degree Elbow, Long Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0110,"5"" CxC 45 Degree Elbow, Long Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0120,"6"" CxC 45 Degree Elbow, Long Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0130,"8"" CxC 45 Degree Elbow, Long Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0140,"10"" CxC 45 Degree Elbow, Long Radius, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.050060.0150,"4"" CxC 45 Degree Elbow, Long Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0160,"5"" CxC 45 Degree Elbow, Long Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0170,"6"" CxC 45 Degree Elbow, Long Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0180,"8"" CxC 45 Degree Elbow, Long Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0190,"10"" CxC 45 Degree Elbow, Long Radius, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0200,"3/4"" CxC 45 Degree Elbow, Long Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0210,"1"" CxC 45 Degree Elbow, Long Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0220,"1-1/4"" CxC 45 Degree Elbow, Long Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0230,"1-1/2"" CxC 45 Degree Elbow, Long Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0240,"2"" CxC 45 Degree Elbow, Long Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0250,"2-1/2"" CxC 45 Degree Elbow, Long Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0260,"3"" CxC 45 Degree Elbow, Long Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050060.0270,"3-1/2"" CxC 45 Degree Elbow, Long Radius, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070 90 Degree Elbows - Reducing,,,,,,,,,,,,,
+03.050070.0010,"1/2"" CxC 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0020,"3/4"" CxC 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0030,"1"" CxC 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0040,"1-1/4"" CxC 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0050,"1-1/2"" CxC 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0060,"2"" CxC 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0070,"2-1/2"" CxC 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0080,"3"" CxC 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0090,"4"" CxC 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0100,"5"" CxC 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0110,"6"" CxC 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0120,"8"" CxC 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0130,"10"" CxC 90 Degree Elbow, Reducing, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.050070.0140,"5"" CxC 90 Degree Elbow, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0150,"6"" CxC 90 Degree Elbow, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0160,"8"" CxC 90 Degree Elbow, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0170,"10"" CxC 90 Degree Elbow, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0180,"3/4"" CxC 90 Degree Elbow, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0190,"1"" CxC 90 Degree Elbow, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0200,"1-1/4"" CxC 90 Degree Elbow, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0210,"1-1/2"" CxC 90 Degree Elbow, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0220,"2"" CxC 90 Degree Elbow, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0230,"2-1/2"" CxC 90 Degree Elbow, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0240,"3"" CxC 90 Degree Elbow, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050070.0250,"4"" CxC 90 Degree Elbow, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080 Tees - CxCxC,,,,,,,,,,,,,
+03.050080.0010,"1/2"" CxCxC Tee, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0020,"3/4"" CxCxC Tee, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0030,"1"" CxCxC Tee, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0040,"1-1/4"" CxCxC Tee, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0050,"1-1/2"" CxCxC Tee, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0060,"2"" CxCxC Tee, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0070,"2-1/2"" CxCxC Tee, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0080,"3"" CxCxC Tee, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0090,"3-1/2"" CxCxC Tee, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0100,"4"" CxCxC Tee, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.050080.0110,"4"" CxCxC Tee, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0120,"3/4"" CxCxC Tee, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0130,"1"" CxCxC Tee, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0140,"1-1/4"" CxCxC Tee, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0150,"1-1/2"" CxCxC Tee, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0160,"2"" CxCxC Tee, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0170,"2-1/2"" CxCxC Tee, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0180,"3"" CxCxC Tee, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050080.0190,"3-1/2"" CxCxC Tee, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090 Tees - CxCxC - Reducing,,,,,,,,,,,,,
+03.050090.0010,"1/2"" CxCxC Tee, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090.0020,"3/4"" CxCxC Tee, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090.0030,"1"" CxCxC Tee, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090.0040,"1-1/4"" CxCxC Tee, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090.0050,"1-1/2"" CxCxC Tee, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090.0060,"2"" CxCxC Tee, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090.0070,"2-1/2"" CxCxC Tee, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090.0080,"3"" CxCxC Tee, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090.0090,"3-1/2"" CxCxC Tee, Reducing, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.050090.0100,"3/4"" CxCxC Tee, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090.0110,"1"" CxCxC Tee, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090.0120,"1-1/4"" CxCxC Tee, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090.0130,"1-1/2"" CxCxC Tee, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090.0140,"2"" CxCxC Tee, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090.0150,"2-1/2"" CxCxC Tee, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090.0160,"3"" CxCxC Tee, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050090.0170,"3-1/2"" CxCxC Tee, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050100 Tees - CxCxF,,,,,,,,,,,,,
+03.050100.0010,"3/8"" Tee CxCxF, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050100.0020,"1/2"" Tee CxCxF, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050100.0030,"3/4"" Tee CxCxF, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050100.0040,"1"" Tee CxCxF, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050100.0050,"1-1/4"" Tee CxCxF, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050100.0060,"1-1/2"" Tee CxCxF, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.050100.0070,"1/2"" Tee CxCxF, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050100.0080,"3/4"" Tee CxCxF, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050100.0090,"1"" Tee CxCxF, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050100.0100,"1-1/4"" Tee CxCxF, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050100.0110,"1-1/2"" Tee CxCxF, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110 Tees - CxCxF - Reducing,,,,,,,,,,,,,
+03.050110.0010,"1/4"" x 1/4"" x 1/8"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0020,"3/8"" x 3/8"" x 1/2"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0030,"3/8"" x 3/8"" x 1/4"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0040,"1/2"" x 1/2"" x 3/4"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0050,"1/2"" x 1/2"" x 3/8"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0060,"1/2"" x 1/2"" x 1/4"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0070,"1/2"" x 1/2"" x 1/8"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0080,"3/4"" x 3/4"" x 1"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0090,"3/4"" x 3/4"" x 1/2"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0100,"3/4"" x 3/4"" x 3/8"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0110,"3/4"" x 1/2"" x 3/4"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0120,"1"" x 1"" x 3/4"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0130,"1"" x 1"" x 1/2"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0140,"1"" x 1"" 3/8"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0150,"1-1/4"" x 1-1/4"" x 1"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0160,"1-1/4"" x 1/4"" x 3/4"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0170,"1-1/4"" x 1/4"" x 1/2"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0180,"1-1/2"" x 1-1/2"" x 1"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0190,"1-1/2"" x 1-1/2"" x 3/4"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0200,"1-1/2"" x 1-1/2"" x 1/2"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0210,"2"" x 2"" x 1"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0220,"2"" x 2"" x 3/4"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0230,"2"" x 2"" x 1/2"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.050110.0240,"3/4"" x 3/4"" x 3/8"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0250,"3/4"" x 1/2"" x 3/4"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0260,"1"" x 1"" x 3/4"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0270,"1"" x 1"" x 1/2"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0280,"1"" x 1"" 3/8"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0290,"1-1/4"" x 1-1/4"" x 1"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0300,"1-1/4"" x 1/4"" x 3/4"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0310,"1-1/4"" x 1/4"" x 1/2"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0320,"1-1/2"" x 1-1/2"" x 1"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0330,"1-1/2"" x 1-1/2"" x 3/4"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0340,"3/8"" x 3/8"" x 1/2"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0350,"1-1/2"" x 1-1/2"" x 1/2"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0360,"2"" x 2"" x 1"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0370,"2"" x 2"" x 3/4"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0380,"2"" x 2"" x 1/2"" Tee CxCxF, Reducing, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0390,"3/8"" x 3/8"" x 1/4"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0400,"1/2"" x 1/2"" x 3/4"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0410,"1/2"" x 1/2"" x 3/8"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0420,"1/2"" x 1/2"" x 1/4"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0430,"1/2"" x 1/2"" x 1/8"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0440,"3/4"" x 3/4"" x 1"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050110.0450,"3/4"" x 3/4"" x 1/2"" Tee CxCxF, Reducing, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120 Caps,,,,,,,,,,,,,
+03.050120.0010,"1/2"" Cap, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0020,"3/4"" Cap, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0030,"1"" Cap, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0040,"1-1/4"" Cap, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0050,"1-1/2"" Cap, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0060,"2"" Cap, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0070,"2-1/2"" Cap, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0080,"3"" Cap, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0090,"3-1/2"" Cap, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0100,"4"" Cap, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.050120.0110,"4"" Cap, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0120,"3/4"" Cap, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0130,"1"" Cap, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0140,"1-1/4"" Cap, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0150,"1-1/2"" Cap, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0160,"2"" Cap, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0170,"2-1/2"" Cap, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0180,"3"" Cap, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050120.0190,"3-1/2"" Cap, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130 Couplings,,,,,,,,,,,,,
+03.050130.0010,"1/2"" CxC Coupling, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0020,"3/4"" CxC Coupling, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0030,"1"" CxC Coupling, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0040,"1-1/4"" CxC Coupling, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0050,"1-1/2"" CxC Coupling, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0060,"2"" CxC Coupling, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0070,"2-1/2"" CxC Coupling, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0080,"3"" CxC Coupling, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0090,"3-1/2"" CxC Coupling, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0100,"4"" CxC Coupling, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0110,"5"" CxC Coupling, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0120,"6"" CxC Coupling, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0130,"8"" CxC Coupling, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0140,"10"" CxC Coupling, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.050130.0150,"4"" CxC Coupling, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0160,"5"" CxC Coupling, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0170,"6"" CxC Coupling, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0180,"8"" CxC Coupling, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0190,"10"" CxC Coupling, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0200,"3/4"" CxC Coupling, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0210,"1"" CxC Coupling, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0220,"1-1/4"" CxC Coupling, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0230,"1-1/2"" CxC Coupling, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0240,"2"" CxC Coupling, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0250,"2-1/2"" CxC Coupling, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0260,"3"" CxC Coupling, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050130.0270,"3-1/2"" CxC Coupling, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050140 Unions,,,,,,,,,,,,,
+03.050140.0010,"1/2"" CxC Union, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050140.0020,"3/4"" CxC Union, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050140.0030,"1"" CxC Union, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050140.0040,"1-1/4"" CxC Union, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050140.0050,"1-1/2"" CxC Union, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050140.0060,"2"" CxC Union, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050140.0070,"2-1/2"" CxC Union, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050140.0080,"3"" CxC Union, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.050140.0090,"3/4"" CxC Union, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050140.0100,"1"" CxC Union, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050140.0110,"1-1/4"" CxC Union, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050140.0120,"1-1/2"" CxC Union, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050140.0130,"2"" CxC Union, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050140.0140,"2-1/2"" CxC Union, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.050140.0150,"3"" CxC Union, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060010 Elbows,,,,,,,,,,,,,
+03.060010.0010,"1-1/4"" CxC 22-1/2 Degree Elbow, DWV, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060010.0020,"1-1/2"" CxC 22-1/2 Degree Elbow, DWV, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060010.0030,"2"" CxC 22-1/2 Degree Elbow, DWV, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060010.0040,"3"" CxC 22-1/2 Degree Elbow, DWV, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060010.0050,"1-1/2"" CxC 11-1/4 Degree Elbow, DWV, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060010.0060,"2"" CxC 11-1/4 Degree Elbow, DWV, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060010.0070,"3"" CxC 11-1/4 Degree Elbow, DWV, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.060010.0080,"1-1/2"" CxC 22-1/2 Degree Elbow, DWV, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060010.0090,"2"" CxC 22-1/2 Degree Elbow, DWV, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060010.0100,"3"" CxC 22-1/2 Degree Elbow, DWV, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060010.0110,"1-1/2"" CxC 11-1/4 Degree Elbow, DWV, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060010.0120,"2"" CxC 11-1/4 Degree Elbow, DWV, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060010.0130,"3"" CxC 11-1/4 Degree Elbow, DWV, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060020 Tees - Sanitary,,,,,,,,,,,,,
+03.060020.0010,"1-1/4"" CxCxC DWV 90 Degree Tee, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060020.0020,"1-1/2"" CxCxC DWV 90 Degree Tee, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060020.0030,"2"" CxCxC DWV 90 Degree Tee, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.060020.0040,"1-1/2"" CxCxC DWV 90 Degree Tee, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060020.0050,"2"" CxCxC DWV 90 Degree Tee, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060030 Wyes,,,,,,,,,,,,,
+03.060030.0010,"1-1/4"" CxCxC DWV Wye, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060030.0020,"1-1/2"" CxCxC DWV Wye, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060030.0030,"2"" CxCxC DWV Wye, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060030.0040,"3"" CxCxC DWV Wye, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060030.0050,"4"" CxCxC DWV Wye, Cast DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.060030.0060,"1-1/2"" CxCxC DWV Wye, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060030.0070,"2"" CxCxC DWV Wye, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060030.0080,"3"" CxCxC DWV Wye, Cast DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060030.0090,"4"" CxCxC DWV Wye, Cast",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060040 Double Wyes,,,,,,,,,,,,,
+03.060040.0010,"2"" CxCxCxC Double Wye, DWV",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060040.0020,"3"" CxCxCxC Double Wye, DWV DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.060040.0030,"3"" CxCxCxC Double Wye, DWV",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060050 Double Wyes - Reducing,,,,,,,,,,,,,
+03.060050.0010,"1-1/2"" CxCxCxC Double Wye, DWV, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060050.0020,"2"" CxCxCxC Double Wye, DWV, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060050.0030,"3"" CxCxCxC Double Wye, DWV, Reducing DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.060050.0040,"2"" CxCxCxC Double Wye, DWV, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060050.0050,"3"" CxCxCxC Double Wye, DWV, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060060 Tees - Sanitary - Double,,,,,,,,,,,,,
+03.060060.0010,"1-1/4"" CxC Tees, Sanitary, Double",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060060.0020,"1-1/2"" CxC Tees, Sanitary, Double",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060060.0030,"2"" CxC Tees, Sanitary, Double DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.060060.0040,"1-1/2"" CxC Tees, Sanitary, Double DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060060.0050,"2"" CxC Tees, Sanitary, Double",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060070 Tees - Sanitary - Double - Reducing,,,,,,,,,,,,,
+03.060070.0010,"1-1/2"" CxC Tees, Sanitary, Double, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060070.0020,"2"" CxC Tees, Sanitary, Double, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060070.0030,"3"" CxC Tees, Sanitary, Double, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060070.0040,"4"" CxC Tees, Sanitary, Double, Reducing DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.060070.0050,"2"" CxC Tees, Sanitary, Double, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060070.0060,"3"" CxC Tees, Sanitary, Double, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060070.0070,"4"" CxC Tees, Sanitary, Double, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060080 P-Traps,,,,,,,,,,,,,
+03.060080.0010,"1-1/4"" DWV P-Trap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060080.0020,"1-1/2"" DWV P-Trap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060080.0030,"2"" DWV P-Trap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060080.0040,"3"" DWV P-Trap DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.060080.0050,"1-1/2"" DWV P-Trap DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060080.0060,"2"" DWV P-Trap DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060080.0070,"3"" DWV P-Trap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060090 Fitting Cleanouts,,,,,,,,,,,,,
+03.060090.0010,"1-1/4"" DMV Fitting Cleanout",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060090.0020,"1-1/2"" DMV Fitting Cleanout",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060090.0030,"2"" DMV Fitting Cleanout",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060090.0040,"3"" DMV Fitting Cleanout",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060090.0050,"4"" DMV Fitting Cleanout DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.060090.0060,"1-1/2"" DMV Fitting Cleanout DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060090.0070,"2"" DMV Fitting Cleanout DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060090.0080,"3"" DMV Fitting Cleanout DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060090.0090,"4"" DMV Fitting Cleanout",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060100 Fitting Cleanouts - Flush,,,,,,,,,,,,,
+03.060100.0010,"1-1/4"" DMV Fitting Cleanout, Flush",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060100.0020,"1-1/2"" DMV Fitting Cleanout, Flush",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060100.0030,"2"" DMV Fitting Cleanout, Flush",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060100.0040,"3"" DMV Fitting Cleanout, Flush",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060100.0050,"4"" DMV Fitting Cleanout, Flush DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.060100.0060,"1-1/2"" DMV Fitting Cleanout, Flush DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060100.0070,"2"" DMV Fitting Cleanout, Flush DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060100.0080,"3"" DMV Fitting Cleanout, Flush DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060100.0090,"4"" DMV Fitting Cleanout, Flush",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060110 Adapters CxM,,,,,,,,,,,,,
+03.060110.0010,"1-1/4"" DWV CxM Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060110.0020,"1-1/2"" DWV CxM Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060110.0030,"2"" DWV CxM Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060110.0040,"3"" DWV CxM Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060110.0050,"4"" DWV CxM Male Adapter DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.060110.0060,"1-1/2"" DWV CxM Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060110.0070,"2"" DWV CxM Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060110.0080,"3"" DWV CxM Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060110.0090,"4"" DWV CxM Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060120 Adapters CxF,,,,,,,,,,,,,
+03.060120.0010,"1-1/4"" DWV CxF Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060120.0020,"1-1/2"" DWV CxF Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060120.0030,"2"" DWV CxF Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060120.0040,"3"" DWV CxF Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060120.0050,"4"" DWV CxF Female Adapter DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.060120.0060,"1-1/2"" DWV CxF Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060120.0070,"2"" DWV CxF Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060120.0080,"3"" DWV CxF Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060120.0090,"4"" DWV CxF Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060130 Adapters CxMJ,,,,,,,,,,,,,
+03.060130.0010,"1-1/2"" x 2"" DWV Adapters CxNH",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060130.0020,"2"" x 2"" DWV Adapters CxNH",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060130.0030,"3"" x 3"" DWV Adapters CxNH",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060130.0040,"4"" x 4"" DWV Adapters CxNH DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.060130.0050,"2"" x 2"" DWV Adapters CxNH DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060130.0060,"3"" x 3"" DWV Adapters CxNH DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060130.0070,"4"" x 4"" DWV Adapters CxNH",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060140 Adapters CxMJ - Reducing,,,,,,,,,,,,,
+03.060140.0010,"2"" DWV Adapters CxNH, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060140.0020,"3"" DWV Adapters CxNH, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060140.0030,"4"" DWV Adapters CxNH, Reducing DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.060140.0040,"3"" DWV Adapters CxNH, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.060140.0050,"4"" DWV Adapters CxNH, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070010 90 Degree Elbows,,,,,,,,,,,,,
+03.070010.0010,"1-1/4"" CxC DWV 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070010.0020,"1-1/2"" CxC DWV 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070010.0030,"2"" CxC DWV 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070010.0040,"3"" CxC DWV 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070010.0050,"4"" CxC DWV 90 Degree Elbow, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.070010.0060,"1-1/2"" CxC DWV 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070010.0070,"2"" CxC DWV 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070010.0080,"3"" CxC DWV 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070010.0090,"4"" CxC DWV 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070020 45 Degree Elbows,,,,,,,,,,,,,
+03.070020.0010,"1-1/4"" CxC DWV 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070020.0020,"1-1/2"" CxC DWV 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070020.0030,"2"" CxC DWV 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070020.0040,"3"" CxC DWV 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070020.0050,"4"" CxC DWV 45 Degree Elbow, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.070020.0060,"1-1/2"" CxC DWV 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070020.0070,"2"" CxC DWV 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070020.0080,"3"" CxC DWV 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070020.0090,"4"" CxC DWV 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070030 90 Degree Elbows - CxFTG,,,,,,,,,,,,,
+03.070030.0010,"1-1/4"" CxFTG DWV 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070030.0020,"1-1/2"" CxFTG DWV 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070030.0030,"2"" CxFTG DWV 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070030.0040,"3"" CxFTG DWV 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070030.0050,"4"" CxFTG DWV 90 Degree Elbow, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.070030.0060,"1-1/2"" CxFTG DWV 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070030.0070,"2"" CxFTG DWV 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070030.0080,"3"" CxFTG DWV 90 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070030.0090,"4"" CxFTG DWV 90 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070040 45 Degree Elbows - CxFTG,,,,,,,,,,,,,
+03.070040.0010,"1-1/4"" CxFTG DWV 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070040.0020,"1-1/2"" CxFTG DWV 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070040.0030,"2"" CxFTG DWV 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070040.0040,"3"" CxFTG DWV 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070040.0050,"4"" CxFTG DWV 45 Degree Elbow, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.070040.0060,"1-1/2"" CxFTG DWV 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070040.0070,"2"" CxFTG DWV 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070040.0080,"3"" CxFTG DWV 45 Degree Elbow, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070040.0090,"4"" CxFTG DWV 45 Degree Elbow, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070050 Couplings,,,,,,,,,,,,,
+03.070050.0010,"1-1/4"" DWV CxC Coupling",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070050.0020,"1-1/2"" DWV CxC Coupling",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070050.0030,"2"" DWV CxC Coupling",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070050.0040,"3"" DWV CxC Coupling",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070050.0050,"4"" DWV CxC Coupling DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.070050.0060,"1-1/2"" DWV CxC Coupling DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070050.0070,"2"" DWV CxC Coupling DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070050.0080,"3"" DWV CxC Coupling DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070050.0090,"4"" DWV CxC Coupling",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070060 Couplings - Reducing,,,,,,,,,,,,,
+03.070060.0010,"1-1/2"" x 1-1/4"" DWV CxC Coupling, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070060.0020,"2"" x 1-1/2"" DWV CxC Coupling, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070060.0030,"3"" x 2"" DWV CxC Coupling, Reducing DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.070060.0040,"2"" x 1-1/2"" DWV CxC Coupling, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070060.0050,"3"" x 2"" DWV CxC Coupling, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070070 Bushings,,,,,,,,,,,,,
+03.070070.0010,"1-1/2"" x 1-1/4"" DWV FTGxC Bushing, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070070.0020,"2"" x 1-1/2"" DWV FTGxC Bushing, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070070.0030,"3"" x 2"" DWV FTGxC Bushing, Wrot DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.070070.0040,"2"" x 1-1/2"" DWV FTGxC Bushing, Wrot DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070070.0050,"3"" x 2"" DWV FTGxC Bushing, Wrot",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070080 Caps,,,,,,,,,,,,,
+03.070080.0010,"1-1/4"" DWV Cap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070080.0020,"1-1/2"" DWV Cap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070080.0030,"2"" DWV Cap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070080.0040,"3"" DWV Cap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070080.0050,"4"" DWV Cap DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.070080.0060,"1-1/2"" DWV Cap DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070080.0070,"2"" DWV Cap DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070080.0080,"3"" DWV Cap DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.070080.0090,"4"" DWV Cap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010 Couplings,,,,,,,,,,,,,
+03.080010.0010,"1/8"" Brass Coupling, Threaded",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0020,"1/4"" Brass Coupling, Threaded",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0030,"3/8"" Brass Coupling, Threaded",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0040,"1/2"" Brass Coupling, Threaded",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0050,"3/4"" Brass Coupling, Threaded",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0060,"1"" Brass Coupling, Threaded",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0070,"1-1/4"" Brass Coupling, Threaded",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0080,"1-1/2"" Brass Coupling, Threaded",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0090,"2"" Brass Coupling, Threaded",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0100,"1/8"" Brass Coupling, Threaded DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0110,"2-1/2"" Brass Coupling, Threaded",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0120,"1/4"" Brass Coupling, Threaded DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0130,"3/8"" Brass Coupling, Threaded DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0140,"1/2"" Brass Coupling, Threaded DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0150,"3/4"" Brass Coupling, Threaded DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0160,"1"" Brass Coupling, Threaded DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0170,"1-1/4"" Brass Coupling, Threaded DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0180,"1-1/2"" Brass Coupling, Threaded DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080010.0190,"2"" Brass Coupling, Threaded DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020 Reducers,,,,,,,,,,,,,
+03.080020.0010,"1/4"" x 1/8"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0020,"3/8"" x 1/8"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0030,"3/8"" x 1/4"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0040,"1/2"" x 1/4"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0050,"1/2"" x 3/8"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0060,"3/4"" x 3/8"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0070,"3/4"" x 1/2"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0080,"1"" x 1/2"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0090,"1"" x 3/4"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0100,"1-1/4"" x 3/4"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0110,"1-1/4"" x 1"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0120,"1-1/2"" x 3/4"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0130,"1-1/2"" x 1"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0140,"2"" x 1-1/2"" Brass Threaded Reducer DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.080020.0150,"1-1/4"" x 3/4"" Brass Threaded Reducer DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0160,"1-1/4"" x 1"" Brass Threaded Reducer DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0170,"1-1/2"" x 3/4"" Brass Threaded Reducer DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0180,"1-1/2"" x 1"" Brass Threaded Reducer DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0186,"1-1/2"" x 1-1/4"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0190,"2"" x 1-1/2"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0194,"2-1/2"" x 2"" Brass Threaded Reducer",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0200,"3/8"" x 1/8"" Brass Threaded Reducer DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0210,"3/8"" x 1/4"" Brass Threaded Reducer DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0220,"1/2"" x 1/4"" Brass Threaded Reducer DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0230,"1/2"" x 3/8"" Brass Threaded Reducer DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0240,"3/4"" x 3/8"" Brass Threaded Reducer DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0250,"3/4"" x 1/2"" Brass Threaded Reducer DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0260,"1"" x 1/2"" Brass Threaded Reducer DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080020.0270,"1"" x 3/4"" Brass Threaded Reducer DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080030 45 Degree Elbows,,,,,,,,,,,,,
+03.080030.0010,"1/4"" Brass 45 Degree Elbow",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080030.0020,"1/2"" Brass 45 Degree Elbow",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080030.0030,"3/4"" Brass 45 Degree Elbow",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080030.0040,"1"" Brass 45 Degree Elbow",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080030.0050,"1-1/4"" Brass 45 Degree Elbow",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080030.0060,"1-1/2"" Brass 45 Degree Elbow",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080030.0070,"2"" Brass 45 Degree Elbow DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.080030.0080,"1/2"" Brass 45 Degree Elbow DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080030.0090,"3/4"" Brass 45 Degree Elbow DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080030.0100,"1"" Brass 45 Degree Elbow DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080030.0110,"1-1/4"" Brass 45 Degree Elbow DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080030.0120,"1-1/2"" Brass 45 Degree Elbow DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080030.0130,"2"" Brass 45 Degree Elbow",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080040 90 Degree Elbows,,,,,,,,,,,,,
+03.080040.0010,"1/4"" Brass 90 Degree Elbow",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080040.0020,"1/2"" Brass 90 Degree Elbow",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080040.0030,"3/4"" Brass 90 Degree Elbow",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080040.0040,"1"" Brass 90 Degree Elbow",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080040.0050,"1-1/4"" Brass 90 Degree Elbow",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080040.0060,"1-1/2"" Brass 90 Degree Elbow",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080040.0070,"2"" Brass 90 Degree Elbow DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.080040.0080,"1/2"" Brass 90 Degree Elbow DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080040.0090,"3/4"" Brass 90 Degree Elbow DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080040.0100,"1"" Brass 90 Degree Elbow DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080040.0110,"1-1/4"" Brass 90 Degree Elbow DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080040.0120,"1-1/2"" Brass 90 Degree Elbow DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080040.0130,"2"" Brass 90 Degree Elbow",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080050 90 Degree Elbows - Reducing,,,,,,,,,,,,,
+03.080050.0010,"1/4"" Brass 90 Degree Elbow, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080050.0020,"1/2"" Brass 90 Degree Elbow, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080050.0030,"3/4"" Brass 90 Degree Elbow, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080050.0040,"1"" Brass 90 Degree Elbow, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080050.0050,"1-1/4"" Brass 90 Degree Elbow, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080050.0060,"1-1/2"" Brass 90 Degree Elbow, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080050.0070,"2"" Brass 90 Degree Elbow, Reducing DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.080050.0080,"1/2"" Brass 90 Degree Elbow, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080050.0090,"3/4"" Brass 90 Degree Elbow, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080050.0100,"1"" Brass 90 Degree Elbow, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080050.0110,"1-1/4"" Brass 90 Degree Elbow, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080050.0120,"1-1/2"" Brass 90 Degree Elbow, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080050.0130,"2"" Brass 90 Degree Elbow, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060 Tees,,,,,,,,,,,,,
+03.080060.0010,"1/8"" Brass Tee, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060.0020,"1/4"" Brass Tee, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060.0030,"3/8"" Brass Tee, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060.0040,"1/2"" Brass Tee, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060.0050,"3/4"" Brass Tee, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060.0060,"1"" Brass Tee, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060.0070,"1-1/4"" Brass Tee, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060.0080,"1-1/2"" Brass Tee, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060.0090,"2"" Brass Tee, #125 DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.080060.0100,"1/4"" Brass Tee, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060.0110,"3/8"" Brass Tee, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060.0120,"1/2"" Brass Tee, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060.0130,"3/4"" Brass Tee, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060.0140,"1"" Brass Tee, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060.0150,"1-1/4"" Brass Tee, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060.0160,"1-1/2"" Brass Tee, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080060.0170,"2"" Brass Tee, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070 Tees - Reducing,,,,,,,,,,,,,
+03.080070.0010,"1/4"" x 1/8"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0020,"1/4"" x 3/8"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0030,"3/8"" x 1/4"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0040,"3/8"" x 1/2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0050,"1/2"" x 1/4"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0060,"1/2"" x 1/2"" x 3/8"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0070,"1/2"" x 3/4"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0080,"3/4"" x 1/4"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0090,"3/4"" x 3/4"" x 1/2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0100,"1"" x 1/2"" x 1/2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0110,"1"" x 1/2"" x 3/4"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0120,"1"" x 1/2"" x 1"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0130,"1"" x 3/4"" x 1/2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0140,"1"" x 3/4"" x 3/4"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0150,"1"" x 3/4"" x 1"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0160,"1"" x 1"" x 3/8"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0170,"1"" x 1"" x 1/2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0180,"1"" x 1"" x 3/4"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0190,"1"" x 1"" x 1-1/4"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0194,"1-1/4"" x 1-1/4"" x 1/2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0196,"1-1/4"" x 1-1/4"" x 3/4"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0200,"1-1/4"" x 1-1/4"" x 1"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0210,"1-1/4"" x 1-1/4"" x 1-1/2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0220,"1-1/2"" x 3/4"" x 1-1/2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0230,"1-1/2"" x 1"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0240,"1-1/2"" x 1-1/4"" x 1/2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0250,"1-1/2"" x 1-1/2"" x 1-1/4"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0260,"1-1/2"" x 1-1/2"" x 2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0270,"2"" x 1"" x 2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0280,"2"" x 1-1/4"" x 1-1/4"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0290,"2"" x 1-1/2"" x 1"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0294,"2"" x 2"" x 1/2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0300,"2"" x 2"" x 1-1/2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0310,"2"" x 2"" x 2-1/2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0320,"3"" x 2"" x 2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0330,"3"" x 2-1/2"" x 2-1/2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0340,"4"" x 4"" x 1-1/2"" Brass Tee, Reducing DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.080070.0350,"1"" x 1/2"" x 1/2"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0360,"1"" x 1/2"" x 3/4"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0370,"1"" x 1/2"" x 1"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0380,"1"" x 3/4"" x 1/2"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0390,"1"" x 3/4"" x 3/4"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0400,"1"" x 3/4"" x 1"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0410,"1"" x 1"" x 3/8"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0420,"1"" x 1"" x 1/2"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0430,"1"" x 1"" x 3/4"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0440,"1"" x 1"" x 1-1/4"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0450,"1/4"" x 3/8"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0460,"1-1/4"" x 1-1/4"" x 1"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0470,"1-1/4"" x 1-1/4"" x 1-1/2"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0480,"1-1/2"" x 3/4"" x 1-1/2"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0490,"1-1/2"" x 1"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0500,"1-1/2"" x 1-1/4"" x 1/2"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0510,"1-1/2"" x 1-1/2"" x 1-1/4"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0520,"1-1/2"" x 1-1/2"" x 2"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0530,"2"" x 1"" x 2"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0540,"2"" x 1-1/4"" x 1-1/4"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0550,"2"" x 1-1/2"" x 1"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0560,"3/8"" x 1/4"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0570,"2"" x 2"" x 1-1/2"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0580,"2"" x 2"" x 2-1/2"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0590,"3"" x 2"" x 2"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0600,"3"" x 2-1/2"" x 2-1/2"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0610,"4"" x 4"" x 1-1/2"" Brass Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0620,"3/8"" x 1/2"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0630,"1/2"" x 1/4"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0640,"1/2"" x 1/2"" x 3/8"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0650,"1/2"" x 3/4"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0660,"3/4"" x 1/4"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080070.0670,"3/4"" x 3/4"" x 1/2"" Brass Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080 Plugs,,,,,,,,,,,,,
+03.080080.0010,"1/8"" Brass Plug, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080.0020,"1/4"" Brass Plug, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080.0030,"3/8"" Brass Plug, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080.0040,"1/2"" Brass Plug, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080.0050,"3/4"" Brass Plug, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080.0060,"1"" Brass Plug, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080.0070,"1-1/4"" Brass Plug, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080.0080,"1-1/2"" Brass Plug, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080.0090,"2"" Brass Plug, #125 DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.080080.0100,"1/4"" Brass Plug, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080.0110,"3/8"" Brass Plug, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080.0120,"1/2"" Brass Plug, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080.0130,"3/4"" Brass Plug, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080.0140,"1"" Brass Plug, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080.0150,"1-1/4"" Brass Plug, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080.0160,"1-1/2"" Brass Plug, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080080.0170,"2"" Brass Plug, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090 Caps,,,,,,,,,,,,,
+03.080090.0010,"1/8"" Brass Cap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090.0020,"1/4"" Brass Cap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090.0030,"3/8"" Brass Cap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090.0040,"1/2"" Brass Cap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090.0050,"3/4"" Brass Cap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090.0060,"1"" Brass Cap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090.0070,"1-1/4"" Brass Cap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090.0080,"1-1/2"" Brass Cap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090.0090,"2"" Brass Cap DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.080090.0100,"1/4"" Brass Cap DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090.0110,"3/8"" Brass Cap DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090.0120,"1/2"" Brass Cap DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090.0130,"3/4"" Brass Cap DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090.0140,"1"" Brass Cap DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090.0150,"1-1/4"" Brass Cap DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090.0160,"1-1/2"" Brass Cap DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080090.0170,"2"" Brass Cap",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100 Unions - #150,,,,,,,,,,,,,
+03.080100.0010,"1/8"" Brass Union, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100.0020,"1/4"" Brass Union, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100.0030,"3/8"" Brass Union, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100.0040,"1/2"" Brass Union, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100.0050,"3/4"" Brass Union, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100.0060,"1"" Brass Union, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100.0070,"1-1/4"" Brass Union, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100.0080,"1-1/2"" Brass Union, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100.0090,"2"" Brass Union, #150 DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.080100.0100,"1/4"" Brass Union, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100.0110,"3/8"" Brass Union, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100.0120,"1/2"" Brass Union, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100.0130,"3/4"" Brass Union, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100.0140,"1"" Brass Union, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100.0150,"1-1/4"" Brass Union, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100.0160,"1-1/2"" Brass Union, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080100.0170,"2"" Brass Union, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110 Unions - #250,,,,,,,,,,,,,
+03.080110.0010,"1/8"" Brass Union, #250",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110.0020,"1/4"" Brass Union, #250",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110.0030,"3/8"" Brass Union, #250",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110.0040,"1/2"" Brass Union, #250",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110.0050,"3/4"" Brass Union, #250",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110.0060,"1"" Brass Union, #250",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110.0070,"1-1/4"" Brass Union, #250",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110.0080,"1-1/2"" Brass Union, #250",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110.0090,"2"" Brass Union, #250 DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.080110.0100,"1/4"" Brass Union, #250 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110.0110,"3/8"" Brass Union, #250 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110.0120,"1/2"" Brass Union, #250 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110.0130,"3/4"" Brass Union, #250 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110.0140,"1"" Brass Union, #250 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110.0150,"1-1/4"" Brass Union, #250 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110.0160,"1-1/2"" Brass Union, #250 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080110.0170,"2"" Brass Union, #250",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120 Crosses,,,,,,,,,,,,,
+03.080120.0010,"1/8"" Brass Cross, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0020,"1/4"" Brass Cross, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0030,"3/8"" Brass Cross, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0040,"1/2"" Brass Cross, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0050,"3/4"" Brass Cross, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0060,"1"" Brass Cross, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0070,"1-1/4"" Brass Cross, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0080,"1-1/2"" Brass Cross, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0090,"2"" Brass Cross, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0100,"1/8"" Brass Cross, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0110,"2-1/2"" Brass Cross, #125",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0120,"1/4"" Brass Cross, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0130,"3/8"" Brass Cross, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0140,"1/2"" Brass Cross, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0150,"3/4"" Brass Cross, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0160,"1"" Brass Cross, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0170,"1-1/4"" Brass Cross, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0180,"1-1/2"" Brass Cross, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080120.0190,"2"" Brass Cross, #125 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130 Flanges - Floor,,,,,,,,,,,,,
+03.080130.0010,"1/8"" Floor Flange, Brass",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130.0020,"1/4"" Floor Flange, Brass",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130.0030,"3/8"" Floor Flange, Brass",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130.0040,"1/2"" Floor Flange, Brass",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130.0050,"3/4"" Floor Flange, Brass",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130.0060,"1"" Floor Flange, Brass",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130.0070,"1-1/4"" Floor Flange, Brass",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130.0080,"1-1/2"" Floor Flange, Brass",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130.0090,"2"" Floor Flange, Brass DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.080130.0100,"1/4"" Floor Flange, Brass DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130.0110,"3/8"" Floor Flange, Brass DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130.0120,"1/2"" Floor Flange, Brass DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130.0130,"3/4"" Floor Flange, Brass DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130.0140,"1"" Floor Flange, Brass DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130.0150,"1-1/4"" Floor Flange, Brass DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130.0160,"1-1/2"" Floor Flange, Brass DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080130.0170,"2"" Floor Flange, Brass",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140 Flanges - Companion,,,,,,,,,,,,,
+03.080140.0010,"1/2"" Companion Flange, Brass, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0020,"3/4"" Companion Flange, Brass, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0030,"1"" Companion Flange, Brass, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0040,"1-1/4"" Companion Flange, Brass, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0050,"1-1/2"" Companion Flange, Brass, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0060,"2"" Companion Flange, Brass, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0070,"3"" Companion Flange, Brass, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0080,"3-1/2"" Companion Flange, Brass, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0090,"4"" Companion Flange, Brass, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0100,"5"" Companion Flange, Brass, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0110,"6"" Companion Flange, Brass, #150 DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.080140.0120,"5"" Companion Flange, Brass, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0130,"6"" Companion Flange, Brass, #150",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0140,"3/4"" Companion Flange, Brass, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0150,"1"" Companion Flange, Brass, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0160,"1-1/4"" Companion Flange, Brass, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0170,"1-1/2"" Companion Flange, Brass, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0180,"2"" Companion Flange, Brass, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0190,"3"" Companion Flange, Brass, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0200,"3-1/2"" Companion Flange, Brass, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080140.0210,"4"" Companion Flange, Brass, #150 DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150 Locknuts,,,,,,,,,,,,,
+03.080150.0010,"1/8"" Brass Locknut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150.0020,"1/4"" Brass Locknut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150.0030,"3/8"" Brass Locknut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150.0040,"1/2"" Brass Locknut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150.0050,"3/4"" Brass Locknut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150.0060,"1"" Brass Locknut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150.0070,"1-1/4"" Brass Locknut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150.0080,"1-1/2"" Brass Locknut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150.0090,"2"" Brass Locknut DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.080150.0100,"1/4"" Brass Locknut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150.0110,"3/8"" Brass Locknut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150.0120,"1/2"" Brass Locknut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150.0130,"3/4"" Brass Locknut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150.0140,"1"" Brass Locknut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150.0150,"1-1/4"" Brass Locknut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150.0160,"1-1/2"" Brass Locknut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080150.0170,"2"" Brass Locknut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160 Hex Bushings,,,,,,,,,,,,,
+03.080160.0010,"3/8"" x 1/4"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0020,"3/8"" x 1/8"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0030,"1/2"" x 3/8"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0040,"1/2"" x 1/4"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0050,"1/2"" x 1/8"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0060,"3/4"" x 1/2"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0070,"3/4"" x 3/8"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0080,"3/4"" x 1/4"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0090,"1"" x 3/4"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0100,"1"" x 1/2"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0110,"1"" x 3/8"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0120,"1"" x 1/4"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0130,"1-1/4"" x 1"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0140,"1-1/4"" x 3/4"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0150,"1-1/4"" x 1/2"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0160,"1-1/4"" x 3/8"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0170,"1-1/2"" x 1-1/4"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0180,"1-1/2"" x 1"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0190,"1-1/2"" x 3/4"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0200,"1-1/2"" x 1/2"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0210,"1-1/2"" x 3/8"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0220,"1-1/2"" x 1/4"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0230,"2"" x 1-1/4"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0240,"2"" x 1"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0250,"2"" x 3/4"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0260,"2"" x 1/2"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0270,"2"" x 1/4"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0280,"2-1/2"" x 2"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0290,"2-1/2"" x 1-1/2"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0300,"2-1/2"" x 1-1/4"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0310,"2-1/2"" x 1"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0320,"3"" x 2-1/2"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0330,"3"" x 2"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0340,"3"" x 1-1/2"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0350,"3"" x 1-1/4"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0360,"3"" x 1"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0370,"4"" x 3"" Brass Hex Bushing DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.080160.0380,"1"" x 1/2"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0390,"1"" x 3/8"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0400,"1"" x 1/4"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0410,"1-1/4"" x 1"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0420,"1-1/4"" x 3/4"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0430,"1-1/4"" x 1/2"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0440,"1-1/4"" x 3/8"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0450,"1-1/2"" x 1-1/4"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0460,"1-1/2"" x 1"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0470,"1-1/2"" x 3/4"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0480,"3/8"" x 1/8"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0490,"1-1/2"" x 1/2"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0500,"1-1/2"" x 3/8"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0510,"1-1/2"" x 1/4"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0520,"2"" x 1-1/4"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0530,"2"" x 1"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0540,"2"" x 3/4"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0550,"2"" x 1/2"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0560,"2"" x 1/4"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0570,"2-1/2"" x 2"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0580,"2-1/2"" x 1-1/2"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0590,"1/2"" x 3/8"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0600,"2-1/2"" x 1-1/4"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0610,"2-1/2"" x 1"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0620,"3"" x 2-1/2"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0630,"3"" x 2"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0640,"3"" x 1-1/2"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0650,"3"" x 1-1/4"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0660,"3"" x 1"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0670,"4"" x 3"" Brass Hex Bushing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0680,"1/2"" x 1/4"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0690,"1/2"" x 1/8"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0700,"3/4"" x 1/2"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0710,"3/4"" x 3/8"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0720,"3/4"" x 1/4"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080160.0730,"1"" x 3/4"" Brass Hex Bushing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170 Nipples,,,,,,,,,,,,,
+03.080170.0010,"1/8"" x 1-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0020,"1/8"" x 2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0030,"1/8"" x 2-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0040,"1/8"" x 3"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0050,"1/8"" x 3-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0060,"1/8"" x 4"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0070,"1/8"" x 4-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0080,"1/8"" x 5"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0090,"1/8"" x 5-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0100,"1/8"" x 6"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0110,"1/4"" x 1-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0120,"1/4"" x 2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0130,"1/4"" x 2-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0140,"1/4"" x 3"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0150,"1/4"" x 4-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0160,"1/4"" x 5"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0170,"1/4"" x 5-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0180,"1/4"" x 6"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0190,"3/8"" x 1-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0200,"3/8"" x 2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0210,"3/8"" x 2-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0220,"3/8"" x 3"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0230,"3/8"" x 3-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0240,"3/8"" x 4"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0250,"3/8"" x 4-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0260,"3/8"" x 5"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0270,"3/8"" x 5-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0280,"3/8"" x 6"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0290,"1/2"" x 1-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0300,"1/2"" x 2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0310,"1/2"" x 2-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0320,"1/2"" x 3"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0330,"1/2"" x 3-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0340,"1/2"" x 4"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0350,"1/2"" x 4-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0360,"1/2"" x 5"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0370,"1/2"" x 5-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0380,"1/2"" x 6"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0390,"3/4"" x 1-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0400,"3/4"" x 2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0410,"3/4"" x 2-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0420,"3/4"" x 3"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0430,"3/4"" x 3-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0440,"3/4"" x 4"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0450,"3/4"" x 4-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0460,"3/4"" x 5"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0470,"3/4"" x 5-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0480,"3/4"" x 6"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0490,"1"" x 2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0500,"1"" x 2-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0510,"1"" x 3"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0520,"1"" x 3-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0530,"1"" x 4"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0540,"1"" x 4-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0550,"1"" x 5"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0560,"1"" x 5-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0570,"1"" x 6"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0580,"1-1/4"" x 2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0590,"1-1/4"" x 2-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0600,"1-1/4"" x 3"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0610,"1-1/4"" x 3-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0620,"1-1/4"" x 4"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0630,"1-1/4"" x 4-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0640,"1-1/4"" x 5"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0650,"1-1/4"" x 5-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0660,"1-1/4"" x 6"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0670,"1-1/2"" x 2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0680,"1-1/2"" x 2-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0690,"1-1/2"" x 3"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0700,"1-1/2"" x 3-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0710,"1-1/2"" x 4"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0720,"1-1/2"" x 4-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0730,"1-1/2"" x 5"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0740,"1-1/2"" x 5-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0750,"1-1/2"" x 6"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0760,"2"" x 2-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0770,"2"" x 3"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0780,"2"" x 3-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0790,"2"" x 4"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0800,"2"" x 4-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0810,"2"" x 5"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0820,"2"" x 5-1/2"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0830,"2"" x 6"" Brass Nipple DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.080170.0840,"1/8"" x 6"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0850,"1/4"" x 1-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0860,"1/4"" x 2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0870,"1/4"" x 2-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0880,"1/4"" x 3"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0890,"1/4"" x 4-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0900,"1/4"" x 5"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0910,"1/4"" x 5-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0920,"1/4"" x 6"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0930,"3/8"" x 1-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0940,"1/8"" x 2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0950,"3/8"" x 2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0960,"3/8"" x 2-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0970,"3/8"" x 3"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0980,"3/8"" x 3-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.0990,"3/8"" x 4"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1000,"3/8"" x 4-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1010,"3/8"" x 5"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1020,"3/8"" x 5-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1030,"3/8"" x 6"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1040,"1/2"" x 1-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1050,"1/8"" x 2-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1060,"1/2"" x 2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1070,"1/2"" x 2-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1080,"1/2"" x 3"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1090,"1/2"" x 3-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1100,"1/2"" x 4"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1110,"1/2"" x 4-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1120,"1/2"" x 5"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1130,"1/2"" x 5-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1140,"1/2"" x 6"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1150,"3/4"" x 1-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1160,"1/8"" x 3"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1170,"3/4"" x 2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1180,"3/4"" x 2-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1190,"3/4"" x 3"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1200,"3/4"" x 3-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1210,"3/4"" x 4"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1220,"3/4"" x 4-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1230,"3/4"" x 5"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1240,"3/4"" x 5-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1250,"3/4"" x 6"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1260,"1"" x 2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1270,"1/8"" x 3-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1280,"1"" x 2-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1290,"1"" x 3"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1300,"1"" x 3-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1310,"1"" x 4"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1320,"1"" x 4-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1330,"1"" x 5"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1340,"1"" x 5-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1350,"1"" x 6"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1360,"1-1/4"" x 2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1370,"1-1/4"" x 2-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1380,"1/8"" x 4"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1390,"1-1/4"" x 3"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1400,"1-1/4"" x 3-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1410,"1-1/4"" x 4"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1420,"1-1/4"" x 4-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1430,"1-1/4"" x 5"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1440,"1-1/4"" x 5-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1450,"1-1/4"" x 6"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1460,"1-1/2"" x 2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1470,"1-1/2"" x 2-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1480,"1-1/2"" x 3"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1490,"1/8"" x 4-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1500,"1-1/2"" x 3-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1510,"1-1/2"" x 4"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1520,"1-1/2"" x 4-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1530,"1-1/2"" x 5"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1540,"1-1/2"" x 5-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1550,"1-1/2"" x 6"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1560,"2"" x 2-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1570,"2"" x 3"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1580,"2"" x 3-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1590,"2"" x 4"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1600,"1/8"" x 5"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1610,"2"" x 4-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1620,"2"" x 5"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1630,"2"" x 5-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1640,"2"" x 6"" Brass Nipple",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.080170.1650,"1/8"" x 5-1/2"" Brass Nipple DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010 Standard Nuts,,,,,,,,,,,,,
+03.090010.0010,"1/8"" Brass Flared Nut, Standard",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010.0020,"3/16"" Brass Flared Nut, Standard",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010.0030,"1/4"" Brass Flared Nut, Standard",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010.0040,"5/16"" Brass Flared Nut, Standard",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010.0050,"3/8"" Brass Flared Nut, Standard",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010.0060,"7/16"" Brass Flared Nut, Standard",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010.0070,"1/2"" Brass Flared Nut, Standard",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010.0080,"5/8"" Brass Flared Nut, Standard",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010.0090,"3/4"" Brass Flared Nut, Standard DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.090010.0100,"3/16"" Brass Flared Nut, Standard DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010.0110,"1/4"" Brass Flared Nut, Standard DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010.0120,"5/16"" Brass Flared Nut, Standard DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010.0130,"3/8"" Brass Flared Nut, Standard DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010.0140,"7/16"" Brass Flared Nut, Standard DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010.0150,"1/2"" Brass Flared Nut, Standard DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010.0160,"5/8"" Brass Flared Nut, Standard DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090010.0170,"3/4"" Brass Flared Nut, Standard",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090020 Long Nuts,,,,,,,,,,,,,
+03.090020.0010,"1/8"" Brass Flared Nut, Long",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090020.0020,"3/16"" Brass Flared Nut, Long",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090020.0030,"1/4"" Brass Flared Nut, Long",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090020.0040,"5/16"" Brass Flared Nut, Long",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090020.0050,"3/8"" Brass Flared Nut, Long",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090020.0060,"1/2"" Brass Flared Nut, Long",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090020.0070,"5/8"" Brass Flared Nut, Long",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090020.0080,"3/4"" Brass Flared Nut, Long DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.090020.0090,"3/16"" Brass Flared Nut, Long DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090020.0100,"1/4"" Brass Flared Nut, Long DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090020.0110,"5/16"" Brass Flared Nut, Long DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090020.0120,"3/8"" Brass Flared Nut, Long DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090020.0130,"1/2"" Brass Flared Nut, Long DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090020.0140,"5/8"" Brass Flared Nut, Long DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090020.0150,"3/4"" Brass Flared Nut, Long",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030 Unions,,,,,,,,,,,,,
+03.090030.0010,"1/8"" Flared Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030.0020,"3/16"" Flared Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030.0030,"1/4"" Flared Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030.0040,"5/16"" Flared Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030.0050,"3/8"" Flared Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030.0060,"1/2"" Flared Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030.0070,"5/8"" Flared Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030.0080,"3/4"" Flared Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030.0090,"7/8"" Flared Union DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.090030.0100,"3/16"" Flared Union DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030.0110,"1/4"" Flared Union DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030.0120,"5/16"" Flared Union DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030.0130,"3/8"" Flared Union DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030.0140,"1/2"" Flared Union DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030.0150,"5/8"" Flared Union DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030.0160,"3/4"" Flared Union DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090030.0170,"7/8"" Flared Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040 Male Union Adapters,,,,,,,,,,,,,
+03.090040.0010,"1/8"" x 1/8"" Union Adapter, 1/2""",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0020,"3/16"" x 1/8"" Union Adapter, 1/2""",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0030,"3/16"" x 1/48"" Union Adapter, 1/2""",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0040,"1/4"" x 1/8"" Union Adapter, 1/2""",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0050,"1/4"" x 1/4"" Union Adapter, 1/2""",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0060,"1/4"" x 3/8"" Union Adapter, 1/2""",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0070,"1/4"" x 1/2"" Union Adapter, 1/2""",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0080,"5/16"" x 1/8"" Union Adapter, 1/2""",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0090,"5/16"" x 1/48 Union Adapter, 1/2""",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0100,"5/16"" x 3/8"" Union Adapter, 1/2""",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0110,"5/16"" x 1/2"" Union Adapter, 1/2""",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0120,"3/8"" x 1/8"" Union Adapter, 1/2""",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0130,"3/8"" x 1/48"" Union Adapter, 1/2""",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0140,"3/8"" x 3/8"" Union Adapter, 1/2"" DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.090040.0150,"5/16"" x 3/8"" Union Adapter, 1/2"" DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0160,"5/16"" x 1/2"" Union Adapter, 1/2"" DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0170,"3/8"" x 1/8"" Union Adapter, 1/2"" DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0180,"3/8"" x 1/48"" Union Adapter, 1/2"" DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0190,"3/8"" x 3/8"" Union Adapter, 1/2""",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0200,"3/16"" x 1/8"" Union Adapter, 1/2"" DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0210,"3/16"" x 1/48"" Union Adapter, 1/2"" DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0220,"1/4"" x 1/8"" Union Adapter, 1/2"" DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0230,"1/4"" x 1/4"" Union Adapter, 1/2"" DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0240,"1/4"" x 3/8"" Union Adapter, 1/2"" DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0250,"1/4"" x 1/2"" Union Adapter, 1/2"" DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0260,"5/16"" x 1/8"" Union Adapter, 1/2"" DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090040.0270,"5/16"" x 1/48 Union Adapter, 1/2"" DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050 Tees - Reducing,,,,,,,,,,,,,
+03.090050.0010,"1/4"" x 1/2"" x 1/2"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0020,"5/16"" x 5/16"" x 1/4"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0030,"3/8"" x 1/4"" x 1/4"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0040,"3/8"" x 1/4"" x 8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0050,"3/8"" x 3/8"" x 1/4"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0060,"3/8"" x 3/8"" x 1/2"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0070,"3/8"" x 3/8"" x 5/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0080,"3/8"" x 1/2"" x 3/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0090,"3/8"" x 1/2"" x 1/2"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0100,"3/8"" x 5/8"" x 3/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0110,"3/8"" x 5/8"" x 5/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0120,"1/2"" x 1/4"" x 1/2"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0130,"1/2"" x 3/8"" x 1/4"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0140,"1/2"" x 3/8"" x 3/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0150,"1/2"" x 3/8"" x 1/2"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0160,"1/2"" x 1/2"" x 1/4"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0170,"1/2"" x 1/2"" x 3/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0180,"1/2"" x 1/2"" x 5/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0190,"1/2"" x 1/2"" x 3/4"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0200,"1/2"" x 5/8"" x 1/2"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0210,"1/2"" x 5/8"" x 5/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0220,"1/2"" x 3/4"" x 1/2"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0230,"1/2"" x 3/4"" x 3/4"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0240,"5/8"" x 3/8"" x 3/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0250,"5/8"" x 3/8"" x 5/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0260,"5/8"" x 1/2"" x 3/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0270,"5/8"" x 1/2"" x 1/2"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0280,"5/8"" x 1/2"" x 5/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0290,"5/8"" x 5/8"" x 3/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0300,"5/8"" x 5/8"" x 1/2"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0310,"5/8"" x 5/8"" x 3/4"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0320,"5/8"" x 3/4"" x 5/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0330,"3/4"" x 1/2"" x 1/2"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0340,"3/4"" x 1/2"" x 3/4"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0350,"3/4"" x 5/8"" x 5/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0360,"3/4"" x 3/4"" x 3/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0370,"3/4"" x 3/4"" x 1/2"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0380,"3/4"" x 3/4"" x 5/8"" Tee, Reducing DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.090050.0390,"3/8"" x 5/8"" x 3/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0400,"3/8"" x 5/8"" x 5/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0410,"1/2"" x 1/4"" x 1/2"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0420,"1/2"" x 3/8"" x 1/4"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0430,"1/2"" x 3/8"" x 3/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0440,"1/2"" x 3/8"" x 1/2"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0450,"1/2"" x 1/2"" x 1/4"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0460,"1/2"" x 1/2"" x 3/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0470,"1/2"" x 1/2"" x 5/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0480,"1/2"" x 1/2"" x 3/4"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0490,"5/16"" x 5/16"" x 1/4"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0500,"1/2"" x 5/8"" x 1/2"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0510,"1/2"" x 5/8"" x 5/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0520,"1/2"" x 3/4"" x 1/2"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0530,"1/2"" x 3/4"" x 3/4"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0540,"5/8"" x 3/8"" x 3/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0550,"5/8"" x 3/8"" x 5/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0560,"5/8"" x 1/2"" x 3/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0570,"5/8"" x 1/2"" x 1/2"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0580,"5/8"" x 1/2"" x 5/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0590,"5/8"" x 5/8"" x 3/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0600,"3/8"" x 1/4"" x 1/4"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0610,"5/8"" x 5/8"" x 1/2"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0620,"5/8"" x 5/8"" x 3/4"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0630,"5/8"" x 3/4"" x 5/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0640,"3/4"" x 1/2"" x 1/2"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0650,"3/4"" x 1/2"" x 3/4"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0660,"3/4"" x 5/8"" x 5/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0670,"3/4"" x 3/4"" x 3/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0680,"3/4"" x 3/4"" x 1/2"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0690,"3/4"" x 3/4"" x 5/8"" Tee, Reducing",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0700,"3/8"" x 1/4"" x 8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0710,"3/8"" x 3/8"" x 1/4"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0720,"3/8"" x 3/8"" x 1/2"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0730,"3/8"" x 3/8"" x 5/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0740,"3/8"" x 1/2"" x 3/8"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090050.0750,"3/8"" x 1/2"" x 1/2"" Tee, Reducing DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060 90 Degree Elbow Adapter,,,,,,,,,,,,,
+03.090060.0010,"1/8"" x 1/8"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0020,"3/16"" x 1/8"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0030,"3/16"" x 1/4"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0040,"1/4"" x 1/8"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0050,"1/4"" x 1/4"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0060,"1/4"" x 3/8"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0070,"1/4"" x 1/2"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0080,"5/16"" x 1/8"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0090,"5/16"" x 1/4"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0100,"5/16"" x 3/8"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0110,"5/16"" x 1/2"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0120,"3/8"" x 1/8"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0130,"3/8"" x 1/4"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0140,"3/8"" x 3/8"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0150,"3/8"" x 1/2"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0160,"3/8"" x 3/4"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0170,"1/2"" x 1/8"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0180,"1/2"" x 1/4"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0190,"1/2"" x 3/8"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0200,"1/2"" x 1/2"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0210,"1/2"" x 3/4"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0220,"5/8"" x 1/4"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0230,"5/8"" x 3/8"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0240,"5/8"" x 1/2"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0250,"5/8"" x 3/4"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0260,"3/4"" x 1/2"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0270,"3/4"" x 3/4"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0280,"7/8"" x 3/4"" 90 Degree Elbow Adapter DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.090060.0290,"5/16"" x 3/8"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0300,"5/16"" x 1/2"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0310,"3/8"" x 1/8"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0320,"3/8"" x 1/4"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0330,"3/8"" x 3/8"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0340,"3/8"" x 1/2"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0350,"3/8"" x 3/4"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0360,"1/2"" x 1/8"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0370,"1/2"" x 1/4"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0380,"1/2"" x 3/8"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0390,"3/16"" x 1/8"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0400,"1/2"" x 1/2"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0410,"1/2"" x 3/4"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0420,"5/8"" x 1/4"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0430,"5/8"" x 3/8"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0440,"5/8"" x 1/2"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0450,"5/8"" x 3/4"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0460,"3/4"" x 1/2"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0470,"3/4"" x 3/4"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0480,"7/8"" x 3/4"" 90 Degree Elbow Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0490,"3/16"" x 1/4"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0500,"1/4"" x 1/8"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0510,"1/4"" x 1/4"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0520,"1/4"" x 3/8"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0530,"1/4"" x 1/2"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0540,"5/16"" x 1/8"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.090060.0550,"5/16"" x 1/4"" 90 Degree Elbow Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010 Sleeves,,,,,,,,,,,,,
+03.100010.0010,"1/8"" Compression Sleeve",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0020,"3/16"" Compression Sleeve",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0030,"1/4"" Compression Sleeve",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0040,"5/16"" Compression Sleeve",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0050,"3/8"" Compression Sleeve",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0060,"7/16"" Compression Sleeve",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0070,"1/2"" Compression Sleeve",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0080,"5/8"" Compression Sleeve",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0090,"3/4"" Compression Sleeve",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0100,"7/8"" Compression Sleeve DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.100010.0110,"7/8"" Compression Sleeve",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0120,"3/16"" Compression Sleeve DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0130,"1/4"" Compression Sleeve DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0140,"5/16"" Compression Sleeve DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0150,"3/8"" Compression Sleeve DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0160,"7/16"" Compression Sleeve DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0170,"1/2"" Compression Sleeve DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0180,"5/8"" Compression Sleeve DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100010.0190,"3/4"" Compression Sleeve DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020 Nuts,,,,,,,,,,,,,
+03.100020.0010,"1/8"" Compression Nut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0020,"3/16"" Compression Nut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0030,"1/4"" Compression Nut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0040,"5/16"" Compression Nut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0050,"3/8"" Compression Nut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0060,"7/16"" Compression Nut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0070,"1/2"" Compression Nut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0080,"5/8"" Compression Nut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0090,"3/4"" Compression Nut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0100,"1/8"" Compression Nut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0110,"7/8"" Compression Nut",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0120,"3/16"" Compression Nut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0130,"1/4"" Compression Nut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0140,"5/16"" Compression Nut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0150,"3/8"" Compression Nut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0160,"7/16"" Compression Nut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0170,"1/2"" Compression Nut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0180,"5/8"" Compression Nut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100020.0190,"3/4"" Compression Nut DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030 Unions,,,,,,,,,,,,,
+03.100030.0010,"1/8"" Compression Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0020,"3/16"" Compression Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0030,"1/4"" Compression Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0040,"5/16"" Compression Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0050,"3/8"" Compression Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0060,"7/16"" Compression Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0070,"1/2"" Compression Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0080,"5/8"" Compression Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0090,"3/4"" Compression Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0100,"7/8"" Compression Union DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.100030.0110,"7/8"" Compression Union",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0120,"3/16"" Compression Union DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0130,"1/4"" Compression Union DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0140,"5/16"" Compression Union DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0150,"3/8"" Compression Union DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0160,"7/16"" Compression Union DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0170,"1/2"" Compression Union DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0180,"5/8"" Compression Union DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100030.0190,"3/4"" Compression Union DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040 Tees,,,,,,,,,,,,,
+03.100040.0010,"1/8"" Compression Tee",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040.0020,"3/16"" Compression Tee",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040.0030,"1/4"" Compression Tee",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040.0040,"5/16"" Compression Tee",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040.0050,"3/8"" Compression Tee",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040.0060,"1/2"" Compression Tee",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040.0070,"5/8"" Compression Tee",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040.0080,"3/4"" Compression Tee",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040.0090,"7/8"" Compression Tee DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.100040.0100,"3/16"" Compression Tee DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040.0110,"1/4"" Compression Tee DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040.0120,"5/16"" Compression Tee DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040.0130,"3/8"" Compression Tee DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040.0140,"1/2"" Compression Tee DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040.0150,"5/8"" Compression Tee DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040.0160,"3/4"" Compression Tee DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100040.0170,"7/8"" Compression Tee",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050 Female Adapters,,,,,,,,,,,,,
+03.100050.0010,"1/8"" x 1/8"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0020,"3/16"" x 1/8"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0030,"3/16"" x 1/4"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0040,"1/4"" x 1/8"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0050,"1/4"" x 1/4"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0060,"1/4"" x 3/8"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0070,"1/4"" x 1/2"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0080,"5/16"" x 1/8"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0090,"5/16"" x 1/4"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0100,"5/16"" x 3/8"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0110,"3/8"" x 1/8"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0120,"3/8"" x 1/4"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0130,"3/8"" x 3/8"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0140,"3/8"" x 1/2"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0150,"3/8"" x 3/4"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0160,"1/2"" x 1/4"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0170,"1/2"" x 3/8"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0180,"1/2"" x 1/2"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0190,"1/2"" x 3/4"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0200,"5/8"" x 3/8"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0210,"5/8"" x 1/2"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0220,"5/8"" x 3/4"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0230,"3/4"" x 1/2"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0240,"3/4"" x 3/4"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0250,"7/8"" x 1/2"" Compression Female Adapter DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.100050.0260,"5/16"" x 3/8"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0270,"3/8"" x 1/8"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0280,"3/8"" x 1/4"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0290,"3/8"" x 3/8"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0300,"3/8"" x 1/2"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0310,"3/8"" x 3/4"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0320,"1/2"" x 1/4"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0330,"1/2"" x 3/8"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0340,"1/2"" x 1/2"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0350,"1/2"" x 3/4"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0360,"3/16"" x 1/8"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0370,"5/8"" x 3/8"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0380,"5/8"" x 1/2"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0390,"5/8"" x 3/4"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0400,"3/4"" x 1/2"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0410,"3/4"" x 3/4"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0420,"7/8"" x 1/2"" Compression Female Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0430,"3/16"" x 1/4"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0440,"1/4"" x 1/8"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0450,"1/4"" x 1/4"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0460,"1/4"" x 3/8"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0470,"1/4"" x 1/2"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0480,"5/16"" x 1/8"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100050.0490,"5/16"" x 1/4"" Compression Female Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060 Male Adapters,,,,,,,,,,,,,
+03.100060.0010,"1/8"" x 1/8"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0020,"3/16"" x 1/8"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0030,"3/16"" x 1/4"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0040,"1/4"" x 1/8"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0050,"1/4"" x 1/4"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0060,"1/4"" x 3/8"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0070,"1/4"" x 1/2"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0080,"5/16"" x 1/8"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0090,"5/16"" x 1/4"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0100,"5/16"" x 3/8"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0110,"5/16"" x 1/2"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0120,"3/8"" x 1/8"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0130,"3/8"" x 1/4"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0140,"3/8"" x 3/8"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0150,"3/8"" x 1/2"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0160,"3/8"" x 3/4"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0170,"7/16"" x 1/4"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0180,"7/16"" x 3/8"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0190,"1/2"" x 1/4"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0200,"1/2"" x 3/8"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0210,"1/2"" x 1/2"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0220,"1/2"" x 3/4"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0230,"5/8"" x 3/8"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0240,"5/8"" x 1/2"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0250,"5/8"" x 3/4"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0260,"3/4"" x 1/2"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0270,"3/4"" x 3/4"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0280,"7/8"" x 1/2"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0290,"7/8"" x 3/4"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0300,"7/8"" x 1"" Compression Male Adapter DELETE",EA,0,1,,65,1,HR,0,0,1,HR,0
+03.100060.0310,"5/16"" x 3/8"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0320,"5/16"" x 1/2"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0330,"3/8"" x 1/8"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0340,"3/8"" x 1/4"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0350,"3/8"" x 3/8"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0360,"3/8"" x 1/2"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0370,"3/8"" x 3/4"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0380,"7/16"" x 1/4"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0390,"7/16"" x 3/8"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0400,"1/2"" x 1/4"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0410,"3/16"" x 1/8"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0420,"1/2"" x 3/8"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0430,"1/2"" x 1/2"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0440,"1/2"" x 3/4"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0450,"5/8"" x 3/8"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0460,"5/8"" x 1/2"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0470,"5/8"" x 3/4"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0480,"3/4"" x 1/2"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0490,"3/4"" x 3/4"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0500,"7/8"" x 1/2"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0510,"7/8"" x 3/4"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0520,"3/16"" x 1/4"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0530,"7/8"" x 1"" Compression Male Adapter",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0540,"1/4"" x 1/8"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0550,"1/4"" x 1/4"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0560,"1/4"" x 3/8"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0570,"1/4"" x 1/2"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0580,"5/16"" x 1/8"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0
+03.100060.0590,"5/16"" x 1/4"" Compression Male Adapter DELETE",EA,0,1,,75,1,HR,0,0,1,HR,0

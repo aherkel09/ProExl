@@ -1,12 +1,18 @@
 import re, csv
 from expressions import Expressions
+from match_rows import RowMatcher
 
 class Nomenclature:
-    def __init__(self, data_file, regex_dict, subtypes):
-        self.data_file = data_file
-        self.regex_dict = regex_dict
-        self.subtypes = subtypes
+    def __init__(self, in_file, out_file, expressions, division_num):
+        self.in_file = in_file
+        self.out_file = out_file
+        self.division_num = division_num
+        self.regex_dict = expressions.divisions[division_num]
+        self.subtypes = expressions.subtypes[division_num]
+        self.revisions = expressions.revisions[division_num]
+        self.subtype_revisions = expressions.subtype_revisions[division_num]
         self.matched = self.match_keys()
+        
         
     def match_keys(self):
         matched = {}
@@ -14,6 +20,7 @@ class Nomenclature:
             matched[key] = []
         
         return matched
+    
 
     def match_expression(self, description):
         for key in self.regex_dict:
@@ -24,6 +31,7 @@ class Nomenclature:
 
         return None
     
+    
     def match_subtype(self, key, description):
         result = self.find_match(self.subtypes, key, description)
         
@@ -32,54 +40,119 @@ class Nomenclature:
         
         return (key, None)
     
+    
     def find_match(self, data, key, description):
         if key in data:
-            result = data[key].search(description)
+            result = data[key].findall(description)
         
             if result:
                 return (key, result)
             
             return None
+        
+        
+    def extract_size(self, description):
+        digits = '([0-9]+(/[0-9]+)?(-[0-9]+(/[0-9]+)?)?"?)'
+        size = re.compile('^' + digits + '*[ ]?x?[ ]?' + digits + '*[ ]?x?[ ]?' + digits + '?', re.IGNORECASE)
+        found = re.findall(size, description)
+        
+        size_list = []
+        exclusions = ['11.25', '22.5', '45', '90', '125', '150', '180', '300', '921', '2000', '3000', '6000']
+        for sizes in found:
+            for size in sizes:
+                if size != '' and not size.startswith('/') and not size.startswith('-') and size not in exclusions:
+                    size_list += [size.replace('"', '')]
+                
+        return size_list
+    
             
-
     def search_all(self):
-        with open(self.data_file, 'r') as f:
+        skipped = 0
+        with open(self.in_file, 'r') as f:
             reader = csv.reader(f)
             for row in reader:
-                match = self.match_expression(row[1])
-
-                if match:
-                    self.matched[match[0]] += [row]
+                
+                if len(row[2]) > 0:                    
+                    match = self.match_expression(row[1])
+        
+                    if match:
+                        self.matched[match[0]] += [row]
+                else:
+                    skipped += 1
+                    
+        print('Skipped: ' + str(skipped))
+                    
                     
     def revise_all(self):
-        sub_count = 0
-        total_count = 0
+        deleted = 0
         for m in self.matched:
             for row in self.matched[m]:
-                key, subtype = self.match_subtype(m, row[1])
                 
-                # TODO: generate new descriptions, accounting for subtype
+                if 'DELETE' not in row[1]:
+                    size_list = self.extract_size(row[1])
+                    key, subtypes = self.match_subtype(m, row[1])
+            
+                    if subtypes:
+                        subtypes = [s.split(' ')[0].lower() for s in subtypes]
+                    
+                    row[1] = self.rename(key, size_list, subtypes)
+                else:
+                    deleted += 1
+                    
+        print('Deleted: ' + str(deleted))
                 
-                if subtype:
-                    sub_count += 1
-                
-                total_count += 1
+    
+    def rename(self, key, size_list, subtypes):
+        template = self.revisions[key]
         
-        print('sub_count:', sub_count, 'total_count', total_count)
+        for i in range(len(size_list)):
+            template = template.replace('SIZE' + str(i), size_list[i])
+        
+        if subtypes:
+            substring = ''
+            for s in subtypes:
+                if s in self.subtype_revisions:
+                    subtype = self.subtype_revisions[s]
+                else:
+                    subtype = s.upper()
+                
+                if subtype not in template:
+                    substring += ' ' + subtype
+
+            template = template.replace('_SUBTYPES', substring)
+        else:
+            template = template.replace('_SUBTYPES', '')
+        
+        return self.remove_extraneous(template)
+    
+    
+    def remove_extraneous(self, string):
+        size = re.compile('x*SIZE[0-9]*', re.IGNORECASE)
+        found = re.findall(size, string)
+        
+        for f in found:
+            string = string.replace(f, '')
+        
+        return string
+    
                     
     def write_out(self):
-        with open('Data/nomenclature.csv', 'w', newline='\n') as f:
+        with open(self.out_file, 'w', newline='\n') as f:
             writer = csv.writer(f)
             for key in self.matched:
-                writer.writerows(self.matched[key])
+                for row in self.matched[key]:
+                    if 'DELETE' not in row[1]:
+                        writer.writerow(row)
                 
                                 
 if __name__ == '__main__':
+    division = '3'
+    in_file = 'Data/division_csv/division_' + division + '.csv'
+    out_file = 'Data/nomenclature_' + division + '.csv'
     exp = Expressions()
-    regex_dict = exp.division_12
-    subtypes = exp.subtypes_12
     
-    nom = Nomenclature('Data/division_csv/division_12.csv', regex_dict, subtypes)
+    nom = Nomenclature(in_file, out_file, exp, division)
     nom.search_all()
     nom.revise_all()
+    nom.write_out()
     

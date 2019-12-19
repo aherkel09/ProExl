@@ -2,9 +2,9 @@ from duplicate_hunter_two import DuplicateHunter
 from duplicate_gui import DuplicateGUI
 
 class Resolver():
-    def __init__(self, test=False):
+    def __init__(self, in_file, test=False):
         self.test = test
-        self.hunter = DuplicateHunter()
+        self.hunter = DuplicateHunter(in_file)
         self.gui = DuplicateGUI()
         self.targets = {}
         self.target_key = ''
@@ -100,5 +100,5 @@ class Resolver():
         self.display_next_target()
 
 if __name__ == '__main__':
-    resolver = Resolver(test=False)
+    resolver = Resolver('Data/division_csv/division_6.csv', test=False)
     resolver.begin()

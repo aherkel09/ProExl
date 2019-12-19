@@ -3,10 +3,11 @@ from writer import Writer
 from hardcodes import Hardcodes
 
 class DuplicateHunter(Reader):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, in_file):
+        super().__init__(in_file)
         self.data_info = {}
         self.resolved = []
+        
         # dict format: {description1: [[option1], [option2], ...], ...}
         self.unique = {}
         self.duplicates = {}
