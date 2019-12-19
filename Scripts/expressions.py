@@ -47,10 +47,12 @@ class Expressions:
             'Cleanouts': size + 'cleanout+',
             'P-Traps': size + 'p-trap+',
             'Locknuts': size + 'locknut+',
+            'Nuts': size + 'nut+',
+            'Sleeves': size + 'sleeve+',
             'Bushings': size + 'bushing+',
             'Return Bends': size + 'ret(urn)? bend+',
             'Nipples': size + 'nipple+',
-            'Sleeves': size + 'sleeves+',
+            'Sleeves': size + 'sleeve+',
             'Adapters': size + 'adapter+',
             'Reducers': size + 'red+',
         })
@@ -112,6 +114,8 @@ class Expressions:
             'Cleanouts': 'SIZE0 CLEANOUT_SUBTYPES',
             'P-Traps': 'SIZE0 P-TRAP_SUBTYPES',
             'Locknuts': 'SIZE0 LOCKNUT_SUBTYPES',
+            'Nuts': 'SIZE0 NUT_SUBTYPES',
+            'Sleeves': 'SIZE0 SLEEVE_SUBTYPES',
             'Bushings': 'SIZE0xSIZE1 BUSHING_SUBTYPES',
             'Return Bends': 'SIZE0 RETURN BEND_SUBTYPES',
             'Nipples': 'SIZE0xSIZE1 NIPPLE_SUBTYPES',
@@ -125,6 +129,7 @@ class Expressions:
         return self.compile_division({
             'Welds': size + 'weld+',
             'Gaskets': size + 'gasket+',
+            'Regulators': 'regulator+',
             'Inserts': size + 'insert+',
             'Adapters': size + 'adapter+',
             'Laterals': size + 'lateral+',
@@ -149,14 +154,14 @@ class Expressions:
     
     def subtypes_6(self):
         possible_6 = str(
-            'schedule\-40|schedule\-80|90|45|street|black|iron|' +
-            'galv|victaulic|thread|plain|bevel|seamless|base|' +
-            'cast|weld|slip|blind|red|concentric|eccentric|' +
+            'schedule\-40|schedule\-80|90|45|street|black|iron|tee|straight|' +
+            'galv|victaulic|plain|bevel|seamless|base|cap|exh|elbow|' +
+            'cast|weld|slip|blind|red|concentric|eccentric|gas|flange|' +
             'male|female|ball|solid|cored|square|hex|round|companion|' +
-            'compression|floor|short|long|neck|lap|weldolet|sockolet|' +
-            'thrdolet|pipoweld|line|nozzle|check|butterfly|mechanical|' +
-            'gasket|pxp|pxf|pxm|pxpxp|pxpxf|g/j|bolt set|11.25|' +
-            '22.5|125|150|180|300|2000|3000|6000'
+            'compression|floor|short|long|neck|lap-joint|weldolet|sockolet|' +
+            'thrdolet|threadolet|pipoweld|line|nozzle|check|butterfly|mechanical|' +
+            'gasket|pxp|pxf|pxm|pxpxp|pxpxf|fs s/w|fs scr|fs soc|g/j|bolt set|' +
+            'thread|11.25|22.5|125|150|180|300|2000|3000|6000'
         )
         
         subtypes = {}
@@ -170,6 +175,7 @@ class Expressions:
         return {
             'Welds': 'SIZE0xSIZE1 WELD_SUBTYPES',
             'Gaskets': 'SIZE0 GASKET_SUBTYPES',
+            'Regulators': 'SIZE0 REGULATOR_SUBTYPES',
             'Adapters': 'SIZE0 ADAPTER_SUBTYPES',
             'Inserts': 'SIZE0 INSERT_SUBTYPES',
             'Laterals': 'SIZE0 LATERAL_SUBTYPES',
@@ -197,7 +203,6 @@ class Expressions:
             'schedule-40': 'SCHED 40',
             'schedule-80': 'SCHED 80',
             'galv': 'GALV',
-            'thread': 'THREADED',
             'plain': 'PLAIN END',
             'bevel': 'BEVELED',
             'red': 'REDUC',
@@ -213,48 +218,128 @@ class Expressions:
         
     
     def division_12(self):
-        size_x_size = '[0-9]+[0-9]*"?[ ]?x[ ]?[0-9]+[0-9]*"?'
+        size = '[0-9]+(-[0-9]+/[0-9]*)?"?[ ]?x?[ ]?[0-9]?(-[0-9]+/[0-9]*)?"?.*'
         
         return self.compile_division({
-            'Straight Collar': '^straight collar',
-            'Reducers': '^' + size_x_size + '([ ]*to[ ]*|[ ]*-[ ]*)' + size_x_size + '[ ]*-[ ]*reducer',
-            'End Caps': '^' + size_x_size + ' - end cap',
-            'Rectangular Duct': '^' + size_x_size + '( rectangular)? - (?!fire|bottom|side)',
-            'Rectangular Tees': '^' + size_x_size + 'x[ ]?[0-9]+[0-9]*"? - rectangular tee',
+            'Straight Collar': '^straight collar.*' + size,
+            'End Caps': '^' + size + 'end cap',
+            'Rectangular Tees': '^' + size + 'x[ ]?[0-9]+[0-9]*"? - rectangular tee',
             'Vertical Elbows': 'vertical duct elbow',
             'Horizontal Elbows': 'horizontal duct elbow',
+            'Reducers': '^' + size + '([ ]*to[ ]*|[ ]*-[ ]*)' + size + '[ ]*-[ ]*reducer',
+            'AES Dropbox': '^aes drop',
+            'Grilles': size + 'grill',
+            'Registers': size + 'register',
+            'Lay-Ins': size + '(lay-in)',
+            'Linears': size + 'linear',
+            'Diffusers': size + 'diffuser',
+            'Louvers': size + 'louver',
+            'Dampers': size + 'damper',
+            'Sheet Metal': size + 'sheet metal',
+            'Collars': size + 'collar',
+            'Round Reducers': size + 'reducer',
+            'Round Tees': size + 'tee',
+            'Ys': size + ' - y',
+            'Saddle Taps': size + '[ ]*on[ ]*' + size + 'saddle',
+            'Flex': size + 'flex',
+            'VAVs': size + 'vav ',
+            'Chimney Vents': size + 'chimney',
+            'Caps': size + 'cap',
+            'Roof Flashings': size + 'roof flashing',
+            'Intakes': size + 'intake',
+            'Access Doors': size + 'access door',
+            'PVC': size + 'pvc',
+            'Grease Duct': size + 'grease',
+            'Clean Out Doors': size + 'clean out door',
+            'Couplings': size + 'coupling',
+            'Fire Wrap': size + 'fire wrap',
+            'Risers': size + 'riser',
+            'Offsets': size + 'offset',
+            'Elbows': size + 'elbow',
+            'Side Angles': size + 'side angle',
+            '3-Ways': size + '3-way',
+            'Rd Pipe': size + 'rd\. s',
+            'Spiral Duct': size + 'spiral duct',
+            'Rectangular Duct': '^' + size + '( rectangular)? - [1|2|b|m]+',
         })
         
         
     def subtypes_12(self):
-        return self.compile_division({
-            'Straight Collar': '(bare|1" [w|l|i]*|2" [w|l|i]*)+',
-            'Rectangular Duct': '(bare|1" [w|l|i]*|2" [w|l|i]*|mastic)+',
-            'Vertical Elbows': '(bare|wrapped|lined)+',
-            'Horizontal Elbows': '(bare|wrapped|lined)+',
-        })
+        possible_12 = str(
+            'bare|mastic|wrap|lined|spiral|floor|elbow|gas connector|duct|' +
+            'exhaust|return|supply|round|baseboard|rect|linear|soffit|45|90|' +
+            'drum|12\" x 12\"|24\" x 24\"|lay\-in|provide|install|volume|fire|' +
+            'bellmouth|start|flex|ungasketed|gasketed|manual|butterfly|cable|edge|2 hour|' +
+            'r\-4\.2|r\-6\.0|non-insulated|pvc|motorized|stack|sweep|rd\.|' +
+            'sweep|3-way|28 ga|26 ga|30 ga|24 ga|22 ga|24\" long|48\" long|72\" long|' +
+            'bypass|damper|\(4\) grilles|\(6\) grilles|concentric|door|connector|' +
+            'flange|braid|thread|weld|rain|storm|vent|sleeve|revolving|galvanized|' +
+            'stainless|dryer|fresh air|1\" [w|l|i]{1}|2\" [w|l|i]{1}'
+        )
+        
+        subtypes = {}
+        for d in self.divisions['12']:
+            subtypes[d] = possible_12
+            
+        return self.compile_division(subtypes)
         
         
     def revisions_12(self):
         return {
-            'Straight Collar': 'SIZE0xSIZE1 COLLAR_SUBTYPES',
-            'Reducers': 'SIZE0xSIZE1 TO SIZE0xSIZE1 REDUCER_SUBTYPES',
+            'Straight Collar': 'SIZE0xSIZE1 RECT COLLAR_SUBTYPES',
             'End Caps': 'SIZE0xSIZE1 END CAP_SUBTYPES',
-            'Rectangular Duct': 'SIZE0xSIZE1 RECT_SUBTYPES',
             'Rectangular Tees': 'SIZE0xSIZE1xSIZE2 RECT TEE_SUBTYPES',
-            'Vertical Elbows': 'SIZE0xSIZE1 STACK ELBOW_SUBTYPES',
-            'Horizontal Elbows': 'SIZE0xSIZE1 SWEEP ELBOW_SUBTYPES',
+            'Vertical Elbows': 'SIZE0xSIZE1 VERT DUCT ELBOW_SUBTYPES',
+            'Horizontal Elbows': 'SIZE0xSIZE1 HORIZ DUCT ELBOW_SUBTYPES',
+            'Reducers': 'SIZE0xSIZE1 TO SIZE2xSIZE3 REDUCER_SUBTYPES',
+            'Grilles': 'SIZE0xSIZE1 GRILLE_SUBTYPES',
+            'Registers': 'SIZE0xSIZE1 REGISTER_SUBTYPES',
+            'Linears': 'SIZE0 DIFFUSER_SUBTYPES',
+            'Lay-Ins': 'SIZE0 DIFFUSER_SUBTYPES',
+            'Diffusers': 'SIZE0xSIZE1 DIFFUSER_SUBTYPES',
+            'Louvers': 'SIZE0xSIZE1 LOUVER_SUBTYPES',
+            'Dampers': 'SIZE0xSIZE1 DAMPER_SUBTYPES',
+            'Sheet Metal': 'SIZE0 SHEET METAL PIPE_SUBTYPES',
+            'Collars': 'SIZE0xSIZE1 COLLAR_SUBTYPES',
+            'Round Reducers': 'SIZE0xSIZE1 REDUCER_SUBTYPES',
+            'Round Tees': 'SIZE0xSIZE1xSIZE2 TEE_SUBTYPES',
+            'Ys': 'SIZE0xSIZE1xSIZE2 Y_SUBTYPES',
+            'Saddle Taps': 'SIZE0 ON SIZE1xSIZE2xSIZE3 SADDLE TAP_SUBTYPES',
+            'Flex': 'SIZE0 FLEX_SUBTYPES',
+            'AES Dropbox': 'AES DROPBOX_SUBTYPES',
+            'VAVs': 'SIZE0 VAV_SUBTYPES',
+            'Chimney Vents': 'SIZE0 CHIMNEY_SUBTYPES',
+            'Caps': 'SIZE0xSIZE1 CAP_SUBTYPES',
+            'Roof Flashings': 'SIZE0 ROOF FLASHING_SUBTYPES',
+            'Intakes': 'SIZE0 INTAKE_SUBTYPES',
+            'Access Doors': 'SIZE0xSIZE1 ACCESS DOOR_SUBTYPES',
+            'PVC': 'SIZE0 PVC_SUBTYPES',
+            'Grease Duct': 'SIZE0XSIZE1 GREASE_SUBTYPES',
+            'Clean Out Doors': 'SIZE0xSIZE1 CLEAN OUT DOOR_SUBTYPES',
+            'Couplings': 'SIZE0 COUPLING_SUBTYPES',
+            'Fire Wrap': 'SIZE0xSIZE1 FIRE WRAP_SUBTYPES',
+            'Risers': 'SIZE0xSIZE1 RISER_SUBTYPES',
+            'Offsets': 'SIZE0xSIZE1 OFFSET_SUBTYPES',
+            'Elbows': 'SIZE0 ELBOW_SUBTYPES',
+            'Side Angles': 'SIZE0xSIZE1 SIDE ANGLE_SUBTYPES',
+            '3-Ways': 'SIZE0xSIZE1 3-WAY_SUBTYPES',
+            'Rd Pipe': 'SIZE0 PIPE_SUBTYPES',
+            'Spiral Duct': 'SIZE0 SPIRAL DUCT_SUBTYPES',
+            'Rectangular Duct': 'SIZE0xSIZE1 RECT_SUBTYPES',
         }
         
     
     def subtype_revisions_12(self):
         return {
-            '2"': '2" WRAP',
-            '1"': '1" LINED',
-            'mastic': 'MASTIC',
-            'bare': 'BARE',
-            'wrapped': 'WRAPPED',
-            'lined': 'LINED',
+            '2" w': '2" WRAP',
+            '2" i': '2" WRAP',
+            '2" l': '',
+            '1" l': '1" LINED',
+            '1" i': '1" LINED',
+            '2 hour': '2 HR',
+            'rd.': 'ROUND',
+            '24" x 24"': '24x24',
+            '12" x 12"': '12x12',
         }
         
     

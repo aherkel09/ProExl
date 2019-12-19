@@ -37,14 +37,32 @@ class RowMatcher:
         if self.initial == self.final:
             print('Initial:', len(self.initial), 'Final:', len(self.final), 'Matched:', self.initial == self.final)
         else:
-            print('Unmatched (' + str(len(self.diff)) + '):', [d for d in self.diff])
+            print('Unmatched (' + str(len(self.diff)) + '):', self.diff)
+    
+    def write_results(self):
+        with open('Data/row_matcher_results.txt', 'w') as f:
+            data = {
+                'Initial': len(self.initial),
+                'Final': len(self.final),
+                'Diff': len(self.diff)
+            }
+            
+            f.write(str(data))
+            f.write('\n')
+            
+            for d in self.diff:
+                f.write(d + '\n')
+        
+        print('wrote results to Data/row_matcher_results.txt')
+        
 
 if __name__ == '__main__':
-    division = '6'
+    division = '12'
     
     max_rows = {
-        '12': 15636,
-        '6': 5738,
+        '3': 2183,
+        '6': 5741,
+        '12': 16217,
     }
     max_row = max_rows[division]
     

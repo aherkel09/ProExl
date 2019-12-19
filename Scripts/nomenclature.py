@@ -12,6 +12,7 @@ class Nomenclature:
         self.revisions = expressions.revisions[division_num]
         self.subtype_revisions = expressions.subtype_revisions[division_num]
         self.matched = self.match_keys()
+        self.max_row = 0
         
         
     def match_keys(self):
@@ -53,7 +54,7 @@ class Nomenclature:
         
     def extract_size(self, description):
         digits = '([0-9]+(/[0-9]+)?(-[0-9]+(/[0-9]+)?)?"?)'
-        size = re.compile('^' + digits + '*[ ]?x?[ ]?' + digits + '*[ ]?x?[ ]?' + digits + '?', re.IGNORECASE)
+        size = re.compile(digits + '*[ ]?x?[ ]?' + digits + '*[ ]?x?[ ]?' + digits + '?', re.IGNORECASE)
         found = re.findall(size, description)
         
         size_list = []
@@ -93,7 +94,11 @@ class Nomenclature:
                     key, subtypes = self.match_subtype(m, row[1])
             
                     if subtypes:
-                        subtypes = [s.split(' ')[0].lower() for s in subtypes]
+                        try:
+                            subtypes = [s.lower() for s in subtypes]
+                        except:
+                            print(m, row[1], subtypes)
+                            raise ValueError
                     
                     row[1] = self.rename(key, size_list, subtypes)
                 else:
@@ -116,7 +121,7 @@ class Nomenclature:
                 else:
                     subtype = s.upper()
                 
-                if subtype not in template:
+                if subtype not in template and subtype not in substring:
                     substring += ' ' + subtype
 
             template = template.replace('_SUBTYPES', substring)
@@ -137,16 +142,19 @@ class Nomenclature:
     
                     
     def write_out(self):
+        lines_written = 0
         with open(self.out_file, 'w', newline='\n') as f:
             writer = csv.writer(f)
             for key in self.matched:
-                for row in self.matched[key]:
-                    if 'DELETE' not in row[1]:
-                        writer.writerow(row)
+                writer.writerows(self.matched[key])
+                lines_written += len(self.matched[key])
+        
+        self.max_row = lines_written
+        print('Finished writing', lines_written, 'lines.')
                 
                                 
 if __name__ == '__main__':
-    division = '3'
+    division = '12'
     in_file = 'Data/division_csv/division_' + division + '.csv'
     out_file = 'Data/nomenclature_' + division + '.csv'
     exp = Expressions()
@@ -155,4 +163,7 @@ if __name__ == '__main__':
     nom.search_all()
     nom.revise_all()
     nom.write_out()
+    
+    matcher = RowMatcher(in_file, out_file, nom.max_row)
+    matcher.write_results()
     

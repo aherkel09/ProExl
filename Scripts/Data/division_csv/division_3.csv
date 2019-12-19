@@ -67,12 +67,12 @@ Code,Description,Unit,Mat Cost,Mat Factor,Mat Unit,Labor Cost,Labor Productivity
 03.010040.0010,"1/2"" Copper Pipe, Soft, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
 03.010040.0020,"3/4"" Copper Pipe, Soft, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
 03.010040.0030,"1"" Copper Pipe, Soft, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
-03.010040.0040,"1-1/4"" Copper, Soft, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010040.0040,"1-1/4"" Copper Pipe, Soft, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
 03.010040.0050,"1-1/2"" Copper Pipe, Soft, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
 03.010040.0060,"2"" Copper Pipe, Soft, Type K DELETE",LF,0,1,,65,1,HR,0,0,1,HR,0
 03.010040.0070,"3/4"" Copper Pipe, Soft, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
 03.010040.0080,"1"" Copper Pipe, Soft, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
-03.010040.0090,"1-1/4"" Copper, Soft, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010040.0090,"1-1/4"" Copper Pipe, Soft, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
 03.010040.0100,"1-1/2"" Copper Pipe, Soft, Type K DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
 03.010040.0110,"2"" Copper Pipe, Soft, Type K",LF,0,1,,75,1,HR,0,0,1,HR,0
 03.010050 Copper Pipe - Soft - Type L,,,,,,,,,,,,,
@@ -81,13 +81,13 @@ Code,Description,Unit,Mat Cost,Mat Factor,Mat Unit,Labor Cost,Labor Productivity
 03.010050.0030,"1/2"" Copper Pipe, Soft, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
 03.010050.0040,"3/4"" Copper Pipe, Soft, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
 03.010050.0050,"1"" Copper Pipe, Soft, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
-03.010050.0060,"1-1/4"" Copper, Soft, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010050.0060,"1-1/4"" Copper Pipe, Soft, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
 03.010050.0070,"1-1/2"" Copper Pipe, Soft, Type L DELETE",LF,0,1,,65,1,HR,0,0,1,HR,0
 03.010050.0080,"3/8"" Copper Pipe, Soft, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
 03.010050.0090,"1/2"" Copper Pipe, Soft, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
 03.010050.0100,"3/4"" Copper Pipe, Soft, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
 03.010050.0110,"1"" Copper Pipe, Soft, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
-03.010050.0120,"1-1/4"" Copper, Soft, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
+03.010050.0120,"1-1/4"" Copper Pipe, Soft, Type L DELETE",LF,0,1,,75,1,HR,0,0,1,HR,0
 03.010050.0130,"1-1/2"" Copper Pipe, Soft, Type L",LF,0,1,,75,1,HR,0,0,1,HR,0
 "03.010060 Copper Pipe - Soft, Type L - Coil",,,,,,,,,,,,,
 03.010060.0010,"1/2"" Copper Pipe, Soft, Type L, 60' Coil",LF,0,1,,75,1,HR,0,0,1,HR,0
